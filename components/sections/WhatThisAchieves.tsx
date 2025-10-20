@@ -13,7 +13,7 @@ export default function WhatThisAchieves() {
             <p className="text-xl text-white/80 leading-relaxed mb-8">This $7M seed round funds four critical milestones:</p>
             <ol className="space-y-4 mb-8">
               <li className="text-lg text-white/70 leading-normal">
-                <span className="text-[#F7931A] font-bold">1. Complete beta platform</span> ($1.4M) — 95% built, final custody and banking integrations
+                <span className="text-[#F7931A] font-bold">1. Complete beta platform</span> ($1.4M total, includes $500K custody integration) — 95% built, final custody and banking integrations
               </li>
               <li className="text-lg text-white/70 leading-normal">
                 <span className="text-[#F7931A] font-bold">2. Finalize lender-of-record partnership</span> ($2M) — Legal structuring, compliance integration
@@ -89,10 +89,10 @@ export default function WhatThisAchieves() {
                   Custody fee economics:
                 </p>
                 <p className="text-lg text-white/70 leading-normal">
-                  Pre-bond, custody fees are warehouse operating expenses. Post-bond, custody fees (0.25% AUM) are paid from loan servicing revenue (0.25% annual on loans = $250K/year per tranche), not deducted from bond investor spread.
+                  During beta: Minimal custody fees (limited loan volume). Post-warehouse scale: custody fees (0.25% AUM) paid from loan servicing revenue (0.25% annual on loans = $250K/year per tranche), not deducted from bond investor spread.
                 </p>
               </div>
-              <p className="text-lg text-white/70 leading-normal mb-2">Budget: $500K for API integration, insurance arrangements, technical implementation.</p>
+              <p className="text-lg text-white/70 leading-normal mb-2">Budget: $500K for custody API integration, insurance arrangements, technical implementation (included in $1.4M beta platform budget).</p>
               <p className="text-lg text-white/70 leading-normal">Timeline: Q4 2025 - Q1 2026.</p>
             </div>
           </div>

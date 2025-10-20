@@ -47,7 +47,7 @@ export default function Market() {
               </li>
               <li className="text-lg text-white/70 flex items-start gap-3">
                 <span className="text-[#F7931A] mt-1">•</span>
-                <span>Conservative 5% penetration at $40K average = $80-90B addressable</span>
+                <span>Conservative 5% penetration at $40K average = $72-90B addressable</span>
               </li>
             </ul>
           </div>

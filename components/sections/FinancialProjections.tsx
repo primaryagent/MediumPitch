@@ -122,7 +122,7 @@ export default function FinancialProjections() {
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
-                Self-healing warehouse: Recovered Bitcoin generates incremental origination fees without new capital. Reduces dependency on fresh LP capital for growth.
+                Self-healing warehouse: Keep payments collected before default + recover Bitcoin at market value + reissue without fresh capital. Generates incremental origination fees and reduces effective LGD by 50-70% vs. traditional consumer lending. Reduces dependency on fresh LP capital for growth.
               </p>
             </div>
           </div>

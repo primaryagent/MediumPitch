@@ -153,7 +153,7 @@ export default function RevenueModel() {
                 <div className="flex gap-3">
                   <span className="text-[#F7931A] mt-1">•</span>
                   <p className="text-white/70">
-                    <span className="font-semibold text-white">Capacity:</span> $150M warehouse supports 12 simultaneous tranches—trajectory assumes 60-80% capacity utilization accounting for demand generation and bond placement cycles.
+                    <span className="font-semibold text-white">Capacity:</span> $150M warehouse supports 12 simultaneous tranches ($12M each: $10M equity + $2M issuance fee). Trajectory assumes sequential origination with capital recycling, accounting for demand generation and bond placement cycles.
                   </p>
                 </div>
                 

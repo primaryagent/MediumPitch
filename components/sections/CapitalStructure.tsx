@@ -45,27 +45,41 @@ export default function CapitalStructure() {
           <div>
             <h3 className="text-4xl font-bold leading-tight mb-8">Warehouse LPs</h3>
             <p className="text-lg text-white/70 leading-normal mb-6">
-              Provide $150M debt capital.
+              Warehouse operates as GP/LP fund structure (not debt or equity). LPs make capital commitments, receive preferred returns, and participate in profit splits above hurdle—standard private credit fund mechanics identical to Blackstone Credit, Apollo Funds, and KKR Private Credit.
             </p>
             
             <div className="mb-8">
-              <h4 className="text-2xl font-semibold leading-snug mb-4">LP economics:</h4>
+              <h4 className="text-2xl font-semibold leading-snug mb-4">LP Economics:</h4>
               <ul className="space-y-3">
                 <li className="text-lg text-white/70 flex items-start gap-3">
                   <span className="text-[#F7931A] mt-1">•</span>
-                  <span>10% preferred return (compounding, high-water mark)</span>
+                  <span><strong className="text-white">10% preferred return:</strong> Guaranteed annual return to LPs</span>
                 </li>
                 <li className="text-lg text-white/70 flex items-start gap-3">
                   <span className="text-[#F7931A] mt-1">•</span>
-                  <span>50/50 profit split above hurdle</span>
+                  <span><strong className="text-white">Compounding shortfall protection:</strong> If warehouse returns fall below 10%, shortfall accumulates and compounds. LPs must receive all accumulated preferred return before GP earns any carry.</span>
                 </li>
                 <li className="text-lg text-white/70 flex items-start gap-3">
                   <span className="text-[#F7931A] mt-1">•</span>
-                  <span>First LP receives 20% equity in BTC Now GP + preferred economics (this dilution is acceptable to seed investors as warehouse facility is existential to operations)</span>
+                  <span>First LP receives 20% equity in BTC Now GP + preferred economics (locked in, no redemption rights)</span>
                 </li>
                 <li className="text-lg text-white/70 flex items-start gap-3">
                   <span className="text-[#F7931A] mt-1">•</span>
                   <span>Expected LP IRR: 20-28%</span>
+                </li>
+              </ul>
+            </div>
+            
+            <div className="mb-8">
+              <h4 className="text-2xl font-semibold leading-snug mb-4">GP Carried Interest:</h4>
+              <ul className="space-y-3">
+                <li className="text-lg text-white/70 flex items-start gap-3">
+                  <span className="text-[#F7931A] mt-1">•</span>
+                  <span><strong className="text-white">Carry structure:</strong> GP earns 50% of returns ABOVE 10% hurdle</span>
+                </li>
+                <li className="text-lg text-white/70 flex items-start gap-3">
+                  <span className="text-[#F7931A] mt-1">•</span>
+                  <span><strong className="text-white">High-water mark:</strong> GP only earns carry on returns exceeding previous peak performance—protects LPs from paying carry twice on recovery of prior losses</span>
                 </li>
               </ul>
             </div>
@@ -95,8 +109,30 @@ export default function CapitalStructure() {
               </ul>
             </div>
             
+            <div className="mb-6">
+              <h4 className="text-2xl font-semibold leading-snug mb-4">Redemption Mechanics:</h4>
+              <ul className="space-y-3">
+                <li className="text-lg text-white/70 flex items-start gap-3">
+                  <span className="text-[#F7931A] mt-1">•</span>
+                  <span><strong className="text-white">First LP (20% BTC Now equity holder):</strong> Locked in for life of fund, no redemption rights</span>
+                </li>
+                <li className="text-lg text-white/70 flex items-start gap-3">
+                  <span className="text-[#F7931A] mt-1">•</span>
+                  <span><strong className="text-white">Subsequent LPs:</strong> May request redemption at any time (simple email request)</span>
+                </li>
+                <li className="text-lg text-white/70 flex items-start gap-3">
+                  <span className="text-[#F7931A] mt-1">•</span>
+                  <span>Exiting LPs receive: Original capital + all accumulated unpaid preferred return</span>
+                </li>
+                <li className="text-lg text-white/70 flex items-start gap-3">
+                  <span className="text-[#F7931A] mt-1">•</span>
+                  <span><strong className="text-white">No forced liquidation rights:</strong> LPs cannot force warehouse to liquidate assets during market stress—protects operational continuity</span>
+                </li>
+              </ul>
+            </div>
+            
             <p className="text-lg text-white/70 leading-normal">
-              LPs have zero forced redemption rights. No warehouse line call risk.
+              <strong className="text-white">Closed-end fund structure:</strong> Standard for private credit funds (Apollo, Blackstone, KKR all operate this way).
             </p>
           </div>
           

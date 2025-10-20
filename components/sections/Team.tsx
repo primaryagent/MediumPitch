@@ -69,15 +69,23 @@ export default function Team() {
             <ul className="space-y-3">
               <li className="text-lg text-white/70 flex items-start gap-3">
                 <span className="text-[#F7931A] mt-1">•</span>
-                <span>Chief Compliance Officer: actively scouting candidates</span>
+                <span>Chief Loan Officer: Peter Howard (finalizing, bio to be added when locked in)</span>
               </li>
               <li className="text-lg text-white/70 flex items-start gap-3">
                 <span className="text-[#F7931A] mt-1">•</span>
-                <span>Head of Capital Markets: recruiting for post-warehouse close</span>
+                <span>Warehouse President: recruiting for post-warehouse close</span>
               </li>
               <li className="text-lg text-white/70 flex items-start gap-3">
                 <span className="text-[#F7931A] mt-1">•</span>
-                <span>Head of Growth: targeted hire post-beta launch</span>
+                <span>Chief Marketing Officer: targeted hire post-beta launch</span>
+              </li>
+              <li className="text-lg text-white/70 flex items-start gap-3">
+                <span className="text-[#F7931A] mt-1">•</span>
+                <span>Chief Legal Officer: targeted hire post-beta launch</span>
+              </li>
+              <li className="text-lg text-white/70 flex items-start gap-3">
+                <span className="text-[#F7931A] mt-1">•</span>
+                <span>Chief Financial Officer: targeted hire post-beta launch</span>
               </li>
             </ul>
           </div>

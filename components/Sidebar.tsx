@@ -25,7 +25,6 @@ const sections = [
   { id: 'what-this-achieves', label: 'What This $7M Achieves', number: '10' },
   { id: 'ask', label: 'The Ask', number: '11' },
   { id: 'projections', label: 'Financial Projections', number: '12' },
-  { id: 'summary', label: 'Summary', number: '13' },
 ];
 
 export default function Sidebar() {

@@ -12,7 +12,6 @@ import CapitalStructure from '@/components/sections/CapitalStructure';
 import WhatThisAchieves from '@/components/sections/WhatThisAchieves';
 import Ask from '@/components/sections/Ask';
 import FinancialProjections from '@/components/sections/FinancialProjections';
-import Summary from '@/components/sections/Summary';
 
 export default function Home() {
   return (
@@ -32,7 +31,6 @@ export default function Home() {
         <WhatThisAchieves />
         <Ask />
         <FinancialProjections />
-        <Summary />
       </main>
     </>
   );

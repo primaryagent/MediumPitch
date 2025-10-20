@@ -45,9 +45,27 @@ export default function Ask() {
               
               <div className="p-6 rounded-lg border border-white/10">
                 <h4 className="text-2xl font-semibold leading-snug mb-4">$2.0M — Operating Runway</h4>
-                <p className="text-lg text-white/70 leading-normal">
-                  6-9 months burn. Team salaries (5 founders at $20K/month each). Compliance officer hire.
+                <p className="text-lg text-white/70 leading-normal mb-4">
+                  6-9 months operating runway with phased hiring plan:
                 </p>
+                <ul className="space-y-2">
+                  <li className="text-base text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] mt-1">•</span>
+                    <span>Team salaries: $900K (5 founders × $20K/month × 9 months)</span>
+                  </li>
+                  <li className="text-base text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] mt-1">•</span>
+                    <span>Legal/compliance (ongoing): $500K</span>
+                  </li>
+                  <li className="text-base text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] mt-1">•</span>
+                    <span>Software/infrastructure: $300K</span>
+                  </li>
+                  <li className="text-base text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] mt-1">•</span>
+                    <span>Travel/business development: $300K</span>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
@@ -171,21 +189,33 @@ export default function Ask() {
                 <ul className="space-y-3">
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
-                    <span>JPMorgan acquired InstaMed ($500M)</span>
+                    <span><strong className="text-white">GreenSky:</strong> Point-of-sale lending platform, acquired by Goldman Sachs for $2.2B</span>
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
-                    <span>Visa acquired Plaid ($5.3B)</span>
+                    <span><strong className="text-white">SoFi:</strong> Securitization + lending platform, $8.65B valuation at SPAC</span>
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
-                    <span>Goldman acquired GreenSky ($2.2B)</span>
+                    <span><strong className="text-white">Upstart:</strong> AI lending + securitization, peaked at $12B+ market cap</span>
+                  </li>
+                  <li className="text-lg text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] mt-1">•</span>
+                    <span><strong className="text-white">Figure:</strong> Blockchain-based lending with securitization, $3.2B valuation</span>
+                  </li>
+                  <li className="text-lg text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] mt-1">•</span>
+                    <span><strong className="text-white">Avant:</strong> Consumer credit platform, $2B valuation</span>
                   </li>
                 </ul>
               </div>
               
               <p className="text-lg text-white/70 leading-normal mb-6">
-                If we achieve $50-100M revenue (Years 3-5), $400M-$1B exit range credible.
+                Fintech lending platforms with securitization achieve 8-12x revenue multiples, especially with proprietary data advantages.
+              </p>
+              
+              <p className="text-lg text-white/70 leading-normal mb-6">
+                If we achieve $50-100M revenue (Years 3-5), <strong className="text-[#F7931A]">$400M-$1.2B</strong> exit range credible. Premium multiple justified by: proprietary Bitcoin credit performance data, self-healing warehouse mechanics (unique to commodity-backed lending), and proven securitization track record.
               </p>
               
               <p className="text-lg text-white/70 leading-normal mb-6">
@@ -193,7 +223,7 @@ export default function Ask() {
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
-                Minimum dilution expected going forward. $150M warehouse supports 15 simultaneous tranches. Revenue from first tranches funds operations indefinitely.
+                Minimum dilution expected going forward. $150M warehouse supports 12 simultaneous tranches ($12M each: $10M equity + $2M issuance fee). Revenue from first tranches funds operations indefinitely.
               </p>
             </div>
           </div>

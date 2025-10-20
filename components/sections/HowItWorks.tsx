@@ -94,7 +94,7 @@ export default function HowItWorks() {
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
-                Capital deployment: $10M equity per tranche. Reserve pool builds from payment waterfall, not upfront capital.
+                Capital deployment: $12M per tranche ($10M equity retained in bond structure + $2M issuance fee paid by warehouse). Reserve pool builds from payment waterfall, not upfront capital.
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
@@ -127,7 +127,7 @@ export default function HowItWorks() {
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
-                Each $100M bond requires $10M equity. During 60-90 day loan seasoning: borrowers pay 15% APR. Cash collected builds equity for bond issuance.
+                Each $100M bond requires $12M warehouse capital ($10M equity + $2M issuance fee). During 60-90 day pre-bond loan seasoning: borrowers pay 15% APR. Cash collected builds equity for bond issuance.
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
@@ -151,15 +151,15 @@ export default function HowItWorks() {
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] font-semibold min-w-[2rem]">4.</span>
-                    <span>Sell $100M bonds to institutions ($70M AAA + $20M BBB + $10M equity)</span>
+                    <span>Sell $90M bonds to institutions ($70M AAA + $20M BBB), retain $10M equity tranche</span>
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] font-semibold min-w-[2rem]">5.</span>
-                    <span>Receive $100M cash proceeds, retain $10M equity tranche</span>
+                    <span>Receive $90M cash proceeds from bond sale</span>
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] font-semibold min-w-[2rem]">6.</span>
-                    <span>Warehouse capital refreshed: $90M returned, $10M equity held</span>
+                    <span>Warehouse capital refreshed: $90M returned + $10M equity retained = $100M gross, net $88M after $2M issuance fee</span>
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] font-semibold min-w-[2rem]">7.</span>
@@ -177,7 +177,7 @@ export default function HowItWorks() {
               </div>
               
               <p className="text-lg text-white/70 leading-normal">
-                $150M warehouse supports 15 simultaneous tranches ($10M each). Bond sale proceeds + monthly spreads drive capital velocity.
+                $150M warehouse supports 12 simultaneous tranches ($12M each: $10M equity + $2M issuance fee). Sequential origination with capital recycling: bond sale proceeds fund next tranche immediately. Originate back-to-back every 60-90 days.
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
@@ -188,8 +188,24 @@ export default function HowItWorks() {
                 <strong className="text-white">Scalability:</strong> GP/LP warehouse structure enables rapid capital raises when demand scales. First LP model replicates for subsequent warehouse expansion.
               </p>
               
+              <p className="text-lg text-white/70 leading-normal mb-6">
+                <strong className="text-white">Self-healing mechanism:</strong> Three-layer capital advantage.
+              </p>
+              
+              <p className="text-lg text-white/70 leading-normal mb-4">
+                <strong className="text-white">Layer 1 - Retained Payments:</strong> Keep all payments collected before default. No clawback. Defaulter paid $58K over 3 years? We keep $58K.
+              </p>
+              
+              <p className="text-lg text-white/70 leading-normal mb-4">
+                <strong className="text-white">Layer 2 - Non-Depreciating Collateral:</strong> Bitcoin recovered at market value. Cars depreciate 20-40%. Bitcoin: market rate on recovery date.
+              </p>
+              
+              <p className="text-lg text-white/70 leading-normal mb-6">
+                <strong className="text-white">Layer 3 - Reissuance Without Capital:</strong> Recovered Bitcoin reissued to new borrowers. Generate fresh origination fees (1% of face value). Create new 10-year payment streams. Zero fresh capital deployed.
+              </p>
+              
               <p className="text-lg text-white/70 leading-normal">
-                <strong className="text-white">Self-healing mechanism:</strong> Recovered Bitcoin from defaults reissued to new borrowers. Generate fresh origination fees without new capital. Reduces effective LGD by 25-40% vs. traditional consumer lending.
+                Reduces effective LGD by 50-70% vs. traditional consumer lending. Retained payments + Bitcoin recovery + reissuance changes the math entirely.
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
@@ -229,13 +245,19 @@ export default function HowItWorks() {
                 <div className="bg-white/5 rounded-lg p-6 mb-6">
                   <p className="text-lg font-semibold text-[#F7931A] mb-4">Example:</p>
                   <p className="text-lg text-white/80 leading-normal mb-4">
-                    $100M loan pool, 70% default over 10 years = $70M defaulted principal. Bitcoin backing: $36.4M (52% collateral coverage). Even with 50% Bitcoin price decline: $18.2M recovery value. Reissue as new installment plans → generates $35M in new payment obligations (1.92x multiplier).
+                    $100M loan pool, 70% default over 10 years = $70M defaulted principal.
+                  </p>
+                  <p className="text-lg text-white/80 leading-normal mb-4">
+                    Assume average default at year 3-4: Defaulting loans paid ~$58K each before default. Total payments retained from defaulters: ~$40M.
+                  </p>
+                  <p className="text-lg text-white/80 leading-normal mb-4">
+                    Bitcoin backing: $36.4M (52% collateral coverage). Even with 50% Bitcoin price decline: $18.2M recovery value. Reissue as new installment plans → generates $35M in new payment obligations (1.92x multiplier).
                   </p>
                   <p className="text-lg text-white/70 mb-2">
                     Traditional lender: $70M loss - $18.2M recovery = $51.8M net loss.
                   </p>
                   <p className="text-lg text-[#F7931A] font-semibold">
-                    BTC Now: Bitcoin reissuance reduces effective loss. Self-healing mechanism sustains warehouse capital through extreme default scenarios.
+                    BTC Now: Keep $40M in payments + $18.2M recovery + $35M reissue value = Effective loss minimal. Self-healing mechanism sustains warehouse capital through extreme default scenarios.
                   </p>
                 </div>
 
