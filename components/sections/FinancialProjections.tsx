@@ -13,6 +13,7 @@ export default function FinancialProjections() {
             <h3 className="text-4xl font-bold leading-tight mb-8">Base Case</h3>
             <p className="text-xl text-[#F7931A] font-semibold mb-2">BTC Now (GP) Revenue Only</p>
             <p className="text-lg text-white/60 mb-6">(excludes warehouse fund spread capture and LP returns)</p>
+            <p className="text-xl text-white/80 mb-6">Revenue projections (Year 1 begins when first loans are issued at Q1 2026 beta launch):</p>
             
             <div className="space-y-4 mb-8">
               <div className="flex justify-between items-center p-6 rounded-lg border border-white/10">
@@ -122,7 +123,7 @@ export default function FinancialProjections() {
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
-                Self-healing warehouse: Keep payments collected before default + recover Bitcoin at market value + reissue without fresh capital. Generates incremental origination fees and reduces effective LGD by 50-70% vs. traditional consumer lending. Reduces dependency on fresh LP capital for growth.
+                Self-healing warehouse: Keep payments collected before default + recover Bitcoin at market value + reissue without fresh capital. Generates incremental origination fees and reduces effective LGD vs. traditional consumer lending (25-40% from non-depreciating collateral alone, 50-70% including all three protection layers). Reduces dependency on fresh LP capital for growth.
               </p>
             </div>
           </div>

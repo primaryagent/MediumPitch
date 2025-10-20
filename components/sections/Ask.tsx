@@ -46,7 +46,7 @@ export default function Ask() {
               <div className="p-6 rounded-lg border border-white/10">
                 <h4 className="text-2xl font-semibold leading-snug mb-4">$2.0M — Operating Runway</h4>
                 <p className="text-lg text-white/70 leading-normal mb-4">
-                  6-9 months operating runway with phased hiring plan:
+                  6-9 months operating runway (total budget for period, not annualized rate):
                 </p>
                 <ul className="space-y-2">
                   <li className="text-base text-white/70 flex items-start gap-3">
@@ -66,6 +66,9 @@ export default function Ask() {
                     <span>Travel/business development: $300K</span>
                   </li>
                 </ul>
+                <p className="text-sm text-white/60 mt-4">
+                  Note: Annual operating rate initially ~$2.7M/year (extrapolated), ramping to $4.3M/year at full scale post-loan issuance.
+                </p>
               </div>
             </div>
           </div>
@@ -83,7 +86,7 @@ export default function Ask() {
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
-                Viral mechanics: High-ticket item ($50K+ loans) with generous one-time referral payments ($1,600+ per customer) creates strong incentive for crypto influencers to promote product.
+                Viral mechanics: High-ticket items ($50K+ loans) with generous one-time referral payments ($800-$3,200+ per customer) create strong incentive for crypto influencers to promote product.
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
@@ -97,11 +100,15 @@ export default function Ask() {
             <h3 className="text-4xl font-bold leading-tight mb-8">Leverage Path</h3>
             <div className="space-y-6">
               <p className="text-2xl font-semibold text-[#F7931A] leading-snug">
-                $7M equity → $150M warehouse secured → $1.5B bond origination capacity.
+                $7M equity → $150M warehouse secured → $1.2B bond origination capacity.
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
-                214:1 debt-to-equity leverage potential once deployed.
+                8x leverage on warehouse capital ($1.2B bonds / $150M warehouse capital). The $1.2B in bonds originates over time through sequential deployment: $150M warehouse capital recycles to originate 12 tranches, each locking $10M equity in SPV (12 tranches = $120M total locked) + $7M seed equity funding GP operations.
+              </p>
+              
+              <p className="text-lg text-white/70 leading-normal">
+                Capital efficiency story: $7M seed equity enables access to $150M warehouse facility, which generates $1.2B in bond origination capacity over time through sequential deployment and capital recycling.
               </p>
               
               <div className="p-6 rounded-lg border border-white/10">
@@ -223,7 +230,7 @@ export default function Ask() {
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
-                Minimum dilution expected going forward. $150M warehouse supports 12 simultaneous tranches ($12M each: $10M equity + $2M issuance fee). Revenue from first tranches funds operations indefinitely.
+                Minimum dilution expected going forward. $150M warehouse supports 12 outstanding tranches over time through sequential origination and capital recycling. Each tranche locks $10M equity in SPV and generates $2M issuance fee to GP. Revenue from first tranches funds operations indefinitely.
               </p>
             </div>
           </div>

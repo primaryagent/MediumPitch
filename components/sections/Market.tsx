@@ -47,7 +47,7 @@ export default function Market() {
               </li>
               <li className="text-lg text-white/70 flex items-start gap-3">
                 <span className="text-[#F7931A] mt-1">•</span>
-                <span>Conservative 5% penetration at $40K average = $72-90B addressable</span>
+                <span>5% penetration at $40K average = $72-90B addressable market</span>
               </li>
             </ul>
           </div>
@@ -81,6 +81,9 @@ export default function Market() {
               </p>
               <p className="text-lg text-white/70 leading-normal">
                 15% APR reflects lender risk while providing the only non-liquidatable Bitcoin credit option in market. We are price makers, not price takers — zero competition exists for this structure.
+              </p>
+              <p className="text-lg text-white/70 leading-normal">
+                <strong className="text-white">Pricing flexibility:</strong> Beta will validate pricing sensitivity across customer segments. If 15% APR meets resistance, we can adjust pricing while maintaining profitable spreads. Our structure supports APRs from 12-18% (generating 4.56%-10.56% spreads over 7.44% weighted bond coupon). This flexibility allows us to optimize for customer demand, competitive positioning, and bond investor returns.
               </p>
               <blockquote className="border-l-4 border-[#F7931A] pl-6 py-2 mt-6">
                 <p className="text-2xl font-bold text-white leading-snug">

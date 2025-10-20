@@ -15,7 +15,7 @@ export default function RevenueModel() {
           {/* BTC Now (GP) Revenue */}
           <div>
             <h3 className="text-4xl font-bold leading-tight mb-8">BTC Now (GP) Revenue</h3>
-            <p className="text-xl text-white/80 mb-6">Per $100M Tranche:</p>
+            <p className="text-xl text-white/80 mb-6">Per Tranche (each requires $100M in Bitcoin inventory):</p>
             
             <div className="space-y-8">
               <div>
@@ -23,11 +23,11 @@ export default function RevenueModel() {
                 <ul className="space-y-3">
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
-                    <span>Loan origination: $1M (1% of loans)</span>
+                    <span>Loan origination: $1M (1% of $100M loans)</span>
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
-                    <span>Bond issuance: $2M (2% of bonds)</span>
+                    <span>Bond issuance: $2M (2% of $100M tranche structure)</span>
                   </li>
                 </ul>
               </div>
@@ -65,7 +65,7 @@ export default function RevenueModel() {
           {/* Warehouse Fund Revenue */}
           <div>
             <h3 className="text-4xl font-bold leading-tight mb-8">Warehouse Fund Revenue</h3>
-            <p className="text-xl text-white/80 mb-6">Per $100M Tranche:</p>
+            <p className="text-xl text-white/80 mb-6">Per Tranche (each requires $100M in Bitcoin inventory):</p>
             
             <div className="space-y-8">
               <div>
@@ -73,7 +73,7 @@ export default function RevenueModel() {
                 <ul className="space-y-3">
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
-                    <span>Spread capture: $7.56M annually (15% borrower APR - 7.44% weighted bond coupon). $75.6M per tranche over 10 years.</span>
+                    <span>Spread capture: $7.56M annually. Calculation: Borrowers pay 15% APR on $100M financed amount = $15M annually. Bonds pay 7.44% weighted coupon on $90M bonds = $6.7M annually. Loan + bond servicing = $0.75M. Warehouse captures $15M - $6.7M - $0.75M = $7.56M annual spread. $75.6M per tranche over 10 years.</span>
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
@@ -103,7 +103,7 @@ export default function RevenueModel() {
             <h3 className="text-4xl font-bold leading-tight mb-8">Revenue Trajectory</h3>
             <p className="text-xl text-[#F7931A] font-semibold mb-4">BTC Now (GP) Revenue Only</p>
             <p className="text-lg text-white/60 mb-6">(excludes warehouse fund spread capture and LP returns)</p>
-            <p className="text-xl text-white/80 mb-6">Realistic scenario (Year 1 begins upon warehouse facility close):</p>
+            <p className="text-xl text-white/80 mb-6">Realistic scenario (Year 1 begins when first loans are issued at Q1 2026 beta launch):</p>
             
             <div className="space-y-4">
               <div className="flex justify-between items-center p-6 rounded-lg border border-white/10">
@@ -150,12 +150,12 @@ export default function RevenueModel() {
               <h4 className="text-xl font-semibold text-white/90">Key Points:</h4>
               
               <div className="space-y-4">
-                <div className="flex gap-3">
+              <div className="flex gap-3">
                   <span className="text-[#F7931A] mt-1">•</span>
                   <p className="text-white/70">
-                    <span className="font-semibold text-white">Capacity:</span> $150M warehouse supports 12 simultaneous tranches ($12M each: $10M equity + $2M issuance fee). Trajectory assumes sequential origination with capital recycling, accounting for demand generation and bond placement cycles.
+                    <span className="font-semibold text-white">Capacity:</span> $150M warehouse supports 12 outstanding tranches over time through sequential origination and capital recycling. Each tranche locks $10M equity in SPV (12 tranches = $120M total locked) and generates $2M issuance fee to GP. Trajectory assumes sequential origination, accounting for demand generation and bond placement cycles.
                   </p>
-                </div>
+              </div>
                 
                 <div className="flex gap-3">
                   <span className="text-[#F7931A] mt-1">•</span>

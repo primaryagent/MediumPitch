@@ -58,7 +58,7 @@ export default function WhatThisAchieves() {
                 </p>
               </div>
               <p className="text-lg text-white/70 leading-normal mb-2">Budget: $2M for legal structuring, compliance integration, partnership finalization.</p>
-              <p className="text-lg text-white/70 leading-normal mb-2">Timeline: Q4 2025 - Q1 2026 (6-9 months).</p>
+              <p className="text-lg text-white/70 leading-normal mb-2">Timeline: Q1-Q2 2026 (completion before loan origination begins).</p>
               <p className="text-lg text-white/70 leading-normal">Fallback: Multiple regional banks offer lender-of-record services.</p>
             </div>
 
@@ -88,12 +88,15 @@ export default function WhatThisAchieves() {
                 <p className="text-lg font-semibold mb-3">
                   Custody fee economics:
                 </p>
+                <p className="text-lg text-white/70 leading-normal mb-3">
+                  <strong className="text-white">Pre-bond (loans in warehouse):</strong> Warehouse pays 0.25% custody fees to custodian + pays BTC Now GP 0.25% loan servicing fees (BTC Now runs the technology, ensures payments are collected). Total: 0.5% warehouse operating expense.
+                </p>
                 <p className="text-lg text-white/70 leading-normal">
-                  During beta: Minimal custody fees (limited loan volume). Post-warehouse scale: custody fees (0.25% AUM) paid from loan servicing revenue (0.25% annual on loans = $250K/year per tranche), not deducted from bond investor spread.
+                  <strong className="text-white">Post-bond (loans in SPV):</strong> Bond SPV pays BTC Now GP 0.5% servicing fee. BTC Now is responsible for paying custody costs (~0.25%) out of this servicing fee and retains ~0.25% net margin. Bond investor returns are net of the 0.5% servicing fee shown in payment waterfall.
                 </p>
               </div>
               <p className="text-lg text-white/70 leading-normal mb-2">Budget: $500K for custody API integration, insurance arrangements, technical implementation (included in $1.4M beta platform budget).</p>
-              <p className="text-lg text-white/70 leading-normal">Timeline: Q4 2025 - Q1 2026.</p>
+              <p className="text-lg text-white/70 leading-normal">Timeline: Q1 2026 (completed before beta launch).</p>
             </div>
           </div>
 
@@ -135,8 +138,12 @@ export default function WhatThisAchieves() {
             <p className="text-lg text-white/70 leading-normal mb-4">
               Lender-of-record partnership provides banking infrastructure and regulatory umbrella for payment processing and custody arrangements.
             </p>
+            <p className="text-lg text-white/70 leading-normal mb-6">
+              <strong className="text-white">Regulatory classification risk:</strong> This installment purchase structure is supported by legal counsel (Stinson), but regulatory classification has not been tested in practice. State regulators could potentially classify this as consumer lending, money transmission, or securities offering. We have budgeted $1.5M for regulatory compliance, legal opinions, and licenses if required. This capital allocation provides flexibility to adapt our structure based on regulatory feedback.
+            </p>
+            
             <p className="text-lg text-white/70 leading-normal">
-              Budget: $1.5M for legal/compliance. Entity formation, lender-of-record partnership, SEC review, custody agreements, BSA/AML development, state compliance verification.
+              Budget: $1.5M for legal/compliance. Entity formation, lender-of-record partnership, SEC review, custody agreements, BSA/AML development, state compliance verification, and contingency for additional licenses if needed.
             </p>
           </div>
 
@@ -185,7 +192,7 @@ export default function WhatThisAchieves() {
               </div>
 
               <p className="text-lg text-white/70 leading-normal mb-4">
-                <strong className="text-white">Timeline:</strong> Q1 2026 completion depends on custody and lender-of-record partnerships (covered by $1.4M beta budget). Core platform is built—final integration work only.
+                <strong className="text-white">Timeline:</strong> Q1 2026 beta launch with first loan originations, Q2-Q3 2026 warehouse facility close. Year 1 revenue begins when first loans are issued at beta launch. Core platform is built—final integration work only.
               </p>
 
               <p className="text-lg font-semibold leading-normal">
@@ -196,7 +203,7 @@ export default function WhatThisAchieves() {
             <div className="mb-8">
               <h4 className="text-2xl font-semibold leading-snug mb-4">Demand validation:</h4>
               <p className="text-lg text-white/70 leading-normal mb-4">
-                Network validation through extensive conversations within Bitcoin holder networks shows strong appetite: $2-5K/month installment plans preferred over traditional leverage options (HELOCs requiring home equity, personal loans with investment covenants, margin loans with liquidation risk).
+                <strong className="text-white">Market hypothesis based on founder network conversations:</strong> Bitcoin holders indicate preference for $2-5K/month installment plans over traditional leverage options (HELOCs requiring home equity, personal loans with investment covenants, margin loans with liquidation risk). This is anecdotal evidence from our networks, not formal market research. <strong className="text-[#F7931A]">Beta will validate pricing acceptance and loan size preferences.</strong>
               </p>
               <p className="text-lg text-white/70 leading-normal mb-4">
                 Macro validation: Global Bitcoin ETF adoption (BlackRock iShares, Fidelity) and corporate treasury adoption (MicroStrategy, Tesla) prove institutional acceptance of Bitcoin as asset class. This creates downstream consumer demand for Bitcoin access products.

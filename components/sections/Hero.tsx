@@ -11,7 +11,7 @@ export default function Hero() {
         </h2>
         <p className="text-xl md:text-2xl leading-relaxed max-w-3xl">
           <span className="text-[#F7931A] font-bold">Bitcoin installment plans with zero liquidation risk.</span>{' '}
-          We're building the first securitized Bitcoin credit product—paying institutional investors fixed interest while giving consumers access to leverage without margin calls. 10-year terms at 15% APR—no forced liquidations, ever.
+          We're building the first securitized Bitcoin installment credit product—paying institutional investors fixed interest while giving consumers access to leverage without margin calls. 10-year terms at 15% APR—no forced liquidations, ever.
         </p>
       </div>
     </section>

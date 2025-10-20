@@ -59,7 +59,7 @@ export default function Team() {
             </p>
             
             <p className="text-lg text-white/70 leading-normal">
-              Founders taking modest salaries: $20K/month each. All-in commitment. 4-year vesting, 1-year cliff.
+              Founder compensation: $20K/month each ($240K annually). Market-rate salaries reflecting all-in commitment. 4-year vesting, 1-year cliff.
             </p>
           </div>
           

@@ -29,7 +29,7 @@ $2.2T Bitcoin market cap. $0 institutional credit access without liquidation ris
 - 40-50M Americans own cryptocurrency
 - 36-45M crypto holders have FICO ≥ 670
 - Average credit capacity: $30-50K per consumer
-- Conservative 5% penetration at $40K average = $80-90B addressable
+- Conservative 5% penetration at $40K average = $72-90B addressable
 
 **Why existing credit fails:**
 
@@ -78,7 +78,7 @@ Our warehouse is funded by private LPs, not bank deposits. This means:
 - No regulatory capital charges on Bitcoin exposure
 - Bitcoin held off-balance-sheet in bankruptcy-remote structure
 - Institutional custody (Coinbase/Anchorage) provides security without bank-style capital requirements
-- Higher capital velocity: Same $150M warehouse supports $1.5B in bond originations
+- Higher capital velocity: Same $150M warehouse supports $1.2B in bond originations (12 tranches × $100M)
 
 **This is a permanent regulatory moat.** Banks would need Basel III framework changes—requiring international coordination across 28 jurisdictions—to compete directly. The regulation was **strengthened** in 2023 (not loosened), and major revisions only happen every 3-5 years.
 
@@ -86,7 +86,7 @@ By the time regulatory change is possible (5-10 year timeline minimum), we'll ha
 
 **Self-healing warehouse:**
 
-Unique to commodity-backed lending. Recovered Bitcoin reissued to new borrowers. Generates fresh origination fees without new capital. Reduces effective LGD by 25-40% vs. traditional consumer lending.
+Unique to commodity-backed lending. Recovered Bitcoin reissued to new borrowers. Generates fresh origination fees without new capital. Reduces effective LGD vs. traditional consumer lending: 25-40% reduction from non-depreciating collateral alone, 50-70% when including all three layers (retained payments + collateral recovery at market value + reissuance economics).
 
 Competitors cannot replicate without:
 - Commodity-backed lending structure
@@ -172,7 +172,7 @@ Effective APR: 15%
 
 **Payment Structure:** Fixed monthly payments regardless of Bitcoin's price. No margin calls, ever. Prepay anytime without penalty.
 
-**Liquidation Options (Borrower-Initiated Only):** Through the app, you can request partial liquidation at any time to sell Bitcoin and cover your outstanding balance—any excess Bitcoin is returned to you, any shortfall continues under the original payment schedule. Warehouse and bond investors can NEVER force liquidation—it's your Bitcoin, you control the timing. No USD refunds; pay through completion for full Bitcoin transfer rights.
+**Liquidation Options (Borrower-Initiated Only):** Through the app, you can request partial liquidation at any time. This option is typically exercised when Bitcoin appreciates significantly and you want to capture gains—any excess Bitcoin after settling your balance is returned to you. In downturn scenarios, your payment obligations continue regardless of Bitcoin's price (no forced liquidations by lenders), but voluntary liquidation becomes less attractive. Warehouse and bond investors can NEVER force liquidation—it's your Bitcoin, you control the timing. No USD refunds; pay through completion for full Bitcoin transfer rights.
 
 **Key differentiator from margin loans:** Margin loans force liquidation when LTV is breached. BTC Now: Only borrower can trigger liquidation, voluntary only. Zero forced liquidation risk.
 
@@ -200,9 +200,9 @@ First securitized Bitcoin credit product—investors never hold Bitcoin, receive
 
 ### Capital Efficiency
 
-$150M warehouse → $1.5B bond origination capacity (10:1 leverage).
+$150M warehouse → $1.2B bond origination capacity (12 tranches × $100M).
 
-Each $100M bond requires $12M warehouse capital ($10M equity + $2M issuance fee). During 60-90 day **pre-bond** loan seasoning in warehouse: borrowers pay 15% APR. Cash collected builds equity for bond issuance.
+Each $100M bond requires $12M warehouse capital impact ($10M equity locked in SPV + $2M issuance fee paid to GP). During 60-90 day **pre-bond** loan seasoning in warehouse: borrowers pay 15% APR. Cash collected builds equity for bond issuance.
 
 Post-bond: warehouse receives monthly excess spread. Funds new loan originations. Capital recycles without external fundraising.
 
@@ -217,13 +217,13 @@ Post-bond: warehouse receives monthly excess spread. Funds new loan originations
 8. Receive monthly excess spread from issued bonds
 9. Repeat cycle
 
-$150M warehouse supports 12 simultaneous tranches ($12M each). Bond sale proceeds + monthly spreads drive capital velocity.
+$150M warehouse supports 12 outstanding tranches as bonds ($12M capital impact each: $10M locked + $2M paid). Total: $120M in equity tranches locked + $24M in fees paid across 12 tranches. Bond sale proceeds + monthly spreads drive capital velocity.
 
 Profitable at $100M originations. Banks need $500M-$1B to justify overhead.
 
 **Scalability:** GP/LP warehouse structure enables rapid capital raises when demand scales. First LP model replicates for subsequent warehouse expansion.
 
-**Self-healing mechanism:** Recovered Bitcoin from defaults reissued to new borrowers. Generate fresh origination fees without new capital. Reduces effective LGD by 25-40% vs. traditional consumer lending.
+**Self-healing mechanism:** Recovered Bitcoin from defaults reissued to new borrowers. Generate fresh origination fees without new capital. Reduces effective LGD vs. traditional consumer lending: 25-40% reduction from non-depreciating collateral alone, 50-70% when including all three layers (retained payments + collateral recovery at market value + reissuance economics).
 
 Enables sustainable loan swap performance guarantee: Non-performing loans swapped out of bonds during 12-24 month seasoning period → if default, Bitcoin recovered → reissued as new performing loans → available for future bond collateral. Traditional lenders deplete capital with each swap. We recycle swapped defaults back into performing assets.
 
@@ -260,8 +260,8 @@ Two entities. Seven fee streams. 90%+ margins at scale.
 **Per $100M Tranche:**
 
 **Upfront:**
-- Loan origination: $1M (1% of loans)
-- Bond issuance: $2M (2% of $100M total bond structure, paid by warehouse)
+- Loan origination: $1M (1% of $100M loans)
+- Bond issuance: $2M (2% of $100M tranche structure, paid by warehouse)
 
 **Recurring:**
 - Loan servicing: $250K/year (0.25% annual on loans - covers custody fees and servicing operations)
@@ -289,7 +289,7 @@ Two entities. Seven fee streams. 90%+ margins at scale.
 
 **BTC Now (GP) Revenue Only** (excludes warehouse fund spread capture and LP returns):
 
-**Realistic scenario (Year 1 begins upon warehouse facility close):**
+**Realistic scenario (Year 1 begins when first loans are issued in Q3-Q4 2026):**
 - Year 1: **$10.5-18M** (2-4 new tranches; upfront + recurring + warehouse mgmt)
 - Year 2: **$23.75-37M** (5-8 new tranches; upfront + recurring from all outstanding + warehouse mgmt + minimal carry)
 - Year 3: **$39.75-59M** (8-12 new tranches; upfront + recurring from 15-24 outstanding + warehouse mgmt + carry ramping)
@@ -316,7 +316,7 @@ Conservative approach treats Bitcoin collateral as upside, not initial rating fa
 
 **Key Points:**
 
-- **Capacity:** $150M warehouse supports 12 simultaneous tranches—trajectory assumes 60-80% capacity utilization accounting for demand generation and bond placement cycles.
+- **Capacity:** $150M warehouse supports 12 outstanding tranches as bonds ($12M capital impact per tranche: $10M equity locked in SPV + $2M issuance fee paid to GP). Total: $120M in equity tranches + $24M in fees across 12 tranches. Trajectory assumes sequential origination with capital recycling, accounting for demand generation and bond placement cycles.
 
 - **Operating Expenses:** $2M annually initially (5 people, pre-loan issuance). Ramps to $4.3M annually once first loans issued (10 people, full marketing, travel). Profitable from first tranche—origination and servicing fees exceed operating costs at both phases.
 
@@ -595,7 +595,7 @@ Q1 2026 market entry. Technology development, underwriting system, custody integ
 
 **$2.0M — Operating Runway**
 
-6-9 months burn with phased hiring plan.
+6-9 months operating runway (total budget for period, not annualized rate).
 
 **Team structure (10 positions total):**
 1. CEO - Marc Dumpff
@@ -625,19 +625,23 @@ All positions: $20K/month + performance bonuses.
 
 $2M operating runway covers 6-9 months with phased hiring, allowing team to achieve warehouse commitment and beta launch milestones.
 
+**Note:** Initial annual operating rate ~$2.7M/year (extrapolated from 9-month budget), ramping to $4.3M/year at full scale post-loan issuance.
+
 Capital deploys over 6-9 months. Achieves warehouse commitment. Launches loan origination.
 
 ### Leverage Path
 
-$7M equity → $150M warehouse secured → $1.5B bond origination capacity.
+$7M equity → $150M warehouse secured → $1.2B bond origination capacity.
 
-214:1 debt-to-equity leverage potential once deployed.
+8x leverage on warehouse capital ($1.2B bonds / $150M warehouse capital). The $1.2B in bonds is backed by $150M warehouse capital + $120M in equity tranches locked in SPVs (12 tranches × $10M each) + $7M seed equity funding GP operations.
+
+**Capital efficiency story:** $7M seed equity enables access to $150M warehouse facility, which generates $1.2B in bond origination capacity through sequential deployment and capital recycling.
 
 Sequencing:
 1. Raise $7M equity (this round)
-2. Launch beta → Generate signup data
-3. Use signup data as leverage → Secure $150M warehouse
-4. Originate and season loans → 6-12 months
+2. Launch beta (Q1 2026) → Generate signup data
+3. Use signup data as leverage → Secure $150M warehouse (Q2-Q3 2026)
+4. Originate and season loans → First issuance Q3-Q4 2026
 5. Approach bond buyers → With real performance data
 
 This round unlocks warehouse. Warehouse unlocks origination. Origination unlocks securitization. Securitization unlocks scale.
@@ -670,7 +674,7 @@ If we achieve $50-100M revenue (Years 3-5), **$400M-$1.2B** exit range credible.
 
 Alternative: High-margin business supports dividend distributions. Company can remain private, distribute cashflows indefinitely.
 
-Minimum dilution expected going forward. $150M warehouse supports 12 simultaneous tranches. Revenue from first tranches funds operations indefinitely.
+Minimum dilution expected going forward. $150M warehouse supports 12 outstanding tranches as bonds ($120M in equity tranches locked + $24M in fees). Revenue from first tranches funds operations indefinitely.
 
 ---
 
@@ -679,6 +683,8 @@ Minimum dilution expected going forward. $150M warehouse supports 12 simultaneou
 ### Base Case
 
 **BTC Now (GP) Revenue Only** (excludes warehouse fund spread capture and LP returns):
+
+Year 1 begins when first loans are issued (Q3-Q4 2026):
 
 - Year 1: **$10.5-18M** (2-4 new tranches; upfront + recurring + warehouse mgmt)
 - Year 2: **$23.75-37M** (5-8 new tranches; upfront + recurring from all outstanding + warehouse mgmt + minimal carry)
@@ -722,7 +728,7 @@ Year 10+: Origination + servicing on 60+ cumulative tranches + full spread poten
 
 Equity tranche returns: Bonds issued in Year 1 return equity distributions for 10 years. By Year 5, warehouse receives equity distributions from 20+ bonds simultaneously.
 
-Self-healing warehouse: Recovered Bitcoin generates incremental origination fees without new capital. Reduces dependency on fresh LP capital for growth.
+Self-healing warehouse: Recovered Bitcoin generates incremental origination fees without new capital. Reduces effective LGD vs. traditional consumer lending (25-40% from non-depreciating collateral alone, 50-70% including all three protection layers). Reduces dependency on fresh LP capital for growth.
 
 ---
 
@@ -732,7 +738,7 @@ Bitcoin installment plans. No margin calls. First securitized Bitcoin credit pro
 
 $2.2T asset class. $0 institutional credit access. 40-50M Americans own crypto. Zero safe leverage options.
 
-$150M warehouse → $1.5B bond origination capacity. $7.56M annual spread per tranche. 90%+ margins.
+$150M warehouse → $1.2B bond origination capacity (12 tranches × $100M). $7.56M annual spread per tranche. 90%+ margins.
 
 Bankruptcy-remote structure. Self-healing warehouse. Profitable from first tranche.
 

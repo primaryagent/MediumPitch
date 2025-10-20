@@ -40,15 +40,15 @@ export default function GoToMarket() {
               <ul className="space-y-3">
                 <li className="text-lg text-white/70 flex items-start gap-3">
                   <span className="text-[#F7931A] mt-1">•</span>
-                  <span>$50K Bitcoin purchase → ~$833 first payment → $833 referral</span>
+                  <span>$50K Bitcoin purchase → $800 first payment → $800 referral</span>
                 </li>
                 <li className="text-lg text-white/70 flex items-start gap-3">
                   <span className="text-[#F7931A] mt-1">•</span>
-                  <span>$100K Bitcoin purchase → ~$1,667 first payment → $1,667 referral</span>
+                  <span>$100K Bitcoin purchase → $1,600 first payment → $1,600 referral</span>
                 </li>
                 <li className="text-lg text-white/70 flex items-start gap-3">
                   <span className="text-[#F7931A] mt-1">•</span>
-                  <span>$200K Bitcoin purchase → ~$3,333 first payment → $3,333 referral</span>
+                  <span>$200K Bitcoin purchase → $3,200 first payment → $3,200 referral</span>
                 </li>
               </ul>
             </div>

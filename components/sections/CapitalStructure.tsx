@@ -45,7 +45,7 @@ export default function CapitalStructure() {
           <div>
             <h3 className="text-4xl font-bold leading-tight mb-8">Warehouse LPs</h3>
             <p className="text-lg text-white/70 leading-normal mb-6">
-              Warehouse operates as GP/LP fund structure (not debt or equity). LPs make capital commitments, receive preferred returns, and participate in profit splits above hurdle—standard private credit fund mechanics identical to Blackstone Credit, Apollo Funds, and KKR Private Credit.
+              Warehouse operates as GP/LP fund structure (not debt or equity). LPs make capital commitments, receive preferred returns, and participate in profit splits above hurdle—standard private credit fund mechanics identical to Blackstone Credit, Apollo Funds, and KKR Private Credit. <strong className="text-[#F7931A]">Important:</strong> LP economics (10% preferred, 20-28% expected IRR) are designed to attract capital but subject to negotiation based on beta traction and market conditions. As a novel, pre-revenue asset class, actual warehouse terms will likely require adjustment to reflect investor risk appetite.
             </p>
             
             <div className="mb-8">
@@ -132,7 +132,7 @@ export default function CapitalStructure() {
             </div>
             
             <p className="text-lg text-white/70 leading-normal">
-              <strong className="text-white">Closed-end fund structure:</strong> Standard for private credit funds (Apollo, Blackstone, KKR all operate this way).
+              <strong className="text-white">Hybrid fund structure:</strong> Combines elements of closed-end funds (locked first LP, long-term capital) with limited redemption flexibility for subsequent LPs. This structure balances operational stability with LP liquidity needs.
             </p>
           </div>
           
@@ -140,7 +140,7 @@ export default function CapitalStructure() {
           <div>
             <h3 className="text-4xl font-bold leading-tight mb-8">Bond Structure</h3>
             <p className="text-lg text-white/70 leading-normal mb-6">
-              $70M AAA + $20M BBB sold to institutions. $10M equity retained by warehouse. $10M reserve pool funded from payments.
+              $70M AAA + $20M BBB sold to institutions. $10M equity tranche retained by warehouse (first-loss position). $10M reserve pool funded from payments (liquidity buffer).
             </p>
             <p className="text-lg text-white/70 leading-normal mb-6">
               Bonds pay monthly interest + principal (amortizing structure, 10-year term).
@@ -307,7 +307,7 @@ export default function CapitalStructure() {
               </p>
               
               <p className="text-2xl font-bold text-[#F7931A] leading-snug">
-                This is why $150M warehouse supports $1.5B originations. Capital recycles rather than depletes.
+                This is why $150M warehouse supports $1.2B originations (12 tranches). Capital recycles rather than depletes.
               </p>
             </div>
             

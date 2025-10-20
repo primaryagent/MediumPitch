@@ -33,7 +33,7 @@ export default function Moat() {
                 </p>
 
                 <p className="text-lg text-white/70 leading-normal mb-4">
-                  A $100M Bitcoin-backed loan portfolio would require banks to hold $125M in regulatory capital—<strong className="text-white">more capital than the loan itself</strong>. At typical bank ROE hurdles of 15%, they'd need $18.75M in annual profit just to justify holding the capital. Our 15% APR generates $15M annually on $100M—not enough to cover their cost of capital.
+                  A $100M Bitcoin-backed loan portfolio would require banks to hold $125M in regulatory capital (at typical 10% Tier 1 ratios banks maintain)—<strong className="text-white">more capital than the loan itself</strong>. At typical bank ROE hurdles of 15%, they'd need $18.75M in annual profit just to justify holding the capital. Our 15% APR generates $15M annually on $100M—not enough to cover their cost of capital.
                 </p>
 
                 <p className="text-lg text-white/70 leading-normal mb-6">
@@ -66,7 +66,7 @@ export default function Moat() {
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
-                    <span>Higher capital velocity: Same $150M warehouse supports $1.5B in bond originations</span>
+                    <span>Higher capital velocity: Same $150M warehouse supports $1.2B in bond originations (12 tranches × $100M)</span>
                   </li>
                 </ul>
 
@@ -102,7 +102,7 @@ export default function Moat() {
                 </p>
                 
                 <p className="text-lg text-[#F7931A] font-semibold leading-normal mb-6">
-                  Reduces effective LGD by 50-70% vs. traditional consumer lending. Not 25-40%. The retained payments layer changes the math entirely.
+                  Reduces effective LGD vs. traditional consumer lending: 25-40% reduction from non-depreciating collateral alone, 50-70% when including all three layers (retained payments + collateral recovery at market value + reissuance economics). The retained payments layer changes the math entirely.
                 </p>
                 
                 <p className="text-lg text-white/70 leading-normal mb-4">
