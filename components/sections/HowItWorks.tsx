@@ -201,6 +201,50 @@ export default function HowItWorks() {
               </p>
             </div>
           </div>
+
+          {/* Unit Economics & Default Assumptions */}
+          <div id="unit-economics">
+            <h3 className="text-4xl font-bold leading-tight mb-8">Unit Economics & Default Assumptions</h3>
+            <div className="space-y-6">
+              <div className="p-6 rounded-lg border border-[#F7931A] bg-[#F7931A]/5">
+                <p className="text-lg text-white mb-4">
+                  <strong className="text-[#F7931A]">Base case lifetime default rate:</strong> 8-15% over 10-year bond life.
+                </p>
+                <p className="text-lg text-white/70 leading-normal">
+                  This assumes borrowers with FICO 670+ scores purchasing Bitcoin installments. Comparable to unsecured consumer loan performance for similar credit profiles.
+                </p>
+              </div>
+
+              <div className="p-6 rounded-lg border border-white/10">
+                <p className="text-lg text-white mb-4">
+                  <strong className="text-[#F7931A]">Stress test:</strong> Structure survives 70% lifetime defaults with AAA tranche fully protected.
+                </p>
+
+                <h4 className="text-2xl font-semibold leading-snug mb-4 text-white">Why we survive extreme stress:</h4>
+
+                <p className="text-lg text-white/70 leading-normal mb-6">
+                  Bitcoin recovery and reissuance mechanism reduces effective Loss Given Default (LGD). Unlike traditional consumer lending where repossessed collateral depreciates 20-40%, Bitcoin can always be recovered at market value and reissued to new borrowers. This generates fresh origination fees ($1M per $100M reissued) and new 10-year payment streams without deploying new capital.
+                </p>
+
+                <div className="bg-white/5 rounded-lg p-6 mb-6">
+                  <p className="text-lg font-semibold text-[#F7931A] mb-4">Example:</p>
+                  <p className="text-lg text-white/80 leading-normal mb-4">
+                    $100M loan pool, 70% default over 10 years = $70M defaulted principal. Bitcoin backing: $36.4M (52% collateral coverage). Even with 50% Bitcoin price decline: $18.2M recovery value. Reissue as new installment plans → generates $35M in new payment obligations (1.92x multiplier).
+                  </p>
+                  <p className="text-lg text-white/70 mb-2">
+                    Traditional lender: $70M loss - $18.2M recovery = $51.8M net loss.
+                  </p>
+                  <p className="text-lg text-[#F7931A] font-semibold">
+                    BTC Now: Bitcoin reissuance reduces effective loss. Self-healing mechanism sustains warehouse capital through extreme default scenarios.
+                  </p>
+                </div>
+
+                <p className="text-lg text-white/70 leading-normal">
+                  <strong className="text-white">Conservative design:</strong> New asset class with no historical performance data. Base case assumes 8-15% defaults (industry-standard for FICO 670+ unsecured credit). Stress testing at 70% ensures bond structure protects AAA investors even in catastrophic scenarios—made possible by Bitcoin recovery advantage.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

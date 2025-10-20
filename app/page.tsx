@@ -3,12 +3,13 @@ import MobileMenu from '@/components/MobileMenu';
 import Hero from '@/components/sections/Hero';
 import WhatWeDo from '@/components/sections/WhatWeDo';
 import Market from '@/components/sections/Market';
+import Moat from '@/components/sections/Moat';
+import GoToMarket from '@/components/sections/GoToMarket';
 import HowItWorks from '@/components/sections/HowItWorks';
 import RevenueModel from '@/components/sections/RevenueModel';
-import CapitalStructure from '@/components/sections/CapitalStructure';
-import Moat from '@/components/sections/Moat';
 import Team from '@/components/sections/Team';
-import RisksStatus from '@/components/sections/RisksStatus';
+import CapitalStructure from '@/components/sections/CapitalStructure';
+import WhatThisAchieves from '@/components/sections/WhatThisAchieves';
 import Ask from '@/components/sections/Ask';
 import FinancialProjections from '@/components/sections/FinancialProjections';
 import Summary from '@/components/sections/Summary';
@@ -22,12 +23,13 @@ export default function Home() {
         <Hero />
         <WhatWeDo />
         <Market />
+        <Moat />
+        <GoToMarket />
         <HowItWorks />
         <RevenueModel />
-        <CapitalStructure />
-        <Moat />
         <Team />
-        <RisksStatus />
+        <CapitalStructure />
+        <WhatThisAchieves />
         <Ask />
         <FinancialProjections />
         <Summary />

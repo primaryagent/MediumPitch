@@ -15,32 +15,67 @@ export default function Moat() {
             <div className="space-y-8">
               <div>
                 <h4 className="text-2xl font-semibold leading-snug mb-4">Bankruptcy-remote architecture:</h4>
-                <p className="text-lg text-white/70 leading-normal mb-6">
-                  Banks cannot replicate without changing regulatory structure. Bank loans sit on balance sheet 90-180 days minimum. Creates capital consumption, regulatory capital charges.
+
+                <p className="text-lg font-semibold text-white mb-4">
+                  Why banks cannot compete:
                 </p>
+
                 <p className="text-lg text-white/70 leading-normal mb-4">
-                  BTC Now's bankruptcy-remote warehouse (funded by private LPs):
+                  Basel III banking regulations impose a <strong className="text-white">1250% risk weight</strong> on Bitcoin exposures. This is the maximum possible risk weight under international banking rules.
                 </p>
-                <ul className="space-y-3">
+
+                <p className="text-lg text-white/70 leading-normal mb-6">
+                  What this means: For every $1 of Bitcoin-backed lending, regulated banks must hold <strong className="text-white">$1.25 in Tier 1 capital</strong>. This makes direct Bitcoin lending economically impossible for banks.
+                </p>
+
+                <p className="text-lg font-semibold text-white mb-4">
+                  Real-world impact:
+                </p>
+
+                <p className="text-lg text-white/70 leading-normal mb-4">
+                  A $100M Bitcoin-backed loan portfolio would require banks to hold $125M in regulatory capital—<strong className="text-white">more capital than the loan itself</strong>. At typical bank ROE hurdles of 15%, they'd need $18.75M in annual profit just to justify holding the capital. Our 15% APR generates $15M annually on $100M—not enough to cover their cost of capital.
+                </p>
+
+                <p className="text-lg text-white/70 leading-normal mb-6">
+                  <strong className="text-white">Conclusion:</strong> Banks cannot profitably offer this product under current regulations.
+                </p>
+
+                <p className="text-lg font-semibold text-white mb-4">
+                  BTC Now's structural advantage:
+                </p>
+
+                <p className="text-lg text-white/70 leading-normal mb-4">
+                  Our warehouse is funded by private LPs, not bank deposits. This means:
+                </p>
+                <ul className="space-y-3 mb-6">
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
-                    <span>Immediate off-balance-sheet treatment</span>
+                    <span>Zero Basel III capital requirements (we're not a bank)</span>
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
-                    <span>Zero regulatory capital charges</span>
+                    <span>No regulatory capital charges on Bitcoin exposure</span>
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
-                    <span>Higher velocity capital recycling</span>
+                    <span>Bitcoin held off-balance-sheet in bankruptcy-remote structure</span>
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
-                    <span>Structural protection if operating company fails</span>
+                    <span>Institutional custody (Coinbase/Anchorage) provides security without bank-style capital requirements</span>
+                  </li>
+                  <li className="text-lg text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] mt-1">•</span>
+                    <span>Higher capital velocity: Same $150M warehouse supports $1.5B in bond originations</span>
                   </li>
                 </ul>
-                <p className="text-lg text-white/70 leading-normal mt-6">
-                  Fundamentally different capital efficiency banks cannot match.
+
+                <p className="text-lg text-white/70 leading-normal mb-4">
+                  <strong className="text-white">This is a permanent regulatory moat.</strong> Banks would need Basel III framework changes—requiring international coordination across 28 jurisdictions—to compete directly. The regulation was <strong className="text-white">strengthened</strong> in 2023 (not loosened), and major revisions only happen every 3-5 years.
+                </p>
+
+                <p className="text-lg text-white/70 leading-normal">
+                  By the time regulatory change is possible (5-10 year timeline minimum), we'll have years of proprietary loan performance data and established market position.
                 </p>
               </div>
               

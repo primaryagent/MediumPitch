@@ -9,7 +9,7 @@ export default function Summary() {
         
         <div className="space-y-8">
           <p className="text-3xl md:text-4xl font-bold leading-tight text-center">
-            Bitcoin installment plans. No margin calls. First Bitcoin product that pays interest.
+            Bitcoin installment plans. No margin calls. First securitized Bitcoin credit product.
           </p>
           
           <p className="text-xl text-white/80 leading-relaxed text-center">
@@ -17,7 +17,7 @@ export default function Summary() {
           </p>
           
           <p className="text-xl text-white/80 leading-relaxed text-center">
-            $150M warehouse → $1.5B bond origination capacity. $7.56M annual spread per tranche. 92% margins.
+            $150M warehouse → $1.5B bond origination capacity. $7.56M annual spread per tranche. 90%+ margins.
           </p>
           
           <p className="text-xl text-white/80 leading-relaxed text-center">

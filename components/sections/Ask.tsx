@@ -57,7 +57,7 @@ export default function Ask() {
             <h3 className="text-4xl font-bold leading-tight mb-8">Customer Acquisition Strategy</h3>
             <div className="space-y-6">
               <p className="text-lg text-white/70 leading-normal">
-                <strong className="text-white">Launch event:</strong> Bitcoin Conference 2026 (April 27, Nashville) — 50,000+ attendees, concentrated audience of high-intent Bitcoin buyers.
+                <strong className="text-white">Launch event:</strong> Bitcoin Conference 2026 (April 27, Las Vegas) — 50,000+ attendees, concentrated audience of high-intent Bitcoin buyers.
               </p>
               
               <p className="text-lg text-white/70 leading-normal">

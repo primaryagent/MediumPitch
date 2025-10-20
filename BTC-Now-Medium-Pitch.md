@@ -53,6 +53,109 @@ No comparable products exist with zero liquidation risk. Margin loans offer 8-12
 
 ---
 
+## The Moat
+
+### Structural Advantages
+
+**Bankruptcy-remote architecture:**
+
+**Why banks cannot compete:**
+
+Basel III banking regulations impose a **1250% risk weight** on Bitcoin exposures. This is the maximum possible risk weight under international banking rules.
+
+What this means: For every $1 of Bitcoin-backed lending, regulated banks must hold **$1.25 in Tier 1 capital**. This makes direct Bitcoin lending economically impossible for banks.
+
+**Real-world impact:**
+
+A $100M Bitcoin-backed loan portfolio would require banks to hold $125M in regulatory capital—**more capital than the loan itself**. At typical bank ROE hurdles of 15%, they'd need $18.75M in annual profit just to justify holding the capital. Our 15% APR generates $15M annually on $100M—not enough to cover their cost of capital.
+
+**Conclusion:** Banks cannot profitably offer this product under current regulations.
+
+**BTC Now's structural advantage:**
+
+Our warehouse is funded by private LPs, not bank deposits. This means:
+- Zero Basel III capital requirements (we're not a bank)
+- No regulatory capital charges on Bitcoin exposure
+- Bitcoin held off-balance-sheet in bankruptcy-remote structure
+- Institutional custody (Coinbase/Anchorage) provides security without bank-style capital requirements
+- Higher capital velocity: Same $150M warehouse supports $1.5B in bond originations
+
+**This is a permanent regulatory moat.** Banks would need Basel III framework changes—requiring international coordination across 28 jurisdictions—to compete directly. The regulation was **strengthened** in 2023 (not loosened), and major revisions only happen every 3-5 years.
+
+By the time regulatory change is possible (5-10 year timeline minimum), we'll have years of proprietary loan performance data and established market position.
+
+**Self-healing warehouse:**
+
+Unique to commodity-backed lending. Recovered Bitcoin reissued to new borrowers. Generates fresh origination fees without new capital. Reduces effective LGD by 25-40% vs. traditional consumer lending.
+
+Competitors cannot replicate without:
+- Commodity-backed lending structure
+- Institutional custody integration
+- Operational reissuance systems
+- Continuous underwriting capacity
+
+**Capital efficiency at scale:**
+
+Profitable at $100M originations. Banks need $500M-$1B to justify overhead (15-20% ROE hurdles).
+
+Goldman Sachs rationally chooses to buy our bonds at 8% rather than build origination infrastructure for sub-$200M volumes. If we succeed, acquisition becomes the rational outcome.
+
+### First-Mover Advantages
+
+12-18 months proprietary loan performance data and rating agency relationships. Each loan adds to proprietary performance dataset competitors cannot replicate.
+
+Competitors face 18-36 month structural delays:
+- Regulatory approval (18-36 months for new crypto products at large banks)
+- Technology infrastructure ($10-25M buildout, 12-24 months)
+- Talent acquisition (12-24 months)
+
+By time they launch, we have 12-18 months proprietary loan performance data, established rating agency relationships, proven bond placement track record.
+
+### Crypto-Native Competitors
+
+**Coinbase, Block, Gemini:**
+
+Requires ALL pieces simultaneously—warehouse mechanics, securitization expertise, self-healing infrastructure. Their trading teams model installment plans as options, identify capital inefficiency. Massive warehouse capital earns better returns elsewhere.
+
+Missing components:
+- Securitization structuring expertise
+- Warehouse facility economics
+- Rating agency relationships (12-18 month lead time)
+- Self-healing reissuance infrastructure
+
+**If they enter:**
+
+Better loan performance data. 12-18 month head start generating proprietary credit models, established rating agency relationships. Even with capital, need to acquire securitization expertise—build teams (12-24 months) or acquire platforms.
+
+By time they assemble components, we compete on price compression, transparency, track record. First-mover data advantage compounds.
+
+---
+
+## Go-to-Market Strategy
+
+### Launch Event
+
+**Bitcoin Conference 2026 (April 27, Las Vegas)** — 50,000+ attendees, concentrated audience of high-intent Bitcoin buyers.
+
+This provides ideal launch environment: concentrated target audience, high engagement, credibility from association with premier Bitcoin industry event.
+
+### Viral Referral Program
+
+Pay referrers amount equal to customer's first installment payment (one-time). Enables YouTube creators, X accounts, and influencers to monetize Bitcoin content while driving customer acquisition.
+
+**Zero upfront marketing spend** — referral fees paid from collected revenue only.
+
+**Referral examples (scales with loan size):**
+- $50K Bitcoin purchase → ~$833 first payment → $833 referral
+- $100K Bitcoin purchase → ~$1,667 first payment → $1,667 referral
+- $200K Bitcoin purchase → ~$3,333 first payment → $3,333 referral
+
+**Viral mechanics:** High-ticket items with referral payments that scale with transaction size create strong incentive for crypto influencers to promote product and drive larger purchases.
+
+**Capital efficiency:** No upfront marketing burn. Customer acquisition costs are paid from revenue after first payment collected. Scales organically with transaction volume.
+
+---
+
 ## How It Works
 
 ### For Borrowers
@@ -125,6 +228,26 @@ Profitable at $100M originations. Banks need $500M-$1B to justify overhead.
 Enables sustainable loan swap performance guarantee: Non-performing loans swapped out of bonds during 12-24 month seasoning period → if default, Bitcoin recovered → reissued as new performing loans → available for future bond collateral. Traditional lenders deplete capital with each swap. We recycle swapped defaults back into performing assets.
 
 Traditional lenders liquidate repossessed collateral at loss, redeploy fresh capital. We retain Bitcoin, reissue it.
+
+### Unit Economics & Default Assumptions
+
+**Base case lifetime default rate:** 8-15% over 10-year bond life.
+
+This assumes borrowers with FICO 670+ scores purchasing Bitcoin installments. Comparable to unsecured consumer loan performance for similar credit profiles.
+
+**Stress test:** Structure survives 70% lifetime defaults with AAA tranche fully protected.
+
+**Why we survive extreme stress:**
+
+Bitcoin recovery and reissuance mechanism reduces effective Loss Given Default (LGD). Unlike traditional consumer lending where repossessed collateral depreciates 20-40%, Bitcoin can always be recovered at market value and reissued to new borrowers. This generates fresh origination fees ($1M per $100M reissued) and new 10-year payment streams without deploying new capital.
+
+**Example:** $100M loan pool, 70% default over 10 years = $70M defaulted principal. Bitcoin backing: $36.4M (52% collateral coverage). Even with 50% Bitcoin price decline: $18.2M recovery value. Reissue as new installment plans → generates $35M in new payment obligations (1.92x multiplier).
+
+Traditional lender: $70M loss - $18.2M recovery = $51.8M net loss.
+
+BTC Now: Bitcoin reissuance reduces effective loss. Self-healing mechanism sustains warehouse capital through extreme default scenarios.
+
+**Conservative design:** New asset class with no historical performance data. Base case assumes 8-15% defaults (industry-standard for FICO 670+ unsecured credit). Stress testing at 70% ensures bond structure protects AAA investors even in catastrophic scenarios—made possible by Bitcoin recovery advantage.
 
 ---
 
@@ -242,11 +365,12 @@ Warehouse operates as GP/LP fund structure (not debt or equity). LPs make capita
 **Redemption Mechanics:**
 
 - **First LP (20% BTC Now equity holder):** Locked in for life of fund, no redemption rights
-- **Subsequent LPs:** May request redemption at any time
+- **Subsequent LPs:** May request redemption at any time (simple email request)
+- **Redemption is at-will:** LP's decision to redeem, warehouse cannot force LPs out
 - **Exiting LPs receive:** Original capital + all accumulated unpaid preferred return
 - **During redemption period:** LPs continue earning returns until replacement capital secured
-- **Warehouse commitment:** Will work to find replacement within reasonable timeframe
-- **No forced liquidation rights:** Protects warehouse from forced asset sales during market stress
+- **Warehouse commitment:** Will use best efforts to find replacement capital when redemption requested
+- **No forced liquidation rights:** LPs cannot force warehouse to liquidate assets during market stress—protects operational continuity
 
 **Closed-end fund structure:** Standard for private credit funds (Apollo, Blackstone, KKR all operate this way).
 
@@ -308,69 +432,6 @@ $7M equity raise funds beta launch, demand validation, proof of concept for ware
 
 ---
 
-## The Moat
-
-### Structural Advantages
-
-**Bankruptcy-remote architecture:**
-
-Banks cannot replicate without changing regulatory structure. Bank loans sit on balance sheet 90-180 days minimum. Creates capital consumption, regulatory capital charges.
-
-BTC Now's bankruptcy-remote warehouse (funded by private LPs):
-- Immediate off-balance-sheet treatment
-- Zero regulatory capital charges
-- Higher velocity capital recycling
-- Structural protection if operating company fails
-
-Fundamentally different capital efficiency banks cannot match.
-
-**Self-healing warehouse:**
-
-Unique to commodity-backed lending. Recovered Bitcoin reissued to new borrowers. Generates fresh origination fees without new capital. Reduces effective LGD by 25-40% vs. traditional consumer lending.
-
-Competitors cannot replicate without:
-- Commodity-backed lending structure
-- Institutional custody integration
-- Operational reissuance systems
-- Continuous underwriting capacity
-
-**Capital efficiency at scale:**
-
-Profitable at $100M originations. Banks need $500M-$1B to justify overhead (15-20% ROE hurdles).
-
-Goldman Sachs rationally chooses to buy our bonds at 8% rather than build origination infrastructure for sub-$200M volumes. If we succeed, acquisition becomes the rational outcome.
-
-### First-Mover Advantages
-
-12-18 months proprietary loan performance data and rating agency relationships. Each loan adds to proprietary performance dataset competitors cannot replicate.
-
-Competitors face 18-36 month structural delays:
-- Regulatory approval (18-36 months for new crypto products at large banks)
-- Technology infrastructure ($10-25M buildout, 12-24 months)
-- Talent acquisition (12-24 months)
-
-By time they launch, we have 12-18 months proprietary loan performance data, established rating agency relationships, proven bond placement track record.
-
-### Crypto-Native Competitors
-
-**Coinbase, Block, Gemini:**
-
-Requires ALL pieces simultaneously—warehouse mechanics, securitization expertise, self-healing infrastructure. Their trading teams model installment plans as options, identify capital inefficiency. Massive warehouse capital earns better returns elsewhere.
-
-Missing components:
-- Securitization structuring expertise
-- Warehouse facility economics
-- Rating agency relationships (12-18 month lead time)
-- Self-healing reissuance infrastructure
-
-**If they enter:**
-
-Better loan performance data. 12-18 month head start generating proprietary credit models, established rating agency relationships. Even with capital, need to acquire securitization expertise—build teams (12-24 months) or acquire platforms.
-
-By time they assemble components, we compete on price compression, transparency, track record. First-mover data advantage compounds.
-
----
-
 ## Team
 
 **Marc Dumpff** — CEO & Capital Markets  
@@ -401,19 +462,28 @@ All team members: $20K/month + performance bonuses. All-in commitment. 4-year ve
 
 ---
 
-## Risks & Status
+## What This $7M Achieves
 
-### Current Stage
+This $7M seed round funds four critical milestones:
 
-Pre-revenue. No beta launched. No partnerships signed. No committed warehouse capital.
+1. **Complete beta platform** ($1.4M) — 95% built, final custody and banking integrations
+2. **Finalize lender-of-record partnership** ($2M) — Legal structuring, compliance integration
+3. **Secure $150M warehouse facility** ($2.1M) — Roadshow, term sheets, legal documentation
+4. **Validate demand and pricing** ($2M) — 6-9 months operating runway to prove market fit
+
+**Timeline:** 6-9 months to warehouse commitment and loan origination launch.
+
+**Current stage:** Pre-revenue. Beta 95% complete. Active partnership negotiations. No committed warehouse capital yet.
 
 $7M raise at $40M post-money reflects execution risk. Early investors compensated through entry valuation.
 
-### Critical Dependencies
+### Execution Milestones
 
 **Lender-of-record partnership:**
 
 Status: Negotiations with Cross River, WebBank. Preliminary discussions underway.
+
+**Why we need lender-of-record:** This is not just payment processing. Lender-of-record partners provide account management infrastructure that's critical for our installment purchase structure. Each Bitcoin installment gets its own account at the lender-of-record. This infrastructure is especially valuable when transferring loans to Bond SPVs: the consumer continues paying the same account number, while the lender-of-record seamlessly changes account ownership from warehouse to SPV behind the scenes. This operational infrastructure makes the installment purchase structure work smoothly at scale.
 
 Budget: $2M for legal structuring, compliance integration, partnership finalization.
 
@@ -433,9 +503,9 @@ Timeline: Q1-Q2 2026 (post-beta launch).
 
 **Custody partnerships:**
 
-Status: Active engagement with Coinbase Custody and Anchorage Digital. Institutional custody is established commodity business with standard 0.25% AUM fee structure.
+Status: Custody is a commodity service. Coinbase Custody, Anchorage Digital, and BitGo all offer standard institutional custody at ~0.25% AUM with established pricing and service terms.
 
-Integration is straightforward technical buildout, not speculative partnership. Similar to bank account setup — standard API documentation, insurance arrangements, technical integration.
+We'll execute standard service agreements during Q4 2025 technical buildout. No partnership risk—this is infrastructure procurement with established pricing, similar to opening a bank account. Standard API documentation, insurance arrangements, and technical integration.
 
 **Custody fee economics:** Pre-bond, custody fees are warehouse operating expenses. Post-bond, custody fees (0.25% AUM) are paid from loan servicing revenue (0.25% annual on loans = $250K/year per tranche), not deducted from bond investor spread.
 
@@ -466,6 +536,22 @@ Budget: $1.5M for legal/compliance. Entity formation, lender-of-record partnersh
 
 Q1 2026 beta launch depends on this $7M raise.
 
+**Beta platform status: 95% complete.**
+
+**Already operational:**
+- AML/KYC systems (fully built and tested)
+- Credit check infrastructure (integrated with major bureaus)
+- Underwriting system (risk models and approval workflows)
+- Borrower portal (user interface and account management)
+
+**Pending completion:**
+- Custody integration (Coinbase Custody/Anchorage Digital API integration)
+- Lender-of-record banking infrastructure (account management system integration)
+
+**Timeline:** Q1 2026 completion depends on custody and lender-of-record partnerships (covered by $1.4M beta budget). Core platform is built—final integration work only.
+
+This dramatically de-risks execution. We're not building from scratch; we're connecting to established infrastructure providers.
+
 **Demand validation:**
 
 Network validation through extensive conversations within Bitcoin holder networks shows strong appetite: $2-5K/month installment plans preferred over traditional leverage options (HELOCs requiring home equity, personal loans with investment covenants, margin loans with liquidation risk).
@@ -474,18 +560,16 @@ Macro validation: Global Bitcoin ETF adoption (BlackRock iShares, Fidelity) and 
 
 Market timing: Either seed investors believe Bitcoin adoption trajectory creates demand for non-liquidatable credit access, or they miss the opportunity.
 
-**Launch strategy:** Bitcoin Conference 2026 (April 27, Nashville, 50,000+ attendees) provides concentrated launch audience of high-intent Bitcoin buyers.
+**Launch strategy:** Bitcoin Conference 2026 (April 27, Las Vegas, 50,000+ attendees) provides concentrated launch audience of high-intent Bitcoin buyers.
 
-Beta validates:
+**Beta validates critical assumptions:**
 - Pricing acceptance (15% effective APR for 10 years?)
 - Loan size preference ($25K? $50K? $75K?)
 - Bond investor appetite (unrated Bitcoin-backed bonds?)
 
-Budget: $1.4M for beta platform, underwriting system, custody integration, borrower portal.
+**If validation fails:** Pivot pricing, pivot product, or return remaining capital.
 
-If validation fails: Pivot pricing, pivot product, or return remaining capital.
-
-Transparency: You invest BEFORE formal demand validation. Higher risk, better entry valuation.
+**Transparency:** You invest BEFORE formal demand validation. Higher risk compensated through entry valuation ($40M post-money).
 
 ---
 
@@ -541,19 +625,6 @@ All positions: $20K/month + performance bonuses.
 
 $2M operating runway covers 6-9 months with phased hiring, allowing team to achieve warehouse commitment and beta launch milestones.
 
-### Customer Acquisition Strategy
-
-**Launch event:** Bitcoin Conference 2026 (April 27, Nashville) — 50,000+ attendees, concentrated audience of high-intent Bitcoin buyers.
-
-**Referral program:** Pay referrers amount equal to customer's first installment payment (one-time). Enables YouTube creators, X accounts, and influencers to monetize Bitcoin content while driving customer acquisition. Zero upfront marketing spend — referral fees paid from collected revenue.
-
-**Referral examples (scales with loan size):**
-- $50K Bitcoin purchase → ~$833 first payment → $833 referral
-- $100K Bitcoin purchase → ~$1,667 first payment → $1,667 referral  
-- $200K Bitcoin purchase → ~$3,333 first payment → $3,333 referral
-
-Viral mechanics: High-ticket items with referral payments that scale with transaction size create strong incentive for crypto influencers to promote product and drive larger purchases.
-
 Capital deploys over 6-9 months. Achieves warehouse commitment. Launches loan origination.
 
 ### Leverage Path
@@ -607,14 +678,21 @@ Minimum dilution expected going forward. $150M warehouse supports 12 simultaneou
 
 ### Base Case
 
-- Year 1: $6-12M (2-4 tranches, unrated)
-- Year 2: $15-24M (5-8 tranches, transition to rated)
-- Year 3: $24-36M (8-12 tranches, AAA/BBB established)
-- Year 4+: $36-48M (12-15 tranches annually, steady state)
+**BTC Now (GP) Revenue Only** (excludes warehouse fund spread capture and LP returns):
 
-10-year cumulative: $280-350M revenue. 92% operating margins at steady state.
+- Year 1: **$10.5-18M** (2-4 new tranches; upfront + recurring + warehouse mgmt)
+- Year 2: **$23.75-37M** (5-8 new tranches; upfront + recurring from all outstanding + warehouse mgmt + minimal carry)
+- Year 3: **$39.75-59M** (8-12 new tranches; upfront + recurring from 15-24 outstanding + warehouse mgmt + carry ramping)
+- Year 4+: **$53.75-68.5M** (10-12 new tranches annually; upfront + recurring from 25-36+ outstanding + warehouse mgmt + $2-2.5M carry at steady state)
 
-Operating expenses: $2M annually. Profitable from first tranche. No path-to-profitability risk.
+10-year cumulative: $400-550M revenue. 90%+ operating margins at steady state.
+
+**Note:** This trajectory reflects BTC Now GP management company revenue only. Does NOT include:
+- Warehouse fund spread capture ($7.56M annually per tranche)
+- LP preferred returns and profit distributions
+- Equity tranche distributions
+
+Operating expenses: $2M annually initially (5 people, pre-loan issuance). Ramps to $4.3M annually once first loans issued (10 people, full marketing, travel). Profitable from first tranche. No path-to-profitability risk.
 
 ### Stress Testing
 
@@ -654,7 +732,7 @@ Bitcoin installment plans. No margin calls. First securitized Bitcoin credit pro
 
 $2.2T asset class. $0 institutional credit access. 40-50M Americans own crypto. Zero safe leverage options.
 
-$150M warehouse → $1.5B bond origination capacity. $7.56M annual spread per tranche. 92% margins.
+$150M warehouse → $1.5B bond origination capacity. $7.56M annual spread per tranche. 90%+ margins.
 
 Bankruptcy-remote structure. Self-healing warehouse. Profitable from first tranche.
 
