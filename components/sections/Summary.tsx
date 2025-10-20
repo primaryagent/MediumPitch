@@ -2,7 +2,7 @@ export default function Summary() {
   return (
     <section id="summary" className="min-h-screen flex items-center justify-center py-24">
       <div className="max-w-4xl mx-auto px-6 lg:px-8">
-        <div className="text-sm font-mono text-[#F7931A] mb-6">12</div>
+        <div className="text-sm font-mono text-[#F7931A] mb-6">13</div>
         <h2 className="text-4xl md:text-5xl font-bold leading-tight tracking-tight mb-16">
           Summary
         </h2>

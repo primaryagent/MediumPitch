@@ -82,15 +82,40 @@ export default function Moat() {
               <div>
                 <h4 className="text-2xl font-semibold leading-snug mb-4">Self-healing warehouse:</h4>
                 <p className="text-lg text-white/70 leading-normal mb-6">
-                  Unique to commodity-backed lending. Recovered Bitcoin reissued to new borrowers. Generates fresh origination fees without new capital. Reduces effective LGD by 25-40% vs. traditional consumer lending.
+                  Three-layer capital advantage. Defaults regenerate performing assets.
                 </p>
+                
+                <p className="text-lg text-white/70 leading-normal mb-4">
+                  <strong className="text-white">Layer 1:</strong> Keep all payments collected before default. No clawback. Defaulter paid $58K? We keep $58K.
+                </p>
+                
+                <p className="text-lg text-white/70 leading-normal mb-4">
+                  <strong className="text-white">Layer 2:</strong> Bitcoin recovered at market value. Cars depreciate 20-40%. Bitcoin: market rate on recovery date.
+                </p>
+                
+                <p className="text-lg text-white/70 leading-normal mb-6">
+                  <strong className="text-white">Layer 3:</strong> Reissue without fresh capital. New origination fees. New 10-year payment streams. $0 capital deployed.
+                </p>
+                
+                <p className="text-lg text-white/70 leading-normal mb-6">
+                  <strong className="text-white">Result:</strong> Defaults that occur after 3+ years can be economically neutral or accretive to warehouse. Traditional lenders lose capital permanently on every default.
+                </p>
+                
+                <p className="text-lg text-[#F7931A] font-semibold leading-normal mb-6">
+                  Reduces effective LGD by 50-70% vs. traditional consumer lending. Not 25-40%. The retained payments layer changes the math entirely.
+                </p>
+                
                 <p className="text-lg text-white/70 leading-normal mb-4">
                   Competitors cannot replicate without:
                 </p>
                 <ul className="space-y-3">
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
-                    <span>Commodity-backed lending structure</span>
+                    <span>Non-depreciating collateral (Bitcoin)</span>
+                  </li>
+                  <li className="text-lg text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] mt-1">•</span>
+                    <span>Installment purchase structure (not margin loans)</span>
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
@@ -98,11 +123,7 @@ export default function Moat() {
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
-                    <span>Operational reissuance systems</span>
-                  </li>
-                  <li className="text-lg text-white/70 flex items-start gap-3">
-                    <span className="text-[#F7931A] mt-1">•</span>
-                    <span>Continuous underwriting capacity</span>
+                    <span>Continuous reissuance systems</span>
                   </li>
                 </ul>
               </div>

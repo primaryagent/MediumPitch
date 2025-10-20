@@ -2,7 +2,7 @@ export default function FinancialProjections() {
   return (
     <section id="projections" className="py-24 border-b border-white/5">
       <div className="max-w-4xl mx-auto px-6 lg:px-8">
-        <div className="text-sm font-mono text-[#F7931A] mb-6">11</div>
+        <div className="text-sm font-mono text-[#F7931A] mb-6">12</div>
         <h2 className="text-4xl md:text-5xl font-bold leading-tight tracking-tight mb-16">
           Financial Projections
         </h2>

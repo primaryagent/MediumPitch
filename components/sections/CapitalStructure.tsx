@@ -160,38 +160,148 @@ export default function CapitalStructure() {
           {/* Bitcoin Recovery & Reissuance */}
           <div>
             <h3 className="text-4xl font-bold leading-tight mb-8">Bitcoin Recovery & Reissuance</h3>
-            <p className="text-lg text-white/70 leading-normal mb-6">
-              Self-healing warehouse mechanism.
-            </p>
-            <p className="text-lg text-white/70 leading-normal mb-6">
-              Installment plans default during warehouse phase → Recover Bitcoin → Reissue in new installment plans → Generate fresh origination fee + new 10-year payment stream.
-            </p>
-            <p className="text-lg text-white/70 leading-normal mb-6">
-              Traditional lending: Default → Liquidate at loss → Redeploy fresh capital.
-            </p>
-            <p className="text-lg text-white/70 leading-normal mb-8">
-              BTC Now: Default → Recover Bitcoin → Reissue without new capital.
+            
+            <p className="text-2xl font-semibold text-[#F7931A] leading-snug mb-8">
+              Three-layer capital advantage. Traditional lenders lose capital on defaults. We regenerate performing assets.
             </p>
             
-            <div className="p-6 rounded-lg border border-[#F7931A] bg-[#F7931A]/5 mb-6">
-              <h4 className="text-2xl font-semibold leading-snug mb-6">Capital efficiency:</h4>
-              <p className="text-lg text-white/70 leading-normal mb-4">
-                $100M warehouse, 10% defaults = $10M defaulted. Bitcoin backing: $5.2M. Assume Bitcoin down 50%: Worth $2.6M.
+            <div className="space-y-8 mb-12">
+              <div>
+                <h4 className="text-2xl font-semibold leading-snug mb-4">Layer 1 - Retained Payments</h4>
+                <p className="text-lg text-white/70 leading-normal">
+                  All payments collected before default stay with warehouse. No clawback. No reversal. Defaulter paid $58K over 3 years? We keep $58K.
+                </p>
+              </div>
+              
+              <div>
+                <h4 className="text-2xl font-semibold leading-snug mb-4">Layer 2 - Non-Depreciating Collateral</h4>
+                <p className="text-lg text-white/70 leading-normal">
+                  Bitcoin recovered at market value. Cars depreciate 20-40%. Homes decline in distressed sales. Bitcoin: market rate on recovery date, regardless of default timing.
+                </p>
+              </div>
+              
+              <div>
+                <h4 className="text-2xl font-semibold leading-snug mb-4">Layer 3 - Reissuance Without Capital</h4>
+                <p className="text-lg text-white/70 leading-normal">
+                  Recovered Bitcoin reissued as new installment plans. Generate fresh origination fees (1% of face value). Create new 10-year payment streams. Zero fresh capital deployed.
+                </p>
+              </div>
+            </div>
+            
+            <h4 className="text-3xl font-bold leading-tight mb-8">Capital Impact Comparison</h4>
+            <p className="text-lg text-white/70 leading-normal mb-6">$100K Bitcoin loan defaults after 3 years:</p>
+            
+            <div className="grid md:grid-cols-2 gap-6 mb-12">
+              <div className="p-6 rounded-lg border border-white/10">
+                <p className="text-sm text-white/50 mb-4">Traditional Consumer Lender</p>
+                <div className="space-y-2 text-white/70 mb-4">
+                  <p>Principal loss: $100K</p>
+                  <p>Payments collected: $58K</p>
+                  <p>Collateral recovery: $50K (depreciated)</p>
+                  <p className="pt-2 border-t border-white/10">Net loss: -$8K</p>
+                  <p>Fresh capital for new loan: $100K</p>
+                </div>
+                <p className="text-xl font-bold">Total capital impact: $108K</p>
+              </div>
+
+              <div className="p-6 rounded-lg border border-[#F7931A] bg-[#F7931A]/5">
+                <p className="text-sm text-white/50 mb-4">BTC Now</p>
+                <div className="space-y-2 text-white/70 mb-4">
+                  <p>Payments retained: $58K</p>
+                  <p>Bitcoin recovered: $100K (at market)</p>
+                  <p>Reissue: $192K plan + $1,920 fee</p>
+                  <p className="pt-2 border-t border-[#F7931A]/30">Net position: breakeven to positive</p>
+                  <p>Fresh capital deployed: $0</p>
+                </div>
+                <p className="text-xl font-bold text-[#F7931A]">Total capital impact: ~$0</p>
+              </div>
+            </div>
+            
+            <p className="text-2xl font-bold text-[#F7931A] leading-snug mb-12">
+              Capital efficiency gain: 100%+ vs. traditional lending.
+            </p>
+            
+            <div className="mb-12">
+              <h4 className="text-3xl font-bold leading-tight mb-8">Why 70% Stress Test Survives</h4>
+              
+              <p className="text-lg text-white/70 leading-normal mb-6">
+                Traditional ABS: 70% defaults = catastrophic loss.
               </p>
-              <p className="text-lg text-white/70 leading-normal mb-4">
-                Traditional lending: $10M loss - $2.6M recovery = $7.4M net loss. Deploy fresh $10M capital. Total impact: $17.4M.
+              
+              <p className="text-lg text-white/70 leading-normal mb-6">
+                BTC Now: 70% nominal defaults ≠ 70% economic loss.
               </p>
-              <p className="text-lg text-white/70 leading-normal mb-4">
-                BTC Now: Reissue $2.6M Bitcoin as new installment plans → generates $5M new obligations. Effective loss: $5M. Fresh capital: $0. Total impact: $5M.
+              
+              <div className="p-6 rounded-lg border border-white/10 mb-6">
+                <h5 className="text-xl font-semibold mb-4">Effective loss calculation:</h5>
+                <ul className="space-y-3">
+                  <li className="text-lg text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] mt-1">•</span>
+                    <span>Longer seasoning = more payments retained before default</span>
+                  </li>
+                  <li className="text-lg text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] mt-1">•</span>
+                    <span>Full Bitcoin recovery at market value (not depreciated collateral)</span>
+                  </li>
+                  <li className="text-lg text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] mt-1">•</span>
+                    <span>Reissuance without capital consumption</span>
+                  </li>
+                </ul>
+              </div>
+              
+              <p className="text-2xl font-semibold text-[#F7931A] leading-snug mb-6">
+                Result: 70% nominal default rate → &lt;30% effective economic loss after retained payments, recovery value, and reissuance economics.
               </p>
-              <p className="text-2xl font-bold text-[#F7931A] leading-snug">
-                71% reduction in capital impact through reissuance.
+              
+              <p className="text-lg text-white/70 leading-normal">
+                AAA tranche protected through extreme scenarios. Not because defaults don&apos;t happen. Because defaults don&apos;t permanently consume capital.
               </p>
             </div>
             
-            <p className="text-lg text-white/70 leading-normal">
-              Unique to commodity-backed lending. Traditional lenders cannot replicate.
-            </p>
+            <div className="mb-12">
+              <h4 className="text-3xl font-bold leading-tight mb-8">Capital Velocity</h4>
+              
+              <p className="text-lg text-white/70 leading-normal mb-6">
+                <strong className="text-white">Traditional warehouse:</strong> Defaults deplete capital. Recovered collateral sold at loss. Fresh capital required for new originations. Capital drains.
+              </p>
+              
+              <p className="text-lg text-white/70 leading-normal mb-6">
+                <strong className="text-white">BTC Now warehouse:</strong> Defaults regenerate performing assets. Recovered Bitcoin reissued. No fresh capital needed. Capital compounds.
+              </p>
+              
+              <p className="text-2xl font-bold text-[#F7931A] leading-snug">
+                This is why $150M warehouse supports $1.5B originations. Capital recycles rather than depletes.
+              </p>
+            </div>
+            
+            <div>
+              <h4 className="text-2xl font-semibold leading-snug mb-6">Unique to Commodity-Backed Installments</h4>
+              <p className="text-lg text-white/70 leading-normal mb-6">
+                Traditional lenders cannot replicate this without:
+              </p>
+              <ul className="space-y-3 mb-6">
+                <li className="text-lg text-white/70 flex items-start gap-3">
+                  <span className="text-[#F7931A] mt-1">•</span>
+                  <span>Non-depreciating collateral (Bitcoin)</span>
+                </li>
+                <li className="text-lg text-white/70 flex items-start gap-3">
+                  <span className="text-[#F7931A] mt-1">•</span>
+                  <span>Installment purchase structure (not margin loans)</span>
+                </li>
+                <li className="text-lg text-white/70 flex items-start gap-3">
+                  <span className="text-[#F7931A] mt-1">•</span>
+                  <span>Institutional custody integration</span>
+                </li>
+                <li className="text-lg text-white/70 flex items-start gap-3">
+                  <span className="text-[#F7931A] mt-1">•</span>
+                  <span>Continuous reissuance systems</span>
+                </li>
+              </ul>
+              <p className="text-lg font-semibold">
+                Structural advantage. Not operational. Competitors need our exact structure to match.
+              </p>
+            </div>
           </div>
           
           {/* Current Status */}
