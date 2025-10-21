@@ -23,28 +23,28 @@ export default function Ask() {
             
             <div className="space-y-6">
               <div className="p-6 rounded-lg border border-white/10">
-                <h4 className="text-2xl font-semibold leading-snug mb-4">$1.5M — Legal & Compliance</h4>
+                <h4 className="text-2xl font-semibold leading-snug mb-4">$1.5M - Legal & Compliance</h4>
                 <p className="text-lg text-white/70 leading-normal">
                   Lender-of-record partnership, SEC review, custody agreements, entity formation, BSA/AML development, state compliance.
                 </p>
               </div>
               
               <div className="p-6 rounded-lg border border-white/10">
-                <h4 className="text-2xl font-semibold leading-snug mb-4">$2.1M — Warehouse Facility Roadshow</h4>
+                <h4 className="text-2xl font-semibold leading-snug mb-4">$2.1M - Warehouse Facility Roadshow</h4>
                 <p className="text-lg text-white/70 leading-normal">
                   Institutional presentations, term sheet negotiations, legal documentation for $150M warehouse commitment. First LP receives 20% BTC Now equity + preferred economics.
                 </p>
               </div>
               
               <div className="p-6 rounded-lg border border-white/10">
-                <h4 className="text-2xl font-semibold leading-snug mb-4">$1.4M — Beta Platform Launch</h4>
+                <h4 className="text-2xl font-semibold leading-snug mb-4">$1.4M - Beta Platform Launch</h4>
                 <p className="text-lg text-white/70 leading-normal">
                   Q1 2026 market entry. Technology development, underwriting system, custody integration, borrower portal, loan servicing infrastructure.
                 </p>
               </div>
               
               <div className="p-6 rounded-lg border border-white/10">
-                <h4 className="text-2xl font-semibold leading-snug mb-4">$2.0M — Operating Runway</h4>
+                <h4 className="text-2xl font-semibold leading-snug mb-4">$2.0M - Operating Runway</h4>
                 <p className="text-lg text-white/70 leading-normal mb-4">
                   6-9 months operating runway (total budget for period, not annualized rate):
                 </p>
@@ -78,11 +78,11 @@ export default function Ask() {
             <h3 className="text-4xl font-bold leading-tight mb-8">Customer Acquisition Strategy</h3>
             <div className="space-y-6">
               <p className="text-lg text-white/70 leading-normal">
-                <strong className="text-white">Launch event:</strong> Bitcoin Conference 2026 (April 27, Las Vegas) — 50,000+ attendees, concentrated audience of high-intent Bitcoin buyers.
+                <strong className="text-white">Launch event:</strong> Bitcoin Conference 2026 (April 27, Las Vegas) - 50,000+ attendees, concentrated audience of high-intent Bitcoin buyers.
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
-                <strong className="text-white">Referral program:</strong> Pay referrers amount equal to customer's first installment payment (one-time). Enables YouTube creators, X accounts, and influencers to monetize Bitcoin content while driving customer acquisition. Zero upfront marketing spend — referral fees paid from collected revenue.
+                <strong className="text-white">Referral program:</strong> Pay referrers amount equal to customer's first installment payment (one-time). Enables YouTube creators, X accounts, and influencers to monetize Bitcoin content while driving customer acquisition. Zero upfront marketing spend - referral fees paid from collected revenue.
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
@@ -100,7 +100,7 @@ export default function Ask() {
             <h3 className="text-4xl font-bold leading-tight mb-8">Leverage Path</h3>
             <div className="space-y-6">
               <p className="text-2xl font-semibold text-[#F7931A] leading-snug">
-                $7M equity → $150M warehouse secured → $1.2B bond origination capacity.
+                $7M equity - $150M warehouse secured - $1.2B bond origination capacity.
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
@@ -120,19 +120,19 @@ export default function Ask() {
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] font-semibold min-w-[2rem]">2.</span>
-                    <span>Launch beta → Generate signup data</span>
+                    <span>Launch beta - Generate signup data</span>
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] font-semibold min-w-[2rem]">3.</span>
-                    <span>Use signup data as leverage → Secure $150M warehouse</span>
+                    <span>Use signup data as leverage - Secure $150M warehouse</span>
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] font-semibold min-w-[2rem]">4.</span>
-                    <span>Originate and season loans → 6-12 months</span>
+                    <span>Originate and season loans - 6-12 months</span>
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] font-semibold min-w-[2rem]">5.</span>
-                    <span>Approach bond buyers → With real performance data</span>
+                    <span>Approach bond buyers - With real performance data</span>
                   </li>
                 </ol>
               </div>

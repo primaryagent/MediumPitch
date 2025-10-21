@@ -9,11 +9,11 @@ export default function WhatWeDo() {
         
         <div className="space-y-8">
           <p className="text-xl text-white/80 leading-relaxed">
-            We offer Bitcoin installment plans—10-year terms at 15% APR with zero margin call risk. Borrowers own their Bitcoin from day one, held in institutional custody (Coinbase/Anchorage) with transfer restrictions until final payment. Monthly payments remain fixed regardless of Bitcoin's price. Our lender-of-record partnership provides the account management infrastructure that makes installment payments seamless—each Bitcoin installment gets its own account, enabling smooth loan transfers to bond SPVs while consumers continue paying the same account number.
+            We offer Bitcoin installment plans - 10-year terms at 15% APR with zero margin call risk. Borrowers own their Bitcoin from day one, held in institutional custody (Coinbase/Anchorage) with transfer restrictions until final payment. Monthly payments remain fixed regardless of Bitcoin's price. Our lender-of-record partnership provides the account management infrastructure that makes installment payments seamless - each Bitcoin installment gets its own account, enabling smooth loan transfers to bond SPVs while consumers continue paying the same account number.
           </p>
           
           <p className="text-xl text-white/80 leading-relaxed">
-            We package these loans into tranches and securitize them as Bitcoin-Backed Securities (BBS)—AAA and BBB-rated bonds paying 7-9% coupons to institutional investors. Each tranche requires $100M in Bitcoin inventory to originate loans, generating a $7.56M annual spread per tranche ($75.6M over 10 years), creating the first securitized Bitcoin installment credit product that delivers fixed interest to bond investors.
+            We package these loans into tranches and securitize them as Bitcoin-Backed Securities (BBS) - AAA and BBB-rated bonds paying 7-9% coupons to institutional investors. Each tranche requires $100M in Bitcoin inventory to originate loans, generating a $7.56M annual spread per tranche ($75.6M over 10 years), creating the first securitized Bitcoin installment credit product that delivers fixed interest to bond investors.
           </p>
           
           <p className="text-xl text-white/80 leading-relaxed">

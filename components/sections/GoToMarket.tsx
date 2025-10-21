@@ -12,7 +12,7 @@ export default function GoToMarket() {
           <div>
             <h3 className="text-4xl font-bold leading-tight mb-8">Launch Event</h3>
             <p className="text-lg text-white/70 leading-normal mb-6">
-              <strong className="text-white">Bitcoin Conference 2026 (April 27, Las Vegas)</strong> — 50,000+ attendees, concentrated audience of high-intent Bitcoin buyers.
+              <strong className="text-white">Bitcoin Conference 2026 (April 27, Las Vegas)</strong> - 50,000+ attendees, concentrated audience of high-intent Bitcoin buyers.
             </p>
             <p className="text-lg text-white/70 leading-normal">
               This provides ideal launch environment: concentrated target audience, high engagement, credibility from association with premier Bitcoin industry event.

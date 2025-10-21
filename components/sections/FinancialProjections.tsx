@@ -84,7 +84,7 @@ export default function FinancialProjections() {
                   Bitcoin recovery advantage: Unlike traditional ABS where repossessed collateral depreciates 20-40%, Bitcoin can always be recovered at market value and reissued. This self-healing mechanism makes the structure dramatically more resilient than traditional consumer lending.
                 </p>
                 <p className="text-lg text-white/70 leading-normal">
-                  AAA tranche remains fully protected through 70% lifetime defaults—even with a 90% Bitcoin price crash factored in. This protection level is possible because we can recover and reissue defaulted Bitcoin at market value, generating fresh revenue without new capital.
+                  AAA tranche remains fully protected through 70% lifetime defaults - even with a 90% Bitcoin price crash factored in. This protection level is possible because we can recover and reissue defaulted Bitcoin at market value, generating fresh revenue without new capital.
                 </p>
               </div>
 

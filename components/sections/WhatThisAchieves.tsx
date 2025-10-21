@@ -13,16 +13,16 @@ export default function WhatThisAchieves() {
             <p className="text-xl text-white/80 leading-relaxed mb-8">This $7M seed round funds four critical milestones:</p>
             <ol className="space-y-4 mb-8">
               <li className="text-lg text-white/70 leading-normal">
-                <span className="text-[#F7931A] font-bold">1. Complete beta platform</span> ($1.4M total, includes $500K custody integration) — 95% built, final custody and banking integrations
+                  <span className="text-[#F7931A] font-bold">1. Complete beta platform</span> ($1.4M total, includes $500K custody integration) - 95% built, final custody and banking integrations
               </li>
               <li className="text-lg text-white/70 leading-normal">
-                <span className="text-[#F7931A] font-bold">2. Finalize lender-of-record partnership</span> ($2M) — Legal structuring, compliance integration
+                  <span className="text-[#F7931A] font-bold">2. Finalize lender-of-record partnership</span> ($2M) - Legal structuring, compliance integration
               </li>
               <li className="text-lg text-white/70 leading-normal">
-                <span className="text-[#F7931A] font-bold">3. Secure $150M warehouse facility</span> ($2.1M) — Roadshow, term sheets, legal documentation
+                  <span className="text-[#F7931A] font-bold">3. Secure $150M warehouse facility</span> ($2.1M) - Roadshow, term sheets, legal documentation
               </li>
               <li className="text-lg text-white/70 leading-normal">
-                <span className="text-[#F7931A] font-bold">4. Validate demand and pricing</span> ($2M) — 6-9 months operating runway to prove market fit
+                  <span className="text-[#F7931A] font-bold">4. Validate demand and pricing</span> ($2M) - 6-9 months operating runway to prove market fit
               </li>
             </ol>
 
@@ -66,7 +66,7 @@ export default function WhatThisAchieves() {
             <div className="mb-8">
               <h4 className="text-2xl font-semibold leading-snug mb-4">$150M warehouse facility:</h4>
               <p className="text-lg text-white/70 leading-normal mb-4">
-                Status: We&apos;ve had exploratory conversations with family offices and Bitcoin whales in our network. Formal commitments are contingent on beta traction and demand validation—this is expected and appropriate at seed stage.
+                Status: We&apos;ve had exploratory conversations with family offices and Bitcoin whales in our network. Formal commitments are contingent on beta traction and demand validation - this is expected and appropriate at seed stage.
               </p>
               <p className="text-lg text-white/70 leading-normal mb-4">
                 Leverage: This $7M raise provides leverage for warehouse negotiations by demonstrating beta performance data and signup momentum. First LP economics (20% BTC Now equity + 10% preferred + 50% carry above hurdle) designed to attract capital once proof of concept established.
@@ -82,7 +82,7 @@ export default function WhatThisAchieves() {
                 Status: Custody is a commodity service. Coinbase Custody, Anchorage Digital, and BitGo all offer standard institutional custody at ~0.25% AUM with established pricing and service terms.
               </p>
               <p className="text-lg text-white/70 leading-normal mb-4">
-                We&apos;ll execute standard service agreements during Q4 2025 technical buildout. No partnership risk—this is infrastructure procurement with established pricing, similar to opening a bank account. Standard API documentation, insurance arrangements, and technical integration.
+                We&apos;ll execute standard service agreements during Q4 2025 technical buildout. No partnership risk - this is infrastructure procurement with established pricing, similar to opening a bank account. Standard API documentation, insurance arrangements, and technical integration.
               </p>
               <div className="p-6 rounded-lg border border-white/10 mb-4">
                 <p className="text-lg font-semibold mb-3">
@@ -117,7 +117,7 @@ export default function WhatThisAchieves() {
                 Note on terminology:
               </p>
               <p className="text-lg text-white/70 leading-normal">
-                This document uses &quot;loans&quot; and &quot;lending&quot; for investor clarity, as these terms are widely understood in capital markets. However, the legal structure is an installment purchase of Bitcoin inventory we own. This distinction is critical for regulatory classification—we are selling a commodity with installment payment terms, not engaging in consumer lending.
+                This document uses &quot;loans&quot; and &quot;lending&quot; for investor clarity, as these terms are widely understood in capital markets. However, the legal structure is an installment purchase of Bitcoin inventory we own. This distinction is critical for regulatory classification - we are selling a commodity with installment payment terms, not engaging in consumer lending.
               </p>
             </div>
             <p className="text-lg text-white/70 leading-normal mb-4">Structuring as commodity purchase with installment payment terms avoids:</p>
@@ -192,7 +192,7 @@ export default function WhatThisAchieves() {
               </div>
 
               <p className="text-lg text-white/70 leading-normal mb-4">
-                <strong className="text-white">Timeline:</strong> Q1 2026 beta launch with first loan originations, Q2-Q3 2026 warehouse facility close. Year 1 revenue begins when first loans are issued at beta launch. Core platform is built—final integration work only.
+                <strong className="text-white">Timeline:</strong> Q1 2026 beta launch with first loan originations, Q2-Q3 2026 warehouse facility close. Year 1 revenue begins when first loans are issued at beta launch. Core platform is built - final integration work only.
               </p>
 
               <p className="text-lg font-semibold leading-normal">

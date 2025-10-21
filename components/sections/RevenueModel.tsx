@@ -160,7 +160,7 @@ export default function RevenueModel() {
                 <div className="flex gap-3">
                   <span className="text-[#F7931A] mt-1">•</span>
                   <p className="text-white/70">
-                    <span className="font-semibold text-white">Operating Expenses:</span> $2M annually initially (5 people, pre-loan issuance). Ramps to $4.3M annually once first loans issued (10 people, full marketing, travel). Profitable from first tranche—origination and servicing fees exceed operating costs at both phases.
+                    <span className="font-semibold text-white">Operating Expenses:</span> $2M annually initially (5 people, pre-loan issuance). Ramps to $4.3M annually once first loans issued (10 people, full marketing, travel). Profitable from first tranche - origination and servicing fees exceed operating costs at both phases.
                   </p>
                 </div>
                 

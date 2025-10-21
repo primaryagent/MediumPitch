@@ -17,15 +17,15 @@ export default function Market() {
             <div className="space-y-4">
               <div className="flex justify-between items-center p-6 rounded-lg border border-white/10">
                 <span className="text-lg text-white/70">Real estate</span>
-                <span className="text-lg text-white/80">$55T value, $13T debt → 23% leverage</span>
+                <span className="text-lg text-white/80">$55T value, $13T debt - 23% leverage</span>
               </div>
               <div className="flex justify-between items-center p-6 rounded-lg border border-white/10">
                 <span className="text-lg text-white/70">Autos</span>
-                <span className="text-lg text-white/80">$6T value, $1.5T debt → 25% leverage</span>
+                <span className="text-lg text-white/80">$6T value, $1.5T debt - 25% leverage</span>
               </div>
               <div className="flex justify-between items-center p-6 rounded-lg border border-[#F7931A] bg-[#F7931A]/5">
                 <span className="text-lg font-semibold">Bitcoin</span>
-                <span className="text-lg font-bold text-[#F7931A]">$2.2T value, $0 debt → 0% leverage</span>
+                <span className="text-lg font-bold text-[#F7931A]">$2.2T value, $0 debt - 0% leverage</span>
               </div>
             </div>
           </div>
@@ -59,16 +59,16 @@ export default function Market() {
             </p>
             <div className="space-y-6">
               <p className="text-lg text-white/70 leading-normal">
-                <strong className="text-white">Personal loans</strong> prohibit investment use—covenant violations trigger immediate full repayment demands.
+                <strong className="text-white">Personal loans</strong> prohibit investment use - covenant violations trigger immediate full repayment demands.
               </p>
               <p className="text-lg text-white/70 leading-normal">
                 <strong className="text-white">HELOCs</strong> require 20% home equity that young high-income earners ($100K-$175K salaries, FICO 720+) haven't yet accumulated.
               </p>
               <p className="text-lg text-white/70 leading-normal">
-                <strong className="text-white">Credit cards</strong> destroy credit scores at high utilization—carrying a $50K balance for 10 years tanks FICO by 100+ points.
+                <strong className="text-white">Credit cards</strong> destroy credit scores at high utilization - carrying a $50K balance for 10 years tanks FICO by 100+ points.
               </p>
               <p className="text-lg text-white/70 leading-normal">
-                <strong className="text-white">Margin loans</strong> force liquidations during crashes—May 2021's 50% drop in 72 hours triggered mass liquidations at worst possible prices.
+                <strong className="text-white">Margin loans</strong> force liquidations during crashes - May 2021's 50% drop in 72 hours triggered mass liquidations at worst possible prices.
               </p>
             </div>
           </div>
@@ -80,7 +80,7 @@ export default function Market() {
                 No comparable products exist with zero liquidation risk. Margin loans offer 8-12% rates but liquidate positions during crashes. Personal loans offer 10-18% rates but covenant restrictions prohibit investment use.
               </p>
               <p className="text-lg text-white/70 leading-normal">
-                15% APR reflects lender risk while providing the only non-liquidatable Bitcoin credit option in market. We are price makers, not price takers — zero competition exists for this structure.
+                15% APR reflects lender risk while providing the only non-liquidatable Bitcoin credit option in market. We are price makers, not price takers - zero competition exists for this structure.
               </p>
               <p className="text-lg text-white/70 leading-normal">
                 <strong className="text-white">Pricing flexibility:</strong> Beta will validate pricing sensitivity across customer segments. If 15% APR meets resistance, we can adjust pricing while maintaining profitable spreads. Our structure supports APRs from 12-18% (generating 4.56%-10.56% spreads over 7.44% weighted bond coupon). This flexibility allows us to optimize for customer demand, competitive positioning, and bond investor returns.

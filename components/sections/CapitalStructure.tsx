@@ -45,7 +45,7 @@ export default function CapitalStructure() {
           <div>
             <h3 className="text-4xl font-bold leading-tight mb-8">Warehouse LPs</h3>
             <p className="text-lg text-white/70 leading-normal mb-6">
-              Warehouse operates as GP/LP fund structure (not debt or equity). LPs make capital commitments, receive preferred returns, and participate in profit splits above hurdle—standard private credit fund mechanics identical to Blackstone Credit, Apollo Funds, and KKR Private Credit. <strong className="text-[#F7931A]">Important:</strong> LP economics (10% preferred, 20-28% expected IRR) are designed to attract capital but subject to negotiation based on beta traction and market conditions. As a novel, pre-revenue asset class, actual warehouse terms will likely require adjustment to reflect investor risk appetite.
+              Warehouse operates as GP/LP fund structure (not debt or equity). LPs make capital commitments, receive preferred returns, and participate in profit splits above hurdle - standard private credit fund mechanics identical to Blackstone Credit, Apollo Funds, and KKR Private Credit. <strong className="text-[#F7931A]">Important:</strong> LP economics (10% preferred, 20-28% expected IRR) are designed to attract capital but subject to negotiation based on beta traction and market conditions. As a novel, pre-revenue asset class, actual warehouse terms will likely require adjustment to reflect investor risk appetite.
             </p>
             
             <div className="mb-8">
@@ -79,7 +79,7 @@ export default function CapitalStructure() {
                 </li>
                 <li className="text-lg text-white/70 flex items-start gap-3">
                   <span className="text-[#F7931A] mt-1">•</span>
-                  <span><strong className="text-white">High-water mark:</strong> GP only earns carry on returns exceeding previous peak performance—protects LPs from paying carry twice on recovery of prior losses</span>
+                  <span><strong className="text-white">High-water mark:</strong> GP only earns carry on returns exceeding previous peak performance - protects LPs from paying carry twice on recovery of prior losses</span>
                 </li>
               </ul>
             </div>
@@ -96,7 +96,7 @@ export default function CapitalStructure() {
                 </li>
                 <li className="text-base text-white/70 flex items-start gap-3">
                   <span className="text-[#F7931A] mt-1">•</span>
-                  <span>$5M excess → Split 50/50</span>
+                  <span>$5M excess - Split 50/50</span>
                 </li>
                 <li className="text-base text-white/70 flex items-start gap-3">
                   <span className="text-[#F7931A] mt-1">•</span>
@@ -126,7 +126,7 @@ export default function CapitalStructure() {
                 </li>
                 <li className="text-lg text-white/70 flex items-start gap-3">
                   <span className="text-[#F7931A] mt-1">•</span>
-                  <span><strong className="text-white">No forced liquidation rights:</strong> LPs cannot force warehouse to liquidate assets during market stress—protects operational continuity</span>
+                  <span><strong className="text-white">No forced liquidation rights:</strong> LPs cannot force warehouse to liquidate assets during market stress - protects operational continuity</span>
                 </li>
               </ul>
             </div>
@@ -189,7 +189,7 @@ export default function CapitalStructure() {
             </p>
             
             <p className="text-lg text-white/70 leading-normal">
-              Self-healing warehouse sustains swap capacity: Swapped loans that default return as Bitcoin. Warehouse reissues Bitcoin as new performing loans. Swap capacity regenerates without depleting warehouse capital. Traditional lenders cannot offer sustainable swaps—each swap permanently consumes capital.
+              Self-healing warehouse sustains swap capacity: Swapped loans that default return as Bitcoin. Warehouse reissues Bitcoin as new performing loans. Swap capacity regenerates without depleting warehouse capital. Traditional lenders cannot offer sustainable swaps - each swap permanently consumes capital.
             </p>
           </div>
           
@@ -287,7 +287,7 @@ export default function CapitalStructure() {
               </div>
               
               <p className="text-2xl font-semibold text-[#F7931A] leading-snug mb-6">
-                Result: 70% nominal default rate → &lt;30% effective economic loss after retained payments, recovery value, and reissuance economics.
+                Result: 70% nominal default rate - &lt;30% effective economic loss after retained payments, recovery value, and reissuance economics.
               </p>
               
               <p className="text-lg text-white/70 leading-normal">

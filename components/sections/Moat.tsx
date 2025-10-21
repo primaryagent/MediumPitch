@@ -33,7 +33,7 @@ export default function Moat() {
                 </p>
 
                 <p className="text-lg text-white/70 leading-normal mb-4">
-                  A $100M Bitcoin-backed loan portfolio would require banks to hold $125M in regulatory capital (at typical 10% Tier 1 ratios banks maintain)—<strong className="text-white">more capital than the loan itself</strong>. At typical bank ROE hurdles of 15%, they'd need $18.75M in annual profit just to justify holding the capital. Our 15% APR generates $15M annually on $100M—not enough to cover their cost of capital.
+                  A $100M Bitcoin-backed loan portfolio would require banks to hold $125M in regulatory capital (at typical 10% Tier 1 ratios banks maintain) - <strong className="text-white">more capital than the loan itself</strong>. At typical bank ROE hurdles of 15%, they'd need $18.75M in annual profit just to justify holding the capital. Our 15% APR generates $15M annually on $100M - not enough to cover their cost of capital.
                 </p>
 
                 <p className="text-lg text-white/70 leading-normal mb-6">
@@ -71,7 +71,7 @@ export default function Moat() {
                 </ul>
 
                 <p className="text-lg text-white/70 leading-normal mb-4">
-                  <strong className="text-white">This is a permanent regulatory moat.</strong> Banks would need Basel III framework changes—requiring international coordination across 28 jurisdictions—to compete directly. The regulation was <strong className="text-white">strengthened</strong> in 2023 (not loosened), and major revisions only happen every 3-5 years.
+                  <strong className="text-white">This is a permanent regulatory moat.</strong> Banks would need Basel III framework changes - requiring international coordination across 28 jurisdictions - to compete directly. The regulation was <strong className="text-white">strengthened</strong> in 2023 (not loosened), and major revisions only happen every 3-5 years.
                 </p>
 
                 <p className="text-lg text-white/70 leading-normal">
@@ -180,7 +180,7 @@ export default function Moat() {
               <div>
                 <h4 className="text-2xl font-semibold leading-snug mb-4">Coinbase, Block, Gemini:</h4>
                 <p className="text-lg text-white/70 leading-normal mb-6">
-                  Requires ALL pieces simultaneously—warehouse mechanics, securitization expertise, self-healing infrastructure. Their trading teams model installment plans as options, identify capital inefficiency. Massive warehouse capital earns better returns elsewhere.
+                  Requires ALL pieces simultaneously - warehouse mechanics, securitization expertise, self-healing infrastructure. Their trading teams model installment plans as options, identify capital inefficiency. Massive warehouse capital earns better returns elsewhere.
                 </p>
                 
                 <p className="text-lg text-white/70 leading-normal mb-4">
@@ -209,7 +209,7 @@ export default function Moat() {
               <div>
                 <h4 className="text-2xl font-semibold leading-snug mb-4">If they enter:</h4>
                 <p className="text-lg text-white/70 leading-normal mb-6">
-                  Better loan performance data. 12-18 month head start generating proprietary credit models, established rating agency relationships. Even with capital, need to acquire securitization expertise—build teams (12-24 months) or acquire platforms.
+                  Better loan performance data. 12-18 month head start generating proprietary credit models, established rating agency relationships. Even with capital, need to acquire securitization expertise - build teams (12-24 months) or acquire platforms.
                 </p>
                 <p className="text-lg text-white/70 leading-normal">
                   By time they assemble components, we compete on price compression, transparency, track record. First-mover data advantage compounds.

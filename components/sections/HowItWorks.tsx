@@ -46,7 +46,7 @@ export default function HowItWorks() {
                 </p>
                 
               <p className="text-lg text-white/70 leading-normal">
-                <strong className="text-white">Liquidation Options (Borrower-Initiated Only):</strong> Through the app, you can request partial or full liquidation at any time. This option is typically exercised when Bitcoin appreciates significantly and you want to capture gains—any excess Bitcoin after settling your balance is returned to you. Example: You buy $100K Bitcoin via installment plan. Bitcoin appreciates to $300K. You request liquidation: Bitcoin sold at $300K, your remaining obligation paid off (say $150K remaining), you receive $150K profit. In downturn scenarios, your payment obligations continue regardless of Bitcoin's price (no forced liquidations by lenders), but voluntary liquidation becomes less attractive. Warehouse and bond investors can NEVER force liquidation—it's your Bitcoin, you control the timing. No USD refunds; pay through completion for full Bitcoin transfer rights.
+                <strong className="text-white">Liquidation Options (Borrower-Initiated Only):</strong> Through the app, you can request partial or full liquidation at any time. This option is typically exercised when Bitcoin appreciates significantly and you want to capture gains - any excess Bitcoin after settling your balance is returned to you. Example: You buy $100K Bitcoin via installment plan. Bitcoin appreciates to $300K. You request liquidation: Bitcoin sold at $300K, your remaining obligation paid off (say $150K remaining), you receive $150K profit. In downturn scenarios, your payment obligations continue regardless of Bitcoin's price (no forced liquidations by lenders), but voluntary liquidation becomes less attractive. Warehouse and bond investors can NEVER force liquidation - it's your Bitcoin, you control the timing. No USD refunds; pay through completion for full Bitcoin transfer rights.
               </p>
                 
                 <p className="text-lg text-[#F7931A] leading-normal font-semibold">
@@ -98,7 +98,7 @@ export default function HowItWorks() {
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
-                AAA protected by 40% subordination. Survives 70% lifetime defaults with AAA fully protected—because Bitcoin can always be recovered at market value (unlike depreciating auto/home collateral in traditional lending).
+                AAA protected by 40% subordination. Survives 70% lifetime defaults with AAA fully protected - because Bitcoin can always be recovered at market value (unlike depreciating auto/home collateral in traditional lending).
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
@@ -283,7 +283,7 @@ export default function HowItWorks() {
                 </div>
 
                 <p className="text-lg text-white/70 leading-normal">
-                  <strong className="text-white">Conservative design:</strong> New asset class with no historical performance data. Base case assumes 8-15% defaults (industry-standard for FICO 670+ unsecured credit). Stress testing at 70% ensures bond structure protects AAA investors even in catastrophic scenarios—made possible by Bitcoin recovery advantage.
+                  <strong className="text-white">Conservative design:</strong> New asset class with no historical performance data. Base case assumes 8-15% defaults (industry-standard for FICO 670+ unsecured credit). Stress testing at 70% ensures bond structure protects AAA investors even in catastrophic scenarios - made possible by Bitcoin recovery advantage.
                 </p>
               </div>
             </div>
