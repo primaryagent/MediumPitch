@@ -20,9 +20,18 @@ export default function Team() {
           {/* Evan Kalimtzis */}
           <div className="p-6 rounded-lg border border-white/10">
             <h3 className="text-2xl font-bold mb-2">Evan Kalimtzis</h3>
-            <p className="text-lg text-[#F7931A] mb-4">Chief Risk Officer & Securitization</p>
+            <p className="text-lg text-[#F7931A] mb-4">Chief Investment Officer & Securitization</p>
             <p className="text-base text-white/70 leading-normal">
               Pioneered CMO/CDO trading. Founded JP Morgan CIO's SPAR group: managed $400B investment portfolio. Established risk management, capital efficiency measurement, and ALM framework at institutional scale. Led $550M Glencore-backed multi-strategy credit hedge fund (single-name bonds, loans, structured credit products, derivatives). Currently: Senior Executive Officer & Licensed Director, CLI Middle East (ADGM).
+            </p>
+          </div>
+          
+          {/* Peter D. Howard */}
+          <div className="p-6 rounded-lg border border-white/10">
+            <h3 className="text-2xl font-bold mb-2">Peter D. Howard</h3>
+            <p className="text-lg text-[#F7931A] mb-4">Chief Risk Officer & Structured Products</p>
+            <p className="text-base text-white/70 leading-normal">
+              20+ years managing structured products across global markets. Built $10B+ ABS portfolio at Peloton Partners; expanded dedicated ABS Master Fund to $1.8B. Head of ABS/CMBS proprietary trading at Dresdner Kleinwort: established first sell-side ABS platform in North America, coordinated with rating agencies. Managed $2.5B ABS portfolio at BNP Paribas. Expertise: securitization execution, rating agency coordination, portfolio risk management, structured finance. MBA Finance, NYU Stern.
             </p>
           </div>
           
@@ -59,7 +68,7 @@ export default function Team() {
             </p>
             
             <p className="text-lg text-white/70 leading-normal">
-              Founder compensation: $20K/month each ($240K annually). Market-rate salaries reflecting all-in commitment. 4-year vesting, 1-year cliff.
+              Team compensation: $20K/month each. Founders: 4-year vesting, 1-year cliff. Market-rate salaries reflecting all-in commitment.
             </p>
           </div>
           
@@ -67,10 +76,6 @@ export default function Team() {
           <div className="mt-12">
             <h3 className="text-2xl font-bold mb-6">Key hires in progress:</h3>
             <ul className="space-y-3">
-              <li className="text-lg text-white/70 flex items-start gap-3">
-                <span className="text-[#F7931A] mt-1">•</span>
-                <span>Chief Loan Officer: Peter Howard (finalizing, bio to be added when locked in)</span>
-              </li>
               <li className="text-lg text-white/70 flex items-start gap-3">
                 <span className="text-[#F7931A] mt-1">•</span>
                 <span>Warehouse President: recruiting for post-warehouse close</span>
