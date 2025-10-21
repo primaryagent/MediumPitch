@@ -45,3 +45,168 @@
     }
   }
 }
+
+/* Print Styles for PDF Export */
+@media print {
+  /* Reset to white background with black text */
+  * {
+    background: white !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Keep orange branding for headings and accents */
+  h1, h2, h3, h4, h5, h6,
+  .text-\[\#F7931A\],
+  [class*="text-[#F7931A]"] {
+    color: #F7931A !important;
+  }
+  
+  /* Keep orange for specific branded elements */
+  [style*="#F7931A"],
+  [style*="rgb(247, 147, 26)"] {
+    color: #F7931A !important;
+  }
+  
+  /* Borders should be visible */
+  [class*="border"] {
+    border-color: #e5e7eb !important;
+  }
+  
+  [class*="border-\[\#F7931A\]"],
+  [class*="border-[#F7931A]"] {
+    border-color: #F7931A !important;
+  }
+  
+  /* Hide navigation and UI elements */
+  aside,
+  nav,
+  header,
+  [class*="sidebar"],
+  [class*="Sidebar"],
+  [id*="mobile-menu"],
+  [class*="MobileMenu"],
+  button,
+  .print-hide {
+    display: none !important;
+  }
+  
+  /* Main content adjustments */
+  main {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+  
+  /* Section styling for print */
+  section {
+    page-break-after: always;
+    page-break-inside: avoid;
+    margin: 0 !important;
+    padding: 2cm 1.5cm !important;
+    min-height: auto !important;
+  }
+  
+  /* Don't break after last section */
+  section:last-of-type {
+    page-break-after: auto;
+  }
+  
+  /* Avoid breaking inside important elements */
+  h1, h2, h3, h4, h5, h6,
+  p, ul, ol, div[class*="p-6"],
+  div[class*="rounded-lg"] {
+    page-break-inside: avoid;
+  }
+  
+  /* Keep list items together */
+  li {
+    page-break-inside: avoid;
+  }
+  
+  /* Typography adjustments for print */
+  body {
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    font-size: 24pt;
+    margin-bottom: 12pt;
+  }
+  
+  h2 {
+    font-size: 20pt;
+    margin-bottom: 10pt;
+  }
+  
+  h3 {
+    font-size: 16pt;
+    margin-bottom: 8pt;
+  }
+  
+  h4 {
+    font-size: 14pt;
+    margin-bottom: 6pt;
+  }
+  
+  p {
+    margin-bottom: 8pt;
+  }
+  
+  /* Links should show URL in print */
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 90%;
+    color: #666 !important;
+  }
+  
+  /* Don't show URLs for navigation links */
+  a[href^="#"]:after,
+  a[href^="javascript"]:after {
+    content: "";
+  }
+  
+  /* Grid and flex adjustments */
+  [class*="grid"],
+  [class*="flex"] {
+    display: block !important;
+  }
+  
+  /* Spacing adjustments */
+  [class*="space-y"] > * {
+    margin-top: 8pt;
+    margin-bottom: 8pt;
+  }
+  
+  /* Remove responsive margin adjustments for print */
+  [class*="lg:ml-"],
+  [class*="md:ml-"],
+  [class*="sm:ml-"] {
+    margin-left: 0 !important;
+  }
+  
+  /* Ensure content is visible */
+  [class*="opacity-"],
+  [class*="bg-opacity-"] {
+    opacity: 1 !important;
+  }
+  
+  /* Page margins */
+  @page {
+    margin: 1.5cm;
+    size: A4 portrait;
+  }
+  
+  @page :first {
+    margin-top: 2cm;
+  }
+}

@@ -543,6 +543,9 @@ video {
       scroll-snap-type: none;
     }
   }
+.visible {
+  visibility: visible;
+}
 .fixed {
   position: fixed;
 }
@@ -552,11 +555,17 @@ video {
 .bottom-0 {
   bottom: 0px;
 }
+.bottom-8 {
+  bottom: 2rem;
+}
 .left-0 {
   left: 0px;
 }
 .right-0 {
   right: 0px;
+}
+.right-8 {
+  right: 2rem;
 }
 .top-0 {
   top: 0px;
@@ -570,10 +579,6 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-.my-12 {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
 }
 .mb-1 {
   margin-bottom: 0.25rem;
@@ -605,8 +610,8 @@ video {
 .mt-12 {
   margin-top: 3rem;
 }
-.mt-16 {
-  margin-top: 4rem;
+.mt-2 {
+  margin-top: 0.5rem;
 }
 .mt-4 {
   margin-top: 1rem;
@@ -616,9 +621,6 @@ video {
 }
 .mt-8 {
   margin-top: 2rem;
-}
-.mt-2 {
-  margin-top: 0.5rem;
 }
 .flex {
   display: flex;
@@ -632,6 +634,9 @@ video {
 .h-16 {
   height: 4rem;
 }
+.h-5 {
+  height: 1.25rem;
+}
 .h-6 {
   height: 1.5rem;
 }
@@ -640,6 +645,9 @@ video {
 }
 .min-h-screen {
   min-height: 100vh;
+}
+.w-5 {
+  width: 1.25rem;
 }
 .w-6 {
   width: 1.5rem;
@@ -780,6 +788,10 @@ video {
 .border-white\/5 {
   border-color: rgb(255 255 255 / 0.05);
 }
+.bg-\[\#F7931A\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 147 26 / var(--tw-bg-opacity, 1));
+}
 .bg-\[\#F7931A\]\/5 {
   background-color: rgb(247 147 26 / 0.05);
 }
@@ -821,6 +833,10 @@ video {
 .py-24 {
   padding-top: 6rem;
   padding-bottom: 6rem;
+}
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 .pl-12 {
   padding-left: 3rem;
@@ -932,6 +948,16 @@ video {
 .text-white\/90 {
   color: rgb(255 255 255 / 0.9);
 }
+.shadow-lg {
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
 .transition-colors {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -949,10 +975,182 @@ video {
   transition-duration: 300ms;
 }
 
+/* Print Styles for PDF Export */
+@media print {
+  /* Reset to white background with black text */
+  * {
+    background: white !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Keep orange branding for headings and accents */
+  h1, h2, h3, h4, h5, h6,
+  .text-\[\#F7931A\],
+  [class*="text-[#F7931A]"] {
+    color: #F7931A !important;
+  }
+  
+  /* Keep orange for specific branded elements */
+  [style*="#F7931A"],
+  [style*="rgb(247, 147, 26)"] {
+    color: #F7931A !important;
+  }
+  
+  /* Borders should be visible */
+  [class*="border"] {
+    border-color: #e5e7eb !important;
+  }
+  
+  [class*="border-\[\#F7931A\]"],
+  [class*="border-[#F7931A]"] {
+    border-color: #F7931A !important;
+  }
+  
+  /* Hide navigation and UI elements */
+  aside,
+  nav,
+  header,
+  [class*="sidebar"],
+  [class*="Sidebar"],
+  [id*="mobile-menu"],
+  [class*="MobileMenu"],
+  button,
+  .print-hide {
+    display: none !important;
+  }
+  
+  /* Main content adjustments */
+  main {
+    margin: 0 !important;
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+  
+  /* Section styling for print */
+  section {
+    page-break-after: always;
+    page-break-inside: avoid;
+    margin: 0 !important;
+    padding: 2cm 1.5cm !important;
+    min-height: auto !important;
+  }
+  
+  /* Don't break after last section */
+  section:last-of-type {
+    page-break-after: auto;
+  }
+  
+  /* Avoid breaking inside important elements */
+  h1, h2, h3, h4, h5, h6,
+  p, ul, ol, div[class*="p-6"],
+  div[class*="rounded-lg"] {
+    page-break-inside: avoid;
+  }
+  
+  /* Keep list items together */
+  li {
+    page-break-inside: avoid;
+  }
+  
+  /* Typography adjustments for print */
+  body {
+    font-size: 11pt;
+    line-height: 1.5;
+  }
+  
+  h1 {
+    font-size: 24pt;
+    margin-bottom: 12pt;
+  }
+  
+  h2 {
+    font-size: 20pt;
+    margin-bottom: 10pt;
+  }
+  
+  h3 {
+    font-size: 16pt;
+    margin-bottom: 8pt;
+  }
+  
+  h4 {
+    font-size: 14pt;
+    margin-bottom: 6pt;
+  }
+  
+  p {
+    margin-bottom: 8pt;
+  }
+  
+  /* Links should show URL in print */
+  a[href]:after {
+    content: " (" attr(href) ")";
+    font-size: 90%;
+    color: #666 !important;
+  }
+  
+  /* Don't show URLs for navigation links */
+  a[href^="#"]:after,
+  a[href^="javascript"]:after {
+    content: "";
+  }
+  
+  /* Grid and flex adjustments */
+  [class*="grid"],
+  [class*="flex"] {
+    display: block !important;
+  }
+  
+  /* Spacing adjustments */
+  [class*="space-y"] > * {
+    margin-top: 8pt;
+    margin-bottom: 8pt;
+  }
+  
+  /* Remove responsive margin adjustments for print */
+  [class*="lg:ml-"],
+  [class*="md:ml-"],
+  [class*="sm:ml-"] {
+    margin-left: 0 !important;
+  }
+  
+  /* Ensure content is visible */
+  [class*="opacity-"],
+  [class*="bg-opacity-"] {
+    opacity: 1 !important;
+  }
+  
+  /* Page margins */
+  @page {
+    margin: 1.5cm;
+    size: A4 portrait;
+  }
+  
+  @page :first {
+    margin-top: 2cm;
+  }
+}
+.hover\:scale-105:hover {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.hover\:bg-\[\#e68915\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(230 137 21 / var(--tw-bg-opacity, 1));
+}
 .hover\:bg-white\/5:hover {
   background-color: rgb(255 255 255 / 0.05);
 }
-
 @media (min-width: 768px) {
 
   .md\:grid-cols-2 {
@@ -978,17 +1176,11 @@ video {
     line-height: 1;
   }
 
-  .md\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
   .md\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
   }
 }
-
 @media (min-width: 1024px) {
 
   .lg\:ml-\[280px\] {
@@ -1010,6 +1202,12 @@ video {
 
   .lg\:pt-0 {
     padding-top: 0px;
+  }
+}
+@media print {
+
+  .print\:hidden {
+    display: none;
   }
 }
 
