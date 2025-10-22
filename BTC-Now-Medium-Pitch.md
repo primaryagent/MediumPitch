@@ -268,7 +268,7 @@ Two entities. Seven fee streams. 90%+ margins at scale.
 - Bond servicing: $500K/year (0.5% annual on bonds, 10 years)
 
 **Performance-based:**
-- Carried interest: 50% of warehouse returns above 10% LP hurdle
+- Carried interest: 50% of warehouse returns above 10% hurdle with high-water mark
 
 **Warehouse-Level Fees (Total Fund, not per-tranche):**
 - Warehouse management: $3M annually (2% of $150M warehouse AUM). Charged at fund level across all tranches—standard GP fund economics.
@@ -336,7 +336,7 @@ Earns:
 - Management fees (2% annual on warehouse AUM)
 - Origination fees (1% of loans)
 - Servicing fees (0.25% annual on loans + 0.5% annual on bonds)
-- Carried interest (50% of returns above 10% LP hurdle)
+- Carried interest (50% of returns above 10% hurdle with high-water mark)
 
 ### Warehouse LPs
 
@@ -353,7 +353,7 @@ Warehouse operates as GP/LP fund structure (not debt or equity). LPs make capita
 **GP Carried Interest:**
 
 - **Carry structure:** GP earns 50% of returns ABOVE 10% hurdle
-- **High-water mark:** GP only earns carry on returns exceeding previous peak performance—protects LPs from paying carry twice on recovery of prior losses
+- **High-water mark plus hurdle:** GP only earns carry on returns exceeding both the 10% hurdle AND previous peak performance—protects LPs from paying carry twice on recovery of prior losses
 - **Example:** Returns dip then recover → GP doesn't earn carry on the recovery portion, only on new highs above prior peak
 
 **Economic Example:** $150M generates $20M annually (13.3% gross):

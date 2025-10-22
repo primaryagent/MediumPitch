@@ -35,7 +35,7 @@ export default function CapitalStructure() {
                 </li>
                 <li className="text-lg text-white/70 flex items-start gap-3">
                   <span className="text-[#F7931A] mt-1">•</span>
-                  <span>Carried interest (50% of returns above 10% LP hurdle)</span>
+                  <span>Carried interest (50% of returns above 10% hurdle with high-water mark)</span>
                 </li>
               </ul>
             </div>
@@ -79,7 +79,7 @@ export default function CapitalStructure() {
                 </li>
                 <li className="text-lg text-white/70 flex items-start gap-3">
                   <span className="text-[#F7931A] mt-1">•</span>
-                  <span><strong className="text-white">High-water mark:</strong> GP only earns carry on returns exceeding previous peak performance - protects LPs from paying carry twice on recovery of prior losses</span>
+                  <span><strong className="text-white">High-water mark plus hurdle:</strong> GP only earns carry on returns exceeding both the 10% hurdle AND previous peak performance - protects LPs from paying carry twice on recovery of prior losses</span>
                 </li>
               </ul>
             </div>
