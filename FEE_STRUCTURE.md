@@ -13,14 +13,14 @@ This document provides a comprehensive breakdown of all fees in the BTC Now syst
 || Payment Type | Amount | Timing | Paid To | Notes |
 ||--------------|--------|--------|---------|-------|
 || **First Installment** | $1,600 per month | At plan signing (before activation) | Warehouse Fund | Required upfront payment before installment plan activates. Always paid during seasoning period. |
-|| **Monthly Installments** | $1,600 per month | Monthly on same calendar day | Warehouse Fund (pre-bond) or Bond SPV (post-bond) | 15% APR on $100K Bitcoin purchase. Due on same day each month as signing date (e.g., sign Jan 15 → due 15th monthly). |
+|| **Monthly Installments** | $1,600 per month | Monthly on same calendar day | Warehouse Fund (pre-bond) or Bond SPV (post-bond) | Installment pricing equivalent to 15% effective APR on $100K Bitcoin purchase. Due on same day each month as signing date (e.g., sign Jan 15 → due 15th monthly). |
 || **Terminal Value** | $192,000 total | Over 10-year life | — | Total obligation: $1,600/month × 120 months = $192K |
 || **Bitcoin Collateral** | $100,000 | At plan signing | Held in custody (collateral) | Bitcoin held in custody as collateral. Borrower has beneficial ownership but cannot transfer until all 120 payments completed. |
 || **Effective APR** | 15% annually | — | — | Fixed rate over 10-year term |
 
 **Interest Calculation:**
 
-The 15% APR uses standard amortizing loan formula:
+The 15% effective APR equivalent uses standard amortizing loan formula:
 
 **Formula:** Monthly Payment = P × [r(1+r)^n] / [(1+r)^n - 1]
 
@@ -45,7 +45,7 @@ Where:
 | 18% | 1.50% | $1,799.84 | $215,981 | $115,981 |
 | 20% | 1.67% | $1,927.80 | $231,336 | $131,336 |
 
-*Note: Actual payments rounded for operational simplicity ($1,600/month at 15% APR). Terminal value calculations use actual amortization.*
+*Note: Actual payments rounded for operational simplicity ($1,600/month at 15% effective APR). Terminal value calculations use actual amortization.*
 
 **Payment Flow:**
 - **Pre-bond (60-90 day seasoning):** Borrower → Warehouse Fund

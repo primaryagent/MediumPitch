@@ -23,53 +23,64 @@ export default function Ask() {
             
             <div className="space-y-6">
               <div className="p-6 rounded-lg border border-white/10">
-                <h4 className="text-2xl font-semibold leading-snug mb-4">$1.5M - Legal & Compliance</h4>
+                <h4 className="text-2xl font-semibold leading-snug mb-4">$1M - Bitcoin Conference 2026 Launch Event</h4>
                 <p className="text-lg text-white/70 leading-normal">
-                  Lender-of-record partnership, SEC review, custody agreements, entity formation, BSA/AML development, state compliance.
+                  Main stage announcement April 27, 2026. Real loans funded Day 1. Bloomberg, Fox, CNBC coverage confirmed. 50K attendees, 250+ institutions on-site. Live origination creating institutional FOMO and warehouse LP pipeline.
                 </p>
               </div>
               
               <div className="p-6 rounded-lg border border-white/10">
-                <h4 className="text-2xl font-semibold leading-snug mb-4">$2.1M - Warehouse Facility Roadshow</h4>
+                <h4 className="text-2xl font-semibold leading-snug mb-4">$1.5M - Warehouse LP Roadshow</h4>
                 <p className="text-lg text-white/70 leading-normal">
-                  Institutional presentations, term sheet negotiations, legal documentation for $150M warehouse commitment. First LP receives 20% BTC Now equity + preferred economics.
+                  Roadshow begins Q1 2026 to close $150M warehouse. Conference live origination creates leverage to close remaining commitments. First LP receives 20% BTC Now equity for warehouse commitment. Warehouse economics: 10% preferred return to LP, then 50/50 profit split above 10% hurdle with high-water mark protection.
                 </p>
               </div>
               
               <div className="p-6 rounded-lg border border-white/10">
-                <h4 className="text-2xl font-semibold leading-snug mb-4">$1.4M - Beta Platform Launch</h4>
+                <h4 className="text-2xl font-semibold leading-snug mb-4">$2M - A+ Product/Design Talent</h4>
                 <p className="text-lg text-white/70 leading-normal">
-                  Q1 2026 market entry. Technology development, underwriting system, custody integration, borrower portal, loan servicing infrastructure.
+                  Platform is operational. This budget hires exceptional UI/UX talent to create world-class user experience beyond functional minimum. Design that converts.
                 </p>
               </div>
               
               <div className="p-6 rounded-lg border border-white/10">
-                <h4 className="text-2xl font-semibold leading-snug mb-4">$2.0M - Operating Runway</h4>
+                <h4 className="text-2xl font-semibold leading-snug mb-4">$2.5M - Operating Runway + Scale</h4>
                 <p className="text-lg text-white/70 leading-normal mb-4">
-                  6-9 months operating runway (total budget for period, not annualized rate):
+                  18 months runway to $100M+ origination volume:
                 </p>
                 <ul className="space-y-2">
                   <li className="text-base text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
-                    <span>Team salaries: $900K (5 founders × $20K/month × 9 months)</span>
+                    <span>Team salaries: $1.08M (6 members × $20K/month × 9 months)</span>
                   </li>
                   <li className="text-base text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
-                    <span>Legal/compliance (ongoing): $500K</span>
+                    <span>Legal/compliance: $500-750K (entity formation, SEC review, BSA/AML, state compliance)</span>
                   </li>
                   <li className="text-base text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
-                    <span>Software/infrastructure: $300K</span>
+                    <span>Custody integration: $500K (API work, insurance, testing - complete Nov 2025)</span>
                   </li>
                   <li className="text-base text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
-                    <span>Travel/business development: $300K</span>
+                    <span>GP/LP structure: $250K (legal docs, operating agreements - complete Dec 2025)</span>
+                  </li>
+                  <li className="text-base text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] mt-1">•</span>
+                    <span>Security hardening and team expansion</span>
                   </li>
                 </ul>
-                <p className="text-sm text-white/60 mt-4">
-                  Note: Annual operating rate initially ~$2.7M/year (extrapolated), ramping to $4.3M/year at full scale post-loan issuance.
-                </p>
               </div>
+            </div>
+
+            <div className="p-6 rounded-lg border border-[#F7931A] bg-[#F7931A]/5 mt-6">
+              <p className="text-lg font-semibold mb-3">Capital deployment strategy:</p>
+              <p className="text-lg text-white/70 leading-normal mb-3">
+                Unspent raise capital (minus 6-month operating runway) deployed into warehouse alongside LP commitments for launch origination.
+              </p>
+              <p className="text-lg text-white/70 leading-normal">
+                <strong className="text-white">Contingency:</strong> If no LP commitments by April 2026, founders provide $5M warehouse capital for launch origination.
+              </p>
             </div>
           </div>
           
@@ -90,7 +101,7 @@ export default function Ask() {
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
-                Capital deploys over 6-9 months. Achieves warehouse commitment. Launches loan origination.
+                Platform operational. Conference creates warehouse closing leverage. Scale to $100M+ origination over 18 months.
               </p>
             </div>
           </div>
@@ -116,23 +127,31 @@ export default function Ask() {
                 <ol className="space-y-3">
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] font-semibold min-w-[2rem]">1.</span>
-                    <span>Raise $7M equity (this round)</span>
+                    <span>Raise $7M equity (this round) - Complete Q4 2025/Q1 2026</span>
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] font-semibold min-w-[2rem]">2.</span>
-                    <span>Launch beta - Generate signup data</span>
+                    <span>Custody complete Nov 2025, GP/LP structure Dec 2025</span>
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] font-semibold min-w-[2rem]">3.</span>
-                    <span>Use signup data as leverage - Secure $150M warehouse</span>
+                    <span>Warehouse LP roadshow begins Q1 2026, running through Q2 2026</span>
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] font-semibold min-w-[2rem]">4.</span>
-                    <span>Originate and season loans - 6-12 months</span>
+                    <span>Bitcoin Conference live launch April 27, 2026 - Real origination Day 1</span>
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] font-semibold min-w-[2rem]">5.</span>
-                    <span>Approach bond buyers - With real performance data</span>
+                    <span>Conference live origination creates leverage to close remaining warehouse commitments</span>
+                  </li>
+                  <li className="text-lg text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] font-semibold min-w-[2rem]">6.</span>
+                    <span>Season loans 12-18 months while scaling origination</span>
+                  </li>
+                  <li className="text-lg text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] font-semibold min-w-[2rem]">7.</span>
+                    <span>First securitization Q3 2026 with real performance data</span>
                   </li>
                 </ol>
               </div>

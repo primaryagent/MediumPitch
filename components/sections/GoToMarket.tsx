@@ -14,8 +14,11 @@ export default function GoToMarket() {
             <p className="text-lg text-white/70 leading-normal mb-6">
               <strong className="text-white">Bitcoin Conference 2026 (April 27, Las Vegas)</strong> - 50,000+ attendees, concentrated audience of high-intent Bitcoin buyers.
             </p>
+            <p className="text-lg text-white/70 leading-normal mb-6">
+              Live origination event with real loans funded Day 1. Main stage announcement with Bloomberg, Fox, and CNBC coverage confirmed. Creates institutional FOMO and warehouse LP closing leverage.
+            </p>
             <p className="text-lg text-white/70 leading-normal">
-              This provides ideal launch environment: concentrated target audience, high engagement, credibility from association with premier Bitcoin industry event.
+              Not a demo. Not a beta. Real customers receive Bitcoin same-day with 10-year installment terms.
             </p>
           </div>
 

@@ -1,18 +1,18 @@
 # BTC Now - Business Summary
 
-**Bitcoin installment plans with zero liquidation risk.** We're building the first securitized Bitcoin credit product—paying institutional investors fixed interest while giving consumers access to leverage without margin calls. 10-year terms at 15% APR—no forced liquidations, ever.
+**Bitcoin installment plans with zero liquidation risk.** We're building the first securitized Bitcoin credit product—paying institutional investors fixed interest while giving consumers access to leverage without margin calls. 10-year terms at installment purchase pricing equivalent to 15% effective APR—no forced liquidations, ever.
 
 ---
 
 ## What We Do
 
-We offer Bitcoin installment plans—10-year terms at 15% APR with zero margin call risk. Borrowers own their Bitcoin from day one, held in institutional custody (Coinbase/Anchorage) with transfer restrictions until final payment. Monthly payments remain fixed regardless of Bitcoin's price.
+We offer Bitcoin installment plans with installment purchase pricing equivalent to 15% effective APR over 10-year terms and zero margin call risk. Borrowers own their Bitcoin from day one, held in institutional custody (Coinbase/Anchorage) with transfer restrictions until final payment. Monthly payments remain fixed regardless of Bitcoin's price.
 
 We package these loans into $100M tranches and securitize them as Bitcoin-Backed Securities (BBS)—AAA and BBB-rated bonds paying 7-9% coupons to institutional investors. This generates a $7.56M annual spread per tranche ($75.6M over 10 years), creating the first Bitcoin credit product that delivers fixed interest to bond investors.
 
 Our bankruptcy-remote structure keeps Bitcoin off our balance sheet entirely, eliminating corporate risk.
 
-**Current Stage:** Pre-revenue. Q1 2026 beta launch. Raising $7M at $40M post-money valuation.
+**Current Stage:** Pre-revenue. Platform operational. April 27, 2026 live launch at Bitcoin Conference. Raising $7M at $40M post-money valuation.
 
 ---
 
@@ -43,11 +43,11 @@ Existing credit options fail Bitcoin buyers for predictable reasons:
 
 **Margin loans** force liquidations during crashes—May 2021's 50% drop in 72 hours triggered mass liquidations at worst possible prices.
 
-**Why 15% APR:**
+**Why 15% Effective APR:**
 
 No comparable products exist with zero liquidation risk. Margin loans offer 8-12% rates but liquidate positions during crashes. Personal loans offer 10-18% rates but covenant restrictions prohibit investment use.
 
-15% APR reflects lender risk while providing the only non-liquidatable Bitcoin credit option in market. We are price makers, not price takers — zero competition exists for this structure.
+Installment purchase pricing equivalent to 15% effective APR reflects lender risk while providing the only non-liquidatable Bitcoin credit option in market. We are price makers, not price takers — zero competition exists for this structure.
 
 > **Growth isn't capped by demand. Growth is capped by credit access.**
 
@@ -67,7 +67,7 @@ What this means: For every $1 of Bitcoin-backed lending, regulated banks must ho
 
 **Real-world impact:**
 
-A $100M Bitcoin-backed loan portfolio would require banks to hold $125M in regulatory capital—**more capital than the loan itself**. At typical bank ROE hurdles of 15%, they'd need $18.75M in annual profit just to justify holding the capital. Our 15% APR generates $15M annually on $100M—not enough to cover their cost of capital.
+A $100M Bitcoin-backed loan portfolio would require banks to hold $125M in regulatory capital—**more capital than the loan itself**. At typical bank ROE hurdles of 15%, they'd need $18.75M in annual profit just to justify holding the capital. Our installment pricing (15% effective APR) generates $15M annually on $100M—not enough to cover their cost of capital.
 
 **Conclusion:** Banks cannot profitably offer this product under current regulations.
 
@@ -202,7 +202,7 @@ First securitized Bitcoin credit product—investors never hold Bitcoin, receive
 
 $150M warehouse → $1.2B bond origination capacity (12 tranches × $100M).
 
-Each $100M bond requires $12M warehouse capital impact ($10M equity locked in SPV + $2M issuance fee paid to GP). During 60-90 day **pre-bond** loan seasoning in warehouse: borrowers pay 15% APR. Cash collected builds equity for bond issuance.
+Each $100M bond requires $12M warehouse capital impact ($10M equity locked in SPV + $2M issuance fee paid to GP). During 60-90 day **pre-bond** loan seasoning in warehouse: borrowers pay 15% effective APR. Cash collected builds equity for bond issuance.
 
 Post-bond: warehouse receives monthly excess spread. Funds new loan originations. Capital recycles without external fundraising.
 
@@ -381,7 +381,7 @@ $70M AAA + $20M BBB sold to institutions. $10M equity retained by warehouse. $10
 Bonds pay monthly interest + principal (amortizing structure, 10-year term).
 
 **Payment waterfall (monthly):**
-1. Collect borrower payments (15% APR)
+1. Collect borrower payments (15% effective APR)
 2. Pay servicing fees (0.5% to BTC Now)
 3. Pay AAA (7% coupon + principal)
 4. Pay BBB (9% coupon + principal)
@@ -428,7 +428,7 @@ Unique to commodity-backed lending. Traditional lenders cannot replicate.
 
 No committed warehouse capital yet. Active negotiations with private lenders, Bitcoin whales, family offices.
 
-$7M equity raise funds beta launch, demand validation, proof of concept for warehouse negotiations.
+$7M equity raise funds Bitcoin Conference live launch, warehouse LP roadshow, A+ product talent, and 18-month operating runway.
 
 ---
 
@@ -456,9 +456,9 @@ All team members: $20K/month + performance bonuses. All-in commitment. 4-year ve
 **Key hires in progress:**
 - Chief Loan Officer: Peter Howard (finalizing, bio to be added when locked in)
 - Warehouse President: recruiting for post-warehouse close
-- Chief Marketing Officer: targeted hire post-beta launch
-- Chief Legal Officer: targeted hire post-beta launch
-- Chief Financial Officer: targeted hire post-beta launch
+- Chief Marketing Officer: targeted hire post-launch
+- Chief Legal Officer: targeted hire post-launch
+- Chief Financial Officer: targeted hire post-launch
 
 ---
 
@@ -466,16 +466,18 @@ All team members: $20K/month + performance bonuses. All-in commitment. 4-year ve
 
 This $7M seed round funds four critical milestones:
 
-1. **Complete beta platform** ($1.4M) — 95% built, final custody and banking integrations
-2. **Finalize lender-of-record partnership** ($2M) — Legal structuring, compliance integration
-3. **Secure $150M warehouse facility** ($2.1M) — Roadshow, term sheets, legal documentation
-4. **Validate demand and pricing** ($2M) — 6-9 months operating runway to prove market fit
+1. **Bitcoin Conference 2026 Launch Event** ($1M) — Main stage announcement April 27, 2026. Real loans funded Day 1. Bloomberg, Fox, CNBC coverage confirmed. 50K attendees, 250+ institutions on-site. Live origination creating institutional FOMO and warehouse LP pipeline.
+2. **Warehouse LP Roadshow** ($1.5M) — Roadshow begins Q1 2026 to close $150M warehouse. Conference live origination creates leverage to close remaining commitments. First LP receives 20% BTC Now equity for warehouse commitment. Warehouse economics: 10% preferred return to LP, then 50/50 profit split above 10% hurdle with high-water mark protection.
+3. **A+ Product/Design Talent** ($2M) — Platform is operational. This budget hires exceptional UI/UX talent to create world-class user experience beyond functional minimum. Design that converts.
+4. **Operating Runway + Scale** ($2.5M) — 18 months runway to $100M+ origination volume, including team salaries, legal/compliance ($500-750K), custody integration ($500K complete Nov 2025), GP/LP structure ($250K complete Dec 2025), security hardening and team expansion.
 
-**Timeline:** 6-9 months to warehouse commitment and loan origination launch.
+**Timeline:** Custody complete November 2025. GP/LP structure December 2025. Warehouse roadshow begins Q1 2026. April 27, 2026 launch. $150M warehouse closed Q2 2026. First securitization Q3 2026.
 
-**Current stage:** Pre-revenue. Beta 95% complete. Active partnership negotiations. No committed warehouse capital yet.
+**Current stage:** Pre-revenue. Platform operational. No committed warehouse capital yet. Active partnership negotiations.
 
-$7M raise at $40M post-money reflects execution risk. Early investors compensated through entry valuation.
+**Capital deployment strategy:** Unspent raise capital (minus 6-month operating runway) deployed into warehouse alongside LP commitments for launch origination. Contingency: If no LP commitments by April 2026, founders provide $5M warehouse capital for launch origination.
+
+$7M raise at $40M post-money reflects pre-revenue risk. Conference proof-of-concept changes valuation overnight.
 
 ### Execution Milestones
 

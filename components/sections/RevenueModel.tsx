@@ -73,7 +73,7 @@ export default function RevenueModel() {
                 <ul className="space-y-3">
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
-                    <span>Spread capture: $7.56M annually. Calculation: Borrowers pay 15% APR on $100M financed amount = $15M annually. Bonds pay 7.44% weighted coupon on $90M bonds = $6.7M annually. Loan + bond servicing = $0.75M. Warehouse captures $15M - $6.7M - $0.75M = $7.56M annual spread. $75.6M per tranche over 10 years.</span>
+                    <span>Spread capture: $7.56M annually. Calculation: Borrowers pay installment pricing equivalent to 15% effective APR on $100M financed amount = $15M annually. Bonds pay 7.44% weighted coupon on $90M bonds = $6.7M annually. Loan + bond servicing = $0.75M. Warehouse captures $15M - $6.7M - $0.75M = $7.56M annual spread. $75.6M per tranche over 10 years.</span>
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>

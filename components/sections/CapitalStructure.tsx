@@ -151,7 +151,7 @@ export default function CapitalStructure() {
               <ol className="space-y-3">
                 <li className="text-lg text-white/70 flex items-start gap-3">
                   <span className="text-[#F7931A] font-semibold min-w-[2rem]">1.</span>
-                  <span>Collect borrower payments (15% APR)</span>
+                  <span>Collect borrower payments (15% effective APR)</span>
                 </li>
                 <li className="text-lg text-white/70 flex items-start gap-3">
                   <span className="text-[#F7931A] font-semibold min-w-[2rem]">2.</span>

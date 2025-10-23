@@ -33,7 +33,7 @@ export default function Moat() {
                 </p>
 
                 <p className="text-lg text-white/70 leading-normal mb-4">
-                  A $100M Bitcoin-backed loan portfolio would require banks to hold $125M in regulatory capital (at typical 10% Tier 1 ratios banks maintain) - <strong className="text-white">more capital than the loan itself</strong>. At typical bank ROE hurdles of 15%, they'd need $18.75M in annual profit just to justify holding the capital. Our 15% APR generates $15M annually on $100M - not enough to cover their cost of capital.
+                  A $100M Bitcoin-backed loan portfolio would require banks to hold $125M in regulatory capital (at typical 10% Tier 1 ratios banks maintain) - <strong className="text-white">more capital than the loan itself</strong>. At typical bank ROE hurdles of 15%, they'd need $18.75M in annual profit just to justify holding the capital. Our installment pricing (15% effective APR) generates $15M annually on $100M - not enough to cover their cost of capital.
                 </p>
 
                 <p className="text-lg text-white/70 leading-normal mb-6">

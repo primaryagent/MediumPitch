@@ -74,16 +74,16 @@ export default function Market() {
           </div>
           
           <div>
-            <h3 className="text-4xl font-bold leading-tight mb-8">Why 15% APR:</h3>
+            <h3 className="text-4xl font-bold leading-tight mb-8">Why 15% Effective APR:</h3>
             <div className="space-y-6">
               <p className="text-lg text-white/70 leading-normal">
                 No comparable products exist with zero liquidation risk. Margin loans offer 8-12% rates but liquidate positions during crashes. Personal loans offer 10-18% rates but covenant restrictions prohibit investment use.
               </p>
               <p className="text-lg text-white/70 leading-normal">
-                15% APR reflects lender risk while providing the only non-liquidatable Bitcoin credit option in market. We are price makers, not price takers - zero competition exists for this structure.
+                Installment purchase pricing equivalent to 15% effective APR reflects lender risk while providing the only non-liquidatable Bitcoin credit option in market. We are price makers, not price takers - zero competition exists for this structure.
               </p>
               <p className="text-lg text-white/70 leading-normal">
-                <strong className="text-white">Pricing flexibility:</strong> Beta will validate pricing sensitivity across customer segments. If 15% APR meets resistance, we can adjust pricing while maintaining profitable spreads. Our structure supports APRs from 12-18% (generating 4.56%-10.56% spreads over 7.44% weighted bond coupon). This flexibility allows us to optimize for customer demand, competitive positioning, and bond investor returns.
+                <strong className="text-white">Pricing flexibility:</strong> Beta will validate pricing sensitivity across customer segments. If 15% effective APR meets resistance, we can adjust pricing while maintaining profitable spreads. Our structure supports effective APRs from 12-18% (generating 4.56%-10.56% spreads over 7.44% weighted bond coupon). This flexibility allows us to optimize for customer demand, competitive positioning, and bond investor returns.
               </p>
               <blockquote className="border-l-4 border-[#F7931A] pl-6 py-2 mt-6">
                 <p className="text-2xl font-bold text-white leading-snug">

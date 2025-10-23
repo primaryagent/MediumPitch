@@ -7,7 +7,7 @@
 **Mission:** Make Bitcoin accessible through credit without margin calls. We structure Bitcoin loans into securities that banks can hold. First Bitcoin financial product that pays interest.
 
 **What We Do:**
-- Issue Bitcoin loans (10 years, 15% APR, no margin calls)
+- Issue Bitcoin installment plans (10 years, 15% effective APR, no margin calls)
 - Structure loans into $100M Bitcoin-Backed Securities tranches
 - Sell to institutions at 8% coupon
 - Originate more loans with proceeds
@@ -54,7 +54,7 @@
 
 ✓ **Lead with numbers**
 - "$28M Year 1" not "significant first-year revenue"
-- "10 years, 120 installments, 15% APR" not "attractive loan terms"
+- "10 years, 120 installments, 15% effective APR" not "attractive loan terms"
 
 ✓ **Use active voice**
 - "We structure loans" not "Loans are structured"
@@ -148,7 +148,7 @@
 **Problem:** "$13T U.S. Real Estate debt, $1.5T U.S. Auto debt, $0 Bitcoin credit"
 - Numbers tell the story. No narrative needed.
 
-**Solution:** "10 Years, 120 Installments, 15% APR"
+**Solution:** "10 Years, 120 Installments, 15% Effective APR"
 - Terms stated. No "competitive" or "attractive" qualifier.
 
 **MOAT:** "The Secret MOAT"
@@ -182,7 +182,7 @@
 ✓ "First Bitcoin product that pays interest"
 
 ❌ "We're proud to announce that we may be able to help you"
-✓ "15% APR. 10-year fixed. No margin call."
+✓ "15% effective APR. 10-year fixed. No margin call."
 
 ❌ "Our unique value proposition centers around creating synergies"
 ✓ "$7M spread per tranche"
@@ -194,7 +194,7 @@
 
 **Mistake:** Over-explaining
 - Don't: "We issue Bitcoin loans, which means we provide credit..."
-- Do: "Bitcoin loans. 15% APR."
+- Do: "Bitcoin installment plans. 15% effective APR."
 
 **Mistake:** Softening statements
 - Don't: "We think this might be the first..."
@@ -230,7 +230,7 @@
 ### Sentence Structure Template
 
 **Pattern:** [Verb] + [Object] + [Specification]
-- "Issue Bitcoin loans at 15% APR"
+- "Issue Bitcoin installment plans at 15% effective APR"
 - "Structure loans into $100M tranches"
 - "Sell securities at 8% coupon"
 

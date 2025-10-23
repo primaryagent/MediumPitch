@@ -90,7 +90,7 @@ export default function HowItWorks() {
               </ul>
               
               <p className="text-lg text-white/70 leading-normal">
-                Weighted average coupon: 7.44% ($70M at 7% + $20M at 9% over $90M bonds). Annual spread: 7.56% calculated on $100M financed amount (borrowers pay 15% APR on $100M = $15M annually, bonds pay 7.44% weighted coupon = $6.7M annually, warehouse captures $15M - $6.7M - $0.75M servicing = $7.56M spread).
+                Weighted average coupon: 7.44% ($70M at 7% + $20M at 9% over $90M bonds). Annual spread: 7.56% calculated on $100M financed amount (borrowers pay installment pricing equivalent to 15% effective APR on $100M = $15M annually, bonds pay 7.44% weighted coupon = $6.7M annually, warehouse captures $15M - $6.7M - $0.75M servicing = $7.56M spread).
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
@@ -137,7 +137,7 @@ export default function HowItWorks() {
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
-                Each tranche requires $100M warehouse capital to purchase Bitcoin inventory ($100M in Bitcoin backs $100M in financed amounts at 1.92x multiplier = $192M total payment obligations). During 60-90 day pre-bond loan seasoning: borrowers pay 15% APR. Post-bond sale: $90M returns to warehouse, $10M equity stays locked in SPV, $2M issuance fee paid to BTC Now GP. Capital recycles for sequential origination of next tranche.
+                Each tranche requires $100M warehouse capital to purchase Bitcoin inventory ($100M in Bitcoin backs $100M in financed amounts at 1.92x multiplier = $192M total payment obligations). During 60-90 day pre-bond loan seasoning: borrowers pay 15% effective APR. Post-bond sale: $90M returns to warehouse, $10M equity stays locked in SPV, $2M issuance fee paid to BTC Now GP. Capital recycles for sequential origination of next tranche.
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
