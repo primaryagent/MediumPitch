@@ -13,7 +13,7 @@ export default function Team() {
             <h3 className="text-2xl font-bold mb-2">Marc Dumpff</h3>
             <p className="text-lg text-[#F7931A] mb-4">CEO & Capital Markets</p>
             <p className="text-base text-white/70 leading-normal">
-              Founded hedge fund in Liechtenstein at age 20. Expanded advisory/management business in Hong Kong: HK$1B+ shared capital. Developed proprietary futures trading algorithms for global clientele. Collaborated with sovereign debt issuers in Africa to structure successful financial instruments. Expertise: capital raising, institutional distribution, and algorithmic trading systems.
+              Structured sovereign debt deals, operated regulated funds under FMA/CIMA/ECB supervision, built trading infrastructure across holdings. Founded Liechtenstein hedge fund at age 20 (fastest asset management license approval in jurisdiction history). Expanded HK advisory to HK$1B+ shared capital in 6 months. Associate Partner, Noviganto & Associates (think tank advising ECB, IMF, World Bank, EU on capital markets policy). Expertise: structured finance, payment infrastructure, regulatory navigation, capital markets.
             </p>
           </div>
           
@@ -22,7 +22,7 @@ export default function Team() {
             <h3 className="text-2xl font-bold mb-2">Evan Kalimtzis</h3>
             <p className="text-lg text-[#F7931A] mb-4">Chief Investment Officer & Securitization</p>
             <p className="text-base text-white/70 leading-normal">
-              Pioneered CMO/CDO trading. Founded JP Morgan CIO's SPAR group: managed $400B investment portfolio. Established risk management, capital efficiency measurement, and ALM framework at institutional scale. Led $550M Glencore-backed multi-strategy credit hedge fund (single-name bonds, loans, structured credit products, derivatives). Currently: Senior Executive Officer & Licensed Director, CLI Middle East (ADGM).
+              25+ years in structured credit, risk management, and asset management. Managing Director and Co-Head/Founder of JP Morgan CIO's Strategic Portfolio Analytics and Risk (SPAR) group: established investment, risk management, capital efficiency measurement, and ALM framework guiding $400B investment portfolio. Managing Director, CIO Head International Risk Management at JP Morgan: established risk framework for CIO International trading divisions across ABS/RMBS, CDO/CLOs, EM, Corporate Credit, Rates. Founder and CEO of Asteri Capital: built $550M multi-strategy credit hedge fund seeded by Glencore Finance across single-name bonds, loans, structured credit products, derivatives. Managing Director, Head Structured Credit and Derivatives Proprietary Trading at Dresdner Kleinwort Wasserstein: founded and managed bank's proprietary structured credit trading group. Director, Head European Credit Strategy Research at Credit Suisse First Boston: ranked top three credit strategist in all major European polls. VP Structured Credit Products Research at Salomon Brothers: structured product modeling and credit derivative relative value. Associate Director at Bear Stearns F.A.S.T. Group: mortgage and credit modeling. Currently: Senior Executive Officer & Licensed Director, CLI Middle East (ADGM). Ph.D. Program Finance, Columbia University. M.A. Economics, Columbia University.
             </p>
           </div>
           
@@ -73,7 +73,7 @@ export default function Team() {
           
           <div className="mt-12 space-y-6">
             <p className="text-lg text-white/70 leading-normal">
-              Bilateral perspective: Been both lenders (Evan at JPM) and borrowers (Marc negotiating credit lines). Understand lender concerns from experience.
+              Operational team: 10-15 years working together across regulated funds, sovereign debt structuring, and trading infrastructure. James: CFO at Marc's Liechtenstein fund. Satish: operated Cayman fund for 10 years. Evan: co-structured deals and M&A. Alex/Korn: built trading protocols and secure communication infrastructure across holdings. Not a recruited team—proven operational partnerships executing next play.
             </p>
             
             <p className="text-lg text-white/70 leading-normal">
@@ -87,7 +87,7 @@ export default function Team() {
             <ul className="space-y-3">
               <li className="text-lg text-white/70 flex items-start gap-3">
                 <span className="text-[#F7931A] mt-1">•</span>
-                <span>Warehouse President: recruiting for post-warehouse close</span>
+                <span>Head of Credit Risk & Quantitative Models: Mateusz Goślinowski (joining upon funding close or post-launch) - 5+ years quantitative development at Standard Chartered Bank: built counterparty credit risk systems, regulatory reporting, large-scale batch computations. Led liquidity reporting system calculating behavioral cash flows over multi-billion dollar balance sheet. Software Engineer at Generation Lambda: built Axo DEX, owned order matching engine processing millions daily, developed X financial trading language compiled to Haskell and Plutus. Expertise: credit risk modeling, large-scale financial computations, functional programming (Haskell, PureScript, Rust). Double Bachelor: Mathematics and Computer Science, Warsaw University.</span>
               </li>
               <li className="text-lg text-white/70 flex items-start gap-3">
                 <span className="text-[#F7931A] mt-1">•</span>
