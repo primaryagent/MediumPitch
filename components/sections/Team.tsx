@@ -49,7 +49,7 @@ export default function Team() {
             <h3 className="text-2xl font-bold mb-2">Korneliusz Caputa</h3>
             <p className="text-lg text-[#F7931A] mb-4">Chief Technology Officer & Financial Infrastructure</p>
             <p className="text-base text-white/70 leading-normal">
-              10+ years building financial infrastructure. Developed trade execution DSL and risk management language for institutional trading systems. Full-stack high-assurance software developer. Founder: Makers' Den (software development company). Specializes: TypeScript, Node.js, AWS, Web3. MSc Computer Science: category theory, algorithms, functional programming.
+              15+ years building and leading engineering teams for financial infrastructure and high-scale systems. Co-Founder and Managing Director, Makers' Den: led CTO-level delivery for global clients across FinTech, Web3, and scalable systems. Scaled Axo.trade decentralized exchange to 10k+ daily active users. Executive advisory at Klarna: built engineering teams for shopping automation and global payment flows. Led engineering for Baloise FRI:DAY corporate venture: system architecture, delivery management, team building. Developed trade execution DSL and risk management language for institutional trading systems. Engineering leadership at Wonder.me (real-time A/V platform), Naspers Classifieds (fraud detection/risk analytics), HERE Technologies (R&D prototyping), Parkeon (IoT public transportation). Expertise: interim CTO leadership, systems architecture, team scaling, FinTech/DeFi, cloud/microservices, technical due diligence. MSc Computer Science: category theory, algorithms, functional programming.
             </p>
           </div>
           
@@ -73,7 +73,7 @@ export default function Team() {
           
           <div className="mt-12 space-y-6">
             <p className="text-lg text-white/70 leading-normal">
-              Operational team: 10-15 years working together across regulated funds, sovereign debt structuring, and trading infrastructure. James: CFO at Marc's Liechtenstein fund. Satish: operated Cayman fund for 10 years. Evan: co-structured deals and M&A. Alex/Korn: built trading protocols and secure communication infrastructure across holdings. Not a recruited team—proven operational partnerships executing next play.
+              Team has executed together 10-15 years across regulated funds, sovereign debt, and trading infrastructure.
             </p>
             
             <p className="text-lg text-white/70 leading-normal">
@@ -88,6 +88,10 @@ export default function Team() {
               <li className="text-lg text-white/70 flex items-start gap-3">
                 <span className="text-[#F7931A] mt-1">•</span>
                 <span>Head of Credit Risk & Quantitative Models: Mateusz Goślinowski (joining upon funding close or post-launch) - 5+ years quantitative development at Standard Chartered Bank: built counterparty credit risk systems, regulatory reporting, large-scale batch computations. Led liquidity reporting system calculating behavioral cash flows over multi-billion dollar balance sheet. Software Engineer at Generation Lambda: built Axo DEX, owned order matching engine processing millions daily, developed X financial trading language compiled to Haskell and Plutus. Expertise: credit risk modeling, large-scale financial computations, functional programming (Haskell, PureScript, Rust). Double Bachelor: Mathematics and Computer Science, Warsaw University.</span>
+              </li>
+              <li className="text-lg text-white/70 flex items-start gap-3">
+                <span className="text-[#F7931A] mt-1">•</span>
+                <span>Head of Securitization Infrastructure & Integration: Jonathan Thaler (joining upon funding close or post-launch) - 15+ years building mission-critical financial and enterprise infrastructure. Enterprise Architect at IGS (Swiss Social Security): leads technology strategy (SSO, IAM, Cloud migration, AI transformation) for 16 Swiss Cantons and Liechtenstein. Technical Lead at Generation Lambda: led backend team of 6 developers building Axo DEX on Cardano, ranked 3rd in trading volume, settling millions in daily volume. Developed SCADA water measurement software, transactional job scheduling systems. Expertise: enterprise architecture, financial data infrastructure between institutions, Kafka/IBM MQ message queues, API integration, audit trail systems, automated securitization workflows, high-assurance Haskell/Rust development. PhD Computer Science, University of Nottingham (pure functional programming).</span>
               </li>
               <li className="text-lg text-white/70 flex items-start gap-3">
                 <span className="text-[#F7931A] mt-1">•</span>
