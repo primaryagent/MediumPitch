@@ -6,12 +6,10 @@ const sections = [
   { id: 'hero', label: 'Hero', number: '01' },
   { id: 'what-we-do', label: 'What We Do', number: '02' },
   { id: 'market', label: 'The Market', number: '03' },
-  { id: 'moat', label: 'The Moat', number: '04' },
-  { id: 'go-to-market', label: 'Go-to-Market Strategy', number: '05' },
   {
     id: 'how-it-works',
     label: 'How It Works',
-    number: '06',
+    number: '04',
     subsections: [
       { id: 'for-borrowers', label: 'For Borrowers' },
       { id: 'for-investors', label: 'For Investors' },
@@ -19,12 +17,15 @@ const sections = [
       { id: 'unit-economics', label: 'Unit Economics' }
     ]
   },
-  { id: 'revenue', label: 'Revenue Model', number: '07' },
+  { id: 'revenue', label: 'Revenue Model', number: '05' },
+  { id: 'capital', label: 'Capital Structure', number: '06' },
+  { id: 'moat', label: 'The Moat', number: '07' },
   { id: 'team', label: 'Team', number: '08' },
-  { id: 'capital', label: 'Capital Structure', number: '09' },
-  { id: 'what-this-achieves', label: 'What This $7M Achieves', number: '10' },
-  { id: 'ask', label: 'The Ask', number: '11' },
-  { id: 'projections', label: 'Financial Projections', number: '12' },
+  { id: 'go-to-market', label: 'Go-to-Market Strategy', number: '09' },
+  { id: 'growth-model', label: 'Growth Model & Referral Economics', number: '10' },
+  { id: 'what-this-achieves', label: 'What This $7M Achieves', number: '11' },
+  { id: 'ask', label: 'The Ask', number: '12' },
+  { id: 'projections', label: 'Financial Projections', number: '13' },
 ];
 
 export default function MobileMenu() {

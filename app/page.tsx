@@ -7,6 +7,7 @@ import WhatWeDo from '@/components/sections/WhatWeDo';
 import Market from '@/components/sections/Market';
 import Moat from '@/components/sections/Moat';
 import GoToMarket from '@/components/sections/GoToMarket';
+import GrowthModel from '@/components/sections/GrowthModel';
 import HowItWorks from '@/components/sections/HowItWorks';
 import RevenueModel from '@/components/sections/RevenueModel';
 import Team from '@/components/sections/Team';
@@ -49,6 +50,7 @@ export default function Home() {
         <Market />
         <Moat />
         <GoToMarket />
+        <GrowthModel />
         <HowItWorks />
         <RevenueModel />
         <Team />
