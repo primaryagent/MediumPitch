@@ -56,9 +56,18 @@ export default function Team() {
           {/* James Alder */}
           <div className="p-6 rounded-lg border border-white/10">
             <h3 className="text-2xl font-bold mb-2">James Alder</h3>
-            <p className="text-lg text-[#F7931A] mb-4">Chief Operating Officer & Regulatory Strategy</p>
+            <p className="text-lg text-[#F7931A] mb-4">Chief Operating Officer & Capital Markets</p>
             <p className="text-base text-white/70 leading-normal">
-              Founded Cayman Islands-based Forex trading fund. Established Liechtenstein fund structure with EU regulatory compliance. 15+ years building operational infrastructure for cross-border financial products: fund administration, SPV structuring, multi-jurisdictional regulatory navigation, and offshore entity management. Managed regulatory relationships with CIMA (Cayman), FMA (Liechtenstein), and EU supervisory authorities.
+              30+ years structuring funding facilities and cross-border financial products. Structured major credit lines with National Bank of Australia (Yorkshire Bank), Svenska Handelsbanken, Guinness Mahon. Built 1M+ sq ft commercial developments across UK. Founded Cayman Islands hedge fund (Select Global International); established Liechtenstein regulated fund structures with EU compliance. CFO Satori Group: managed institutional relationships with CAIAC Fund Management (Liechtenstein), IFOS International Funds Service, ISP Group. Director Berkeley House Investments: regulated alternative investment funds. Managed regulatory relationships with CIMA (Cayman), FMA (Liechtenstein), Central Bank of Ireland, FCA, EU supervisory authorities. Expertise: institutional banking relationships, offshore fund structuring, warehouse facility negotiation, SPV setup, multi-jurisdictional regulatory compliance.
+            </p>
+          </div>
+          
+          {/* Satish Wadhani */}
+          <div className="p-6 rounded-lg border border-white/10">
+            <h3 className="text-2xl font-bold mb-2">Satish Wadhani</h3>
+            <p className="text-lg text-[#F7931A] mb-4">Head of Fund Operations & Administration</p>
+            <p className="text-base text-white/70 leading-normal">
+              10+ years structuring and operating regulated investment funds. Established Cayman Islands regulated mutual fund: full structuring, registration, operational launch. Managed fund administrators (MUFG, CIBC), legal counsel (Simmons & Simmons, Maples Group), auditors (KPMG, BDO), and service provider ecosystem. Led suspension, liquidation, and termination of UCITS umbrella (Central Bank of Ireland, FCA oversight). Daily NAV calculations, trade reconciliations, investor reporting, and audit preparation. Raised AUM and managed LP investor relations across multiple jurisdictions. Expertise: GP/LP fund structuring, warehouse administration, regulatory compliance, service provider coordination, investor relations.
             </p>
           </div>
           
