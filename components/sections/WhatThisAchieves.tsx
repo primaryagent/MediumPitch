@@ -14,43 +14,10 @@ export default function WhatThisAchieves() {
               <span className="text-white/40">→</span>
               Platform Status
             </h3>
-            <p className="text-xl text-white/80 leading-relaxed mb-4">The platform is operational with 5-minute KYC/credit approvals, 4-week custody integration timeline, and Stripe payment rails. Legal structure confirmed by Stinson.</p>
-            <p className="text-xl text-white/80 leading-relaxed">Built entirely with founder capital, with $1.5M additional commitment in reserve.</p>
+            <p className="text-xl text-white/80 leading-relaxed mb-4">The platform is operational with 5-minute KYC/credit approvals, custody integration done end of November, and Stripe payment rails. Legal structure confirmed by Stinson.</p>
+            <p className="text-xl text-white/80 leading-relaxed">Built entirely with founder capital, with $1.5M additional founder commitment in reserve.</p>
           </div>
           
-          {/* What $7M Achieves */}
-          <div id="what-7m-achieves">
-            <h3 className="text-3xl font-bold leading-tight mb-8 flex items-center gap-3">
-              <span className="text-white/40">→</span>
-              What $7M Achieves
-            </h3>
-            
-            <p className="text-2xl font-bold text-[#F7931A] leading-snug mb-8">This $7M accelerates market capture:</p>
-            
-            <ol className="space-y-6 mb-8">
-              <li className="text-lg text-white/70 leading-normal">
-                  <span className="text-[#F7931A] font-bold">1. Bitcoin Conference 2026 live launch</span> ($1M) - Main stage announcement with real loans funded on Day 1. Confirmed Bloomberg, Fox, and CNBC coverage reaching 50K attendees and 250+ institutions on-site. This is live origination, not a demo.
-              </li>
-              <li className="text-lg text-white/70 leading-normal">
-                  <span className="text-[#F7931A] font-bold">2. Warehouse LP roadshow</span> ($1.5M) - Roadshow begins Q1 2026 to close $150M warehouse Q2 2026. Conference live origination creates leverage. First LP receives 20% BTC Now equity (economics in Capital Structure section 06).
-              </li>
-              <li className="text-lg text-white/70 leading-normal">
-                  <span className="text-[#F7931A] font-bold">3. A+ product/design talent</span> ($2M) - Build exceptional user experience beyond functional minimum with UI/UX designed to convert.
-              </li>
-              <li className="text-lg text-white/70 leading-normal">
-                  <span className="text-[#F7931A] font-bold">4. Operating runway + scale</span> ($2.5M) - 18 months of runway to reach $100M+ origination volume, including security hardening and team expansion.
-              </li>
-            </ol>
-
-            <p className="text-lg text-white/70 leading-normal mb-4">
-              <strong className="text-white">Current stage:</strong> Platform operational. Launching with or without VC. Raising to launch big.
-            </p>
-
-            <p className="text-lg text-white/70 leading-normal">
-              $7M raise at $40M post-money reflects pre-revenue risk. Conference MVP launch changes valuation overnight.
-            </p>
-          </div>
-
           {/* Launch Milestones */}
           <div id="launch-milestones">
             <h3 className="text-3xl font-bold leading-tight mb-8 flex items-center gap-3">
@@ -125,10 +92,13 @@ export default function WhatThisAchieves() {
                   Custody fee economics:
                 </p>
                 <p className="text-lg text-white/70 leading-normal mb-3">
-                  <strong className="text-white">Pre-bond (loans in warehouse):</strong> Warehouse pays 0.25% custody fees to custodian plus 0.25% loan servicing fees to BTC Now GP, totaling 0.5% warehouse operating expense.
+                  Fireblocks Trust custody locked at 4 basis points (0.04% annual) - significantly below institutional standard of 20-25 bps.
+                </p>
+                <p className="text-lg text-white/70 leading-normal mb-3">
+                  <strong className="text-white">Pre-bond (loans in warehouse):</strong> Warehouse pays 0.04% custody fees to Fireblocks plus 0.25% loan servicing fees to BTC Now GP, totaling 0.29% warehouse operating expense.
                 </p>
                 <p className="text-lg text-white/70 leading-normal">
-                  <strong className="text-white">Post-bond (loans in SPV):</strong> Bond SPV pays BTC Now GP 0.5% servicing fee, from which BTC Now pays custody costs (~0.25%) and retains ~0.25% net margin.
+                  <strong className="text-white">Post-bond (loans in SPV):</strong> Bond SPV pays BTC Now GP 0.5% servicing fee, from which BTC Now pays custody costs (0.04%) and retains 0.46% net servicing margin. Superior economics vs. industry standard ~0.25% margin.
                 </p>
               </div>
               <p className="text-lg text-white/70 leading-normal mb-2">Budget: $500K for custody integration (included in operating runway), covering API work, insurance, and testing.</p>
@@ -363,15 +333,18 @@ export default function WhatThisAchieves() {
                 </ul>
               </div>
             </div>
-
-            <p className="text-2xl font-bold text-[#F7931A] leading-snug mb-4">
-              Either way, we execute.
+          </div>
+          
+          {/* Final Closing */}
+          <div className="mt-16 p-8 rounded-lg border-2 border-[#F7931A] bg-[#F7931A]/10 text-center">
+            <p className="text-3xl font-bold text-white mb-6">
+              We launch April 27, 2026.
             </p>
-            <p className="text-xl text-white/80 leading-relaxed mb-6">
-              The question is: do you want seed-stage pricing or Series A pricing?
+            <p className="text-2xl text-white/90 mb-6">
+              With or without venture capital.
             </p>
-            <p className="text-lg text-white/70 leading-normal">
-              The $7M at $40M post-money valuation reflects pre-revenue risk. The conference proof-of-concept changes that valuation overnight.
+            <p className="text-xl text-white/80 leading-relaxed">
+              The question is: do you want seed-stage pricing at $40M post, or Series A pricing after we prove demand?
             </p>
           </div>
         </div>

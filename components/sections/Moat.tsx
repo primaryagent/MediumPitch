@@ -82,27 +82,11 @@ export default function Moat() {
               <div>
                 <h4 className="text-2xl font-semibold leading-snug mb-4">Self-healing warehouse:</h4>
                 <p className="text-lg text-white/70 leading-normal mb-6">
-                  Three-layer capital advantage. Defaults regenerate performing assets.
-                </p>
-                
-                <p className="text-lg text-white/70 leading-normal mb-4">
-                  <strong className="text-white">Layer 1:</strong> Keep all payments collected before default. No clawback. If a borrower defaults after paying $58K, we keep $58K.
-                </p>
-                
-                <p className="text-lg text-white/70 leading-normal mb-4">
-                  <strong className="text-white">Layer 2:</strong> Bitcoin maintains deep market liquidity at recovery. Cars depreciate 20-40% between purchase and repossession. Bitcoin can be liquidated at market rate on recovery date through deep, 24/7 liquidity, regardless of price volatility.
-                </p>
-                
-                <p className="text-lg text-white/70 leading-normal mb-6">
-                  <strong className="text-white">Layer 3:</strong> Reissue without fresh capital. New origination fees. New 10-year payment streams. $0 capital deployed.
+                  Three-layer capital advantage makes defaults regenerate performing assets instead of depleting capital. This reduces effective LGD vs. traditional consumer lending by 50-70% (detailed in Capital Structure section 06).
                 </p>
                 
                 <p className="text-lg text-white/70 leading-normal mb-6">
                   <strong className="text-white">Result:</strong> Defaults that occur after 3+ years can be economically neutral or accretive to warehouse. Traditional lenders lose capital permanently on every default.
-                </p>
-                
-                <p className="text-lg text-[#F7931A] font-semibold leading-normal mb-6">
-                  Reduces effective LGD vs. traditional consumer lending: 25-40% reduction from non-depreciating collateral alone, 50-70% when including all three layers (retained payments + collateral recovery at market value + reissuance economics). The retained payments layer changes the math entirely.
                 </p>
                 
                 <p className="text-lg text-white/70 leading-normal mb-4">
@@ -131,7 +115,7 @@ export default function Moat() {
               <div>
                 <h4 className="text-2xl font-semibold leading-snug mb-4">Capital efficiency at scale:</h4>
                 <p className="text-lg text-white/70 leading-normal mb-6">
-                  The platform becomes profitable at $100M in originations. Banks need $500M-$1B to justify their overhead (15-20% ROE hurdles), giving us a structural cost advantage at smaller scale.
+                  Structural cost advantage at smaller scale. Banks require $500M-$1B volumes to justify overhead and 15-20% ROE hurdles. We operate profitably at sub-$200M scale.
                 </p>
                 <p className="text-lg text-white/70 leading-normal">
                   Goldman Sachs rationally chooses to buy our bonds at 8% rather than build origination infrastructure for sub-$200M volumes. If we succeed, acquisition becomes the rational outcome.

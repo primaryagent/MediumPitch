@@ -37,9 +37,16 @@ export default function Ask() {
               </div>
               
               <div className="p-6 rounded-lg border border-white/10">
-                <h4 className="text-2xl font-semibold leading-snug mb-4">$2M - A+ Product/Design Talent</h4>
+                <h4 className="text-2xl font-semibold leading-snug mb-4">$1M - A+ Product/Design Talent</h4>
                 <p className="text-lg text-white/70 leading-normal">
                   Platform is operational. This budget hires exceptional UI/UX talent to create world-class user experience beyond functional minimum. Design that converts.
+                </p>
+              </div>
+              
+              <div className="p-6 rounded-lg border border-white/10">
+                <h4 className="text-2xl font-semibold leading-snug mb-4">$1M - State Licensing (50 States)</h4>
+                <p className="text-lg text-white/70 leading-normal">
+                  All 50 state loan originator licenses within 6 months. While our payment plan structure may not require state licensing, front-running this eliminates potential regulatory challenges and legal headaches down the line. Positions us for seamless nationwide expansion.
                 </p>
               </div>
               
@@ -55,7 +62,7 @@ export default function Ask() {
                   </li>
                   <li className="text-base text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
-                    <span>Legal/compliance: $500-750K (entity formation, SEC review, BSA/AML, state compliance)</span>
+                    <span>Marketing: $500-750K (X ads, social media campaigns, influencer partnerships, brand awareness)</span>
                   </li>
                   <li className="text-base text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
@@ -84,28 +91,6 @@ export default function Ask() {
             </div>
           </div>
           
-          {/* Customer Acquisition Strategy */}
-          <div>
-            <h3 className="text-4xl font-bold leading-tight mb-8">Customer Acquisition Strategy</h3>
-            <div className="space-y-6">
-              <p className="text-lg text-white/70 leading-normal">
-                <strong className="text-white">Launch event:</strong> Bitcoin Conference 2026 (April 27, Las Vegas) - 50,000+ attendees, concentrated audience of high-intent Bitcoin buyers.
-              </p>
-              
-              <p className="text-lg text-white/70 leading-normal">
-                <strong className="text-white">Referral program:</strong> Pay referrers amount equal to customer's first installment payment (one-time). Enables YouTube creators, X accounts, and influencers to monetize Bitcoin content while driving customer acquisition. Zero upfront marketing spend - referral fees paid from collected revenue.
-              </p>
-              
-              <p className="text-lg text-white/70 leading-normal">
-                Viral mechanics: High-ticket items ($50K+ loans) with generous one-time referral payments ($800-$3,200+ per customer) create strong incentive for crypto influencers to promote product.
-              </p>
-              
-              <p className="text-lg text-white/70 leading-normal">
-                Platform operational. Conference creates warehouse closing leverage. Scale to $100M+ origination over 18 months.
-              </p>
-            </div>
-          </div>
-          
           {/* Leverage Path */}
           <div>
             <h3 className="text-4xl font-bold leading-tight mb-8">Leverage Path</h3>
@@ -127,7 +112,7 @@ export default function Ask() {
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] font-semibold min-w-[2rem]">2.</span>
-                    <span>Custody complete Nov 2025, GP/LP structure Dec 2025</span>
+                    <span>Custody integration Dec 2025, GP/LP structure Dec 2025</span>
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] font-semibold min-w-[2rem]">3.</span>
@@ -248,19 +233,6 @@ export default function Ask() {
                 Minimum dilution expected going forward. Revenue from first tranches funds operations indefinitely.
               </p>
             </div>
-          </div>
-          
-          {/* Final Closing */}
-          <div className="mt-16 p-8 rounded-lg border-2 border-[#F7931A] bg-[#F7931A]/10 text-center">
-            <p className="text-3xl font-bold text-white mb-6">
-              We launch April 27, 2026.
-            </p>
-            <p className="text-2xl text-white/90 mb-6">
-              With or without venture capital.
-            </p>
-            <p className="text-xl text-white/80 leading-relaxed">
-              The question is: do you want seed-stage pricing at $40M post, or Series A pricing after we prove demand?
-            </p>
           </div>
         </div>
       </div>
