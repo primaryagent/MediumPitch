@@ -2,7 +2,7 @@ export default function WhatThisAchieves() {
   return (
     <section id="what-this-achieves" className="py-24 border-b border-white/5">
       <div className="max-w-4xl mx-auto px-6 lg:px-8">
-        <div className="text-sm font-mono text-[#F7931A] mb-6">11</div>
+        <div className="text-sm font-mono text-[#F7931A] mb-6">12</div>
         <h2 className="text-4xl md:text-5xl font-bold leading-tight tracking-tight mb-16">
           What This $7M Achieves
         </h2>
@@ -32,7 +32,7 @@ export default function WhatThisAchieves() {
                   <span className="text-[#F7931A] font-bold">1. Bitcoin Conference 2026 live launch</span> ($1M) - Main stage announcement with real loans funded on Day 1. Confirmed Bloomberg, Fox, and CNBC coverage reaching 50K attendees and 250+ institutions on-site. This is live origination, not a demo.
               </li>
               <li className="text-lg text-white/70 leading-normal">
-                  <span className="text-[#F7931A] font-bold">2. Warehouse LP roadshow</span> ($1.5M) - Roadshow begins Q1 2026. Conference live origination creates leverage to close remaining commitments. Target: $150M closed Q2 2026. First LP receives 20% BTC Now equity for warehouse commitment. Warehouse economics: 10% preferred return to LP, then 50/50 profit split above 10% hurdle with high-water mark protection.
+                  <span className="text-[#F7931A] font-bold">2. Warehouse LP roadshow</span> ($1.5M) - Roadshow begins Q1 2026 to close $150M warehouse Q2 2026. Conference live origination creates leverage. First LP receives 20% BTC Now equity (economics in Capital Structure section 06).
               </li>
               <li className="text-lg text-white/70 leading-normal">
                   <span className="text-[#F7931A] font-bold">3. A+ product/design talent</span> ($2M) - Build exceptional user experience beyond functional minimum with UI/UX designed to convert.
@@ -59,7 +59,7 @@ export default function WhatThisAchieves() {
             </h3>
             
             <p className="text-lg text-white/70 leading-normal mb-8">
-              <strong className="text-white">Timeline:</strong> Custody complete November 2025. GP/LP structure December 2025. Warehouse roadshow begins Q1 2026. April 27, 2026 launch. $150M warehouse closed Q2 2026. First securitization Q3 2026.
+              <strong className="text-white">Timeline:</strong> Legal opinion to proceed November 2025. Custody integration complete December 2025. GP/LP structure December 2025. Warehouse roadshow begins Q1 2026. April 27, 2026 launch. $150M warehouse closed Q2 2026. First securitization Q3 2026.
             </p>
 
             {/* Legal Structure */}
@@ -93,7 +93,7 @@ export default function WhatThisAchieves() {
                 Roadshow begins Q1 2026, targeting commitments before conference. Conference live origination provides leverage to close remaining commitments through institutional proof-of-concept and media coverage.
               </p>
               <p className="text-lg text-white/70 leading-normal mb-4">
-                Preliminary discussions underway with family offices and Bitcoin whales. First LP receives 20% BTC Now equity for warehouse commitment. Warehouse economics: 10% preferred return to LP, then 50/50 profit split above 10% hurdle with high-water mark protection.
+                Preliminary discussions underway with family offices and Bitcoin whales. First LP receives 20% BTC Now equity (terms in Capital Structure section 06).
               </p>
               <p className="text-lg text-white/70 leading-normal mb-4">
                 Conference creates negotiating leverage through live loan origination as proof, Bloomberg coverage for credibility, and institutional meetings over Days 1-4 building a warm pipeline.
@@ -110,15 +110,15 @@ export default function WhatThisAchieves() {
 
             {/* Custody */}
             <div className="mb-8">
-              <h4 className="text-2xl font-semibold leading-snug mb-4">Custody partnerships:</h4>
+              <h4 className="text-2xl font-semibold leading-snug mb-4">Custody integration:</h4>
               <p className="text-lg text-white/70 leading-normal mb-4">
-                <strong className="text-white">Status: Complete end of November 2025.</strong>
+                <strong className="text-white">Status: Legal opinion to proceed November 2025. Integration complete December 2025.</strong>
               </p>
               <p className="text-lg text-white/70 leading-normal mb-4">
-                Targeting Coinbase Custody, Anchorage Digital, or BitGo for standard institutional custody at ~0.25% AUM with established pricing, insurance arrangements, and technical documentation.
+                Fireblocks Trust provides institutional custody with dedicated Bitcoin addresses for each customer. No pooling of assets. Customers view their Bitcoin and wallet address in the app.
               </p>
               <p className="text-lg text-white/70 leading-normal mb-4">
-                Integration timeline: 4-6 weeks through standard service agreement, similar to opening a bank account.
+                Integration timeline: 4-6 weeks through standard service agreement.
               </p>
               <div className="p-6 rounded-lg border border-white/10 mb-4">
                 <p className="text-lg font-semibold mb-3">
@@ -132,7 +132,7 @@ export default function WhatThisAchieves() {
                 </p>
               </div>
               <p className="text-lg text-white/70 leading-normal mb-2">Budget: $500K for custody integration (included in operating runway), covering API work, insurance, and testing.</p>
-              <p className="text-lg text-white/70 leading-normal">Complete end of November 2025.</p>
+              <p className="text-lg text-white/70 leading-normal">Legal opinion to proceed November 2025. Integration complete December 2025.</p>
             </div>
 
             {/* GP/LP Structure */}
@@ -312,7 +312,6 @@ export default function WhatThisAchieves() {
               Why We're Raising
             </h3>
             
-            <p className="text-xl text-white/80 leading-relaxed mb-4">The platform is built, legal is confirmed, and we have $1.5M in founder capital reserved.</p>
             <p className="text-2xl font-bold text-[#F7931A] leading-snug mb-8">We launch in April 2026 with or without VC funding.</p>
 
             <div className="grid md:grid-cols-2 gap-6 mb-8">

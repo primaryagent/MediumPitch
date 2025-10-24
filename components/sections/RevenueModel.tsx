@@ -15,7 +15,7 @@ export default function RevenueModel() {
           {/* BTC Now (GP) Revenue */}
           <div>
             <h3 className="text-4xl font-bold leading-tight mb-8">BTC Now (GP) Revenue</h3>
-            <p className="text-xl text-white/80 mb-6">Per Tranche (each requires $100M in Bitcoin inventory):</p>
+            <p className="text-xl text-white/80 mb-6">Per Tranche (each tranche requires $100M warehouse capital to originate):</p>
             
             <div className="space-y-8">
               <div>
@@ -65,7 +65,7 @@ export default function RevenueModel() {
           {/* Warehouse Fund Revenue */}
           <div>
             <h3 className="text-4xl font-bold leading-tight mb-8">Warehouse Fund Revenue</h3>
-            <p className="text-xl text-white/80 mb-6">Per Tranche (each requires $100M in Bitcoin inventory):</p>
+            <p className="text-xl text-white/80 mb-6">Per Tranche (each tranche requires $100M warehouse capital to originate):</p>
             
             <div className="space-y-8">
               <div>
@@ -73,7 +73,7 @@ export default function RevenueModel() {
                 <ul className="space-y-3">
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
-                    <span>Spread capture: $7.56M annually. Calculation: Borrowers pay installment pricing equivalent to 15% effective APR on $100M financed amount = $15M annually. Bonds pay 7.44% weighted coupon on $90M bonds = $6.7M annually. Loan + bond servicing = $0.75M. Warehouse captures $15M - $6.7M - $0.75M = $7.56M annual spread. $75.6M per tranche over 10 years.</span>
+                    <span>Spread capture: $7.56M annually. Calculation: Borrowers pay installment pricing equivalent to 15% effective APR on $100M financed amount = $15M annually. Bonds pay 7.44% weighted coupon on $90M bonds = $6.7M annually. Loan + bond servicing = $0.75M. Warehouse captures $15M - $6.7M - $0.75M = $7.56M annual spread. $75.6M per tranche over 10 years. Return on locked capital: With only $10M equity tranche locked in SPV per tranche, this represents 75.6% annual return on committed capital.</span>
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
@@ -153,7 +153,7 @@ export default function RevenueModel() {
               <div className="flex gap-3">
                   <span className="text-[#F7931A] mt-1">•</span>
                   <p className="text-white/70">
-                    <span className="font-semibold text-white">Capacity:</span> $150M warehouse supports 12 outstanding tranches over time through sequential origination and capital recycling. Each tranche locks $10M equity in SPV (12 tranches = $120M total locked) and generates $2M issuance fee to GP. Trajectory assumes sequential origination, accounting for demand generation and bond placement cycles.
+                    <span className="font-semibold text-white">Capacity:</span> $150M warehouse supports 12 outstanding tranches ($10M equity locked per tranche). Trajectory assumes sequential origination, accounting for demand generation and bond placement cycles.
                   </p>
               </div>
                 
@@ -231,7 +231,7 @@ export default function RevenueModel() {
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
-                Self-healing warehouse: Keep payments collected before default + recover Bitcoin at market value + reissue without fresh capital. Generates incremental origination fees and reduces effective LGD vs. traditional consumer lending (25-40% from non-depreciating collateral alone, 50-70% including all three protection layers). Reduces dependency on fresh LP capital for growth.
+                Self-healing warehouse reduces effective LGD vs. traditional consumer lending (25-40% from non-depreciating collateral, 50-70% including all recovery layers). Details in Capital Structure section 06.
               </p>
             </div>
           </div>

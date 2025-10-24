@@ -66,7 +66,7 @@ export default function Moat() {
                   </li>
                   <li className="text-lg text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
-                    <span>Higher capital velocity: Same $150M warehouse supports $1.2B in bond originations (12 tranches × $100M)</span>
+                    <span>Higher capital velocity: $150M warehouse supports $1.2B in bond capacity</span>
                   </li>
                 </ul>
 

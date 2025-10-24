@@ -2,7 +2,7 @@ export default function Ask() {
   return (
     <section id="ask" className="py-24 border-b border-white/5">
       <div className="max-w-4xl mx-auto px-6 lg:px-8">
-        <div className="text-sm font-mono text-[#F7931A] mb-6">12</div>
+        <div className="text-sm font-mono text-[#F7931A] mb-6">11</div>
         <h2 className="text-4xl md:text-5xl font-bold leading-tight tracking-tight mb-16">
           The Ask
         </h2>
@@ -32,7 +32,7 @@ export default function Ask() {
               <div className="p-6 rounded-lg border border-white/10">
                 <h4 className="text-2xl font-semibold leading-snug mb-4">$1.5M - Warehouse LP Roadshow</h4>
                 <p className="text-lg text-white/70 leading-normal">
-                  Roadshow begins Q1 2026 to close $150M warehouse. Conference live origination creates leverage to close remaining commitments. First LP receives 20% BTC Now equity for warehouse commitment. Warehouse economics: 10% preferred return to LP, then 50/50 profit split above 10% hurdle with high-water mark protection.
+                  Roadshow begins Q1 2026 to close $150M warehouse. Conference live origination creates leverage to close remaining commitments. First LP receives 20% BTC Now equity for warehouse commitment (warehouse economics in Capital Structure section 06).
                 </p>
               </div>
               
@@ -59,7 +59,7 @@ export default function Ask() {
                   </li>
                   <li className="text-base text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
-                    <span>Custody integration: $500K (API work, insurance, testing - complete Nov 2025)</span>
+                    <span>Custody integration: $500K (API work, insurance, testing - legal opinion Nov 2025, integration complete Dec 2025)</span>
                   </li>
                   <li className="text-base text-white/70 flex items-start gap-3">
                     <span className="text-[#F7931A] mt-1">•</span>
@@ -115,11 +115,7 @@ export default function Ask() {
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
-                8x leverage on warehouse capital ($1.2B bonds / $150M warehouse capital). The $1.2B in bonds originates over time through sequential deployment: $150M warehouse capital recycles to originate 12 tranches, each locking $10M equity in SPV (12 tranches = $120M total locked) + $7M seed equity funding GP operations.
-              </p>
-              
-              <p className="text-lg text-white/70 leading-normal">
-                Capital efficiency story: $7M seed equity enables access to $150M warehouse facility, which generates $1.2B in bond origination capacity over time through sequential deployment and capital recycling.
+                8x leverage: $7M seed equity → $150M warehouse → $1.2B bond capacity. Mechanics detailed in Capital Structure section 06.
               </p>
               
               <div className="p-6 rounded-lg border border-white/10">
@@ -249,7 +245,7 @@ export default function Ask() {
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
-                Minimum dilution expected going forward. $150M warehouse supports 12 outstanding tranches over time through sequential origination and capital recycling. Each tranche locks $10M equity in SPV and generates $2M issuance fee to GP. Revenue from first tranches funds operations indefinitely.
+                Minimum dilution expected going forward. Revenue from first tranches funds operations indefinitely.
               </p>
             </div>
           </div>

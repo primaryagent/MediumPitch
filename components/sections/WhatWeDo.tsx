@@ -9,11 +9,11 @@ export default function WhatWeDo() {
         
         <div className="space-y-8">
           <p className="text-xl text-white/80 leading-relaxed">
-            We offer Bitcoin installment plans with installment purchase pricing equivalent to 15% effective APR over 10-year terms and zero margin call risk. Borrowers own their Bitcoin from day one, held in institutional custody (Coinbase/Anchorage) with transfer restrictions until final payment. Monthly payments remain fixed regardless of Bitcoin's price. Each Bitcoin installment plan receives dedicated account management infrastructure for seamless payments. Consumers maintain the same account number even as loans transfer to bond SPVs, ensuring uninterrupted payment processing.
+            We offer Bitcoin installment plans with installment purchase pricing equivalent to 15% effective APR over 10-year terms and zero margin call risk. Borrowers own their Bitcoin from day one, held in institutional custody (Fireblocks Trust) with transfer restrictions until final payment. Each customer receives a dedicated Bitcoin address to view the Bitcoin they purchased through the installment plan. No pooling of assets. You can see your Bitcoin and wallet address directly in the app. Monthly payments remain fixed regardless of Bitcoin's price.
           </p>
           
           <p className="text-xl text-white/80 leading-relaxed">
-            We package these loans into tranches and securitize them as Bitcoin-Backed Securities (BBS) - AAA and BBB-rated bonds paying 7-9% coupons to institutional investors. Each tranche requires $100M in Bitcoin inventory to originate loans, generating a $7.56M annual spread per tranche ($75.6M over 10 years), creating the first securitized Bitcoin installment credit product that delivers fixed interest to bond investors.
+            We securitize $100M face value Bitcoin installment plans into Bitcoin-Backed Securities (BBS). AAA tranche pays 7% coupon, BBB tranche pays 9% coupon. Each tranche generates $7.56M annual spread ($75.6M over 10 years). First securitized Bitcoin installment credit product delivering fixed interest to institutional bond investors.
           </p>
           
           <p className="text-xl text-white/80 leading-relaxed">

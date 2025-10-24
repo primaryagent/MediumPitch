@@ -54,8 +54,8 @@ export default function Home() {
         <Team />
         <GoToMarket />
         <GrowthModel />
-        <WhatThisAchieves />
         <Ask />
+        <WhatThisAchieves />
       </main>
     </>
   );

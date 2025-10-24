@@ -13,7 +13,6 @@ const sections = [
     subsections: [
       { id: 'for-borrowers', label: 'For Borrowers' },
       { id: 'for-investors', label: 'For Investors' },
-      { id: 'capital-efficiency', label: 'Capital Efficiency' },
       { id: 'unit-economics', label: 'Unit Economics' }
     ]
   },
@@ -23,9 +22,8 @@ const sections = [
   { id: 'team', label: 'Team', number: '08' },
   { id: 'go-to-market', label: 'Go-to-Market Strategy', number: '09' },
   { id: 'growth-model', label: 'Growth Model & Referral Economics', number: '10' },
-  { id: 'what-this-achieves', label: 'What This $7M Achieves', number: '11' },
-  { id: 'ask', label: 'The Ask', number: '12' },
-  { id: 'projections', label: 'Financial Projections', number: '13' },
+  { id: 'ask', label: 'The Ask', number: '11' },
+  { id: 'what-this-achieves', label: 'What This $7M Achieves', number: '12' },
 ];
 
 export default function Sidebar() {

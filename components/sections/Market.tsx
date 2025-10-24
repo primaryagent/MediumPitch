@@ -59,7 +59,7 @@ export default function Market() {
             </p>
             <div className="space-y-6">
               <p className="text-lg text-white/70 leading-normal">
-                <strong className="text-white">Personal loans</strong> prohibit investment use - covenant violations trigger immediate full repayment demands.
+                <strong className="text-white">Personal loans</strong> prohibit investment use - covenant violations trigger immediate full repayment demands. Personal loans typically offer 3-5 year terms (rarely 7 years, never 10+ years). Short duration compounds credit score damage from high utilization.
               </p>
               <p className="text-lg text-white/70 leading-normal">
                 <strong className="text-white">HELOCs</strong> require 20% home equity that young high-income earners ($100K-$175K salaries, FICO 720+) haven't yet accumulated.
@@ -83,7 +83,7 @@ export default function Market() {
                 Installment purchase pricing equivalent to 15% effective APR reflects lender risk while providing the only non-liquidatable Bitcoin credit option in market. We are price makers, not price takers - zero competition exists for this structure.
               </p>
               <p className="text-lg text-white/70 leading-normal">
-                <strong className="text-white">Pricing flexibility:</strong> Beta will validate pricing sensitivity across customer segments. If 15% effective APR meets resistance, we can adjust pricing while maintaining profitable spreads. Our structure supports effective APRs from 12-18% (generating 4.56%-10.56% spreads over 7.44% weighted bond coupon). This flexibility allows us to optimize for customer demand, competitive positioning, and bond investor returns.
+                <strong className="text-white">Pricing flexibility:</strong> At launch, we will validate pricing sensitivity across customer segments. If 15% effective APR meets resistance, we can adjust pricing while maintaining profitable spreads. Our structure supports effective APRs from 12-18% (generating 4.56%-10.56% spreads over 7.44% weighted bond coupon). This flexibility allows us to optimize for customer demand, competitive positioning, and bond investor returns.
               </p>
               <blockquote className="border-l-4 border-[#F7931A] pl-6 py-2 mt-6">
                 <p className="text-2xl font-bold text-white leading-snug">

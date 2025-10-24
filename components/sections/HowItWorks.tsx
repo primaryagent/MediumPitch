@@ -38,7 +38,7 @@ export default function HowItWorks() {
               
               <div className="space-y-4">
                 <p className="text-lg text-white/70 leading-normal">
-                  <strong className="text-white">Ownership & Custody:</strong> Your Bitcoin is held in institutional custody under your name from day one, with transfer restrictions until final payment.
+                  <strong className="text-white">Ownership & Custody:</strong> Your Bitcoin is held in institutional custody (Fireblocks Trust) under your name from day one, with transfer restrictions until final payment. Each customer receives a dedicated Bitcoin address to view the Bitcoin they purchased through the installment plan. No pooling of assets. You can see your Bitcoin and wallet address directly in the app.
                 </p>
                 
                 <p className="text-lg text-white/70 leading-normal">
@@ -46,17 +46,13 @@ export default function HowItWorks() {
                 </p>
                 
               <p className="text-lg text-white/70 leading-normal">
-                <strong className="text-white">Voluntary Sale Options (Borrower-Initiated Only):</strong> Through the app, you can request to sell your Bitcoin partially or in full at any time. This option is typically exercised when Bitcoin appreciates significantly and you want to capture gains. Any excess proceeds after settling your remaining balance are returned to you. Example: You buy $100K Bitcoin via installment plan. Bitcoin appreciates to $300K. You request sale: Bitcoin sold at $300K, your remaining obligation paid off (say $150K remaining), you receive $150K profit. In downturn scenarios, your payment obligations continue regardless of Bitcoin's price (no forced sales by lenders), but voluntary sale becomes less attractive. Warehouse and bond investors can NEVER force sale. It's your Bitcoin. You control the timing. No USD refunds; complete all payments for full Bitcoin transfer rights.
+                <strong className="text-white">Voluntary Sale Options (Borrower-Initiated Only):</strong> Through the app, you can request to liquidate your position at any time. When you choose to liquidate, we sell only enough of your Bitcoin to cover your remaining installment payments—never all of it. All remaining Bitcoin (not sold, not converted to USD) is released directly to you. Example: You buy $100K Bitcoin via installment plan. Bitcoin appreciates to $300K. You request liquidation with $150K remaining on your obligation: We sell approximately $150K worth of BTC to satisfy your remaining payments, and transfer the remaining ~$150K worth of Bitcoin directly to your wallet. You receive Bitcoin, not cash. In downturn scenarios, your payment obligations continue regardless of Bitcoin's price (no forced sales by lenders), but voluntary liquidation becomes less attractive. Warehouse and bond investors can NEVER force sale. It's your Bitcoin. You control the timing. No USD refunds; complete all payments for full Bitcoin transfer rights.
               </p>
                 
                 <p className="text-lg text-[#F7931A] leading-normal font-semibold">
                   Key differentiator: Unlike margin loans that force sales during crashes, only you decide when to sell. No forced sales by lenders, ever.
                 </p>
               </div>
-              
-              <p className="text-lg text-white/70 leading-normal">
-                Bitcoin collateral represents 52% of total payment obligation: $100,000 Bitcoin backs $192,000 total obligation (1.92x payment-to-collateral ratio). This structure provides loss protection through three layers: (1) retained payments before default, (2) Bitcoin recovery at market value, (3) reissuance economics that generate fresh revenue without new capital. Unlike traditional lending where unsecured portions represent total loss, Bitcoin maintains deep market liquidity (enabling instant liquidation at current market rates rather than depreciated asset values) and reissuance capability, providing genuine loss protection even through price volatility.
-              </p>
             </div>
           </div>
           
@@ -68,7 +64,11 @@ export default function HowItWorks() {
             </h3>
             <div className="space-y-6">
               <p className="text-lg text-white/70 leading-normal">
-                Each tranche requires $100M in Bitcoin inventory and is structured as bonds:
+                Bitcoin collateral represents 52% of total payment obligation: $100,000 Bitcoin backs $192,000 total obligation (1.92x payment-to-collateral ratio). This structure provides loss protection through three layers: (1) retained payments before default, (2) Bitcoin recovery at market value, (3) reissuance economics that generate fresh revenue without new capital. Unlike traditional lending where unsecured portions represent total loss, Bitcoin maintains deep market liquidity (enabling instant liquidation at current market rates rather than depreciated asset values) and reissuance capability, providing genuine loss protection even through price volatility.
+              </p>
+              
+              <p className="text-lg text-white/70 leading-normal">
+                Each tranche is backed by $100M in Bitcoin value (measured at plan origination) and is structured as bonds:
               </p>
               <ul className="space-y-3">
                 <li className="text-lg text-white/70 flex items-start gap-3">
@@ -125,7 +125,7 @@ export default function HowItWorks() {
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
-                Equity tranche receives monthly excess spread distributions. Returns flow to warehouse fund. Funds new loan originations. Capital recycles without external raises.
+                The equity tranche receives monthly excess spread distributions that flow back to the warehouse fund. These returns fund new loan originations, creating a capital recycling mechanism that operates without external fundraising.
               </p>
               
               <p className="text-2xl font-semibold text-[#F7931A] leading-snug">
@@ -138,7 +138,7 @@ export default function HowItWorks() {
                   <strong className="text-white">Years 1-2:</strong> Issue unrated bonds to private credit buyers and institutional investors. This allows immediate market access while building 12-18 months of loan performance data.
                 </p>
                 <p className="text-lg text-white/70 leading-normal">
-                  <strong className="text-white">Years 2-3:</strong> Transition to rated bonds (AAA/BBB) with rating agency approval. Proprietary performance data showcases Bitcoin recovery/reissuance advantage, supporting higher ratings and broader institutional distribution.
+                  <strong className="text-white">Years 2-3:</strong> Transition to rated bonds (A- or better) with rating agency approval. Proprietary performance data showcases Bitcoin recovery/reissuance advantage, supporting higher ratings and broader institutional distribution. Rating reduces required interest payments to bondholders, increasing warehouse spread capture.
                 </p>
               </div>
             </div>
@@ -153,7 +153,7 @@ export default function HowItWorks() {
                   <strong className="text-[#F7931A]">Base case lifetime default rate:</strong> 8-15% over 10-year bond life.
                 </p>
                 <p className="text-lg text-white/70 leading-normal">
-                  This assumes borrowers with FICO 670+ scores purchasing Bitcoin installments. Comparable to unsecured consumer loan performance for similar credit profiles.
+                  This assumes borrowers with FICO 670+ scores purchasing Bitcoin installments. Comparable to unsecured consumer loan performance for similar credit profiles, such as credit cards or personal loans.
                 </p>
               </div>
 

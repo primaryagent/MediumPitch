@@ -45,7 +45,7 @@ export default function CapitalStructure() {
           <div>
             <h3 className="text-4xl font-bold leading-tight mb-8">Warehouse LPs</h3>
             <p className="text-lg text-white/70 leading-normal mb-6">
-              Warehouse operates as GP/LP fund structure (not debt or equity). LPs make capital commitments, receive preferred returns, and participate in profit splits above hurdle - standard private credit fund mechanics identical to Blackstone Credit, Apollo Funds, and KKR Private Credit. <strong className="text-[#F7931A]">Important:</strong> LP economics (10% preferred, 20-28% expected IRR) are designed to attract capital but subject to negotiation based on beta traction and market conditions. As a novel, pre-revenue asset class, actual warehouse terms will likely require adjustment to reflect investor risk appetite.
+              Warehouse operates as GP/LP fund structure (not debt or equity). LPs make capital commitments, receive preferred returns, and participate in profit splits above hurdle - standard private credit fund mechanics identical to Blackstone Credit, Apollo Funds, and KKR Private Credit. <strong className="text-[#F7931A]">Important:</strong> LP economics (10% preferred, 20-28% expected IRR) are designed to attract capital but subject to negotiation based on launch traction and market conditions. As a novel, pre-revenue asset class, actual warehouse terms will likely require adjustment to reflect investor risk appetite.
             </p>
             
             <div className="mb-8">
@@ -87,24 +87,24 @@ export default function CapitalStructure() {
             <div className="p-6 rounded-lg border border-white/10 mb-6">
               <p className="text-lg font-semibold mb-4">Example:</p>
               <p className="text-lg text-white/70 leading-normal">
-                $150M generates $20M annually (13.3% gross):
+                $150M warehouse at steady state (12 tranches generating $7.56M each = $90.72M gross annually):
               </p>
               <ul className="space-y-2 mt-4">
                 <li className="text-base text-white/70 flex items-start gap-3">
                   <span className="text-[#F7931A] mt-1">•</span>
-                  <span>$15M preferred (10% hurdle) → 100% to LPs</span>
+                  <span>$15M preferred (10% hurdle on $150M) → 100% to LPs</span>
                 </li>
                 <li className="text-base text-white/70 flex items-start gap-3">
                   <span className="text-[#F7931A] mt-1">•</span>
-                  <span>$5M excess - Split 50/50</span>
+                  <span>$75.72M excess ($90.72M - $15M) - Split 50/50</span>
                 </li>
                 <li className="text-base text-white/70 flex items-start gap-3">
                   <span className="text-[#F7931A] mt-1">•</span>
-                  <span>LPs receive: $17.5M (11.7% effective)</span>
+                  <span>LPs receive: $52.86M total ($15M + $37.86M = 35.24% effective return)</span>
                 </li>
                 <li className="text-base text-white/70 flex items-start gap-3">
                   <span className="text-[#F7931A] mt-1">•</span>
-                  <span>BTC Now receives: $2.5M carried interest</span>
+                  <span>BTC Now receives: $37.86M carried interest</span>
                 </li>
               </ul>
             </div>
@@ -184,12 +184,8 @@ export default function CapitalStructure() {
               Equity returns flow to warehouse fund. Creates capital recycling.
             </p>
             
-            <p className="text-lg text-white/70 leading-normal mb-6">
-              <strong className="text-white">Performance guarantee:</strong> First 12-24 months post-bond-issuance: Warehouse swaps non-performing loans (&gt;60 days delinquent) for performing loans with equal or better credit quality. Protects bond investors during loan seasoning period. Warehouse absorbs performance risk until loans demonstrate payment history.
-            </p>
-            
             <p className="text-lg text-white/70 leading-normal">
-              Self-healing warehouse sustains swap capacity: Swapped loans that default return as Bitcoin. Warehouse reissues Bitcoin as new performing loans. Swap capacity regenerates without depleting warehouse capital. Traditional lenders cannot offer sustainable swaps - each swap permanently consumes capital.
+              <strong className="text-white">Performance guarantee:</strong> First 12-24 months post-bond-issuance: Warehouse swaps non-performing loans (&gt;60 days delinquent) for performing loans with equal or better credit quality. Protects bond investors during loan seasoning period. Warehouse absorbs performance risk until loans demonstrate payment history.
             </p>
           </div>
           
@@ -198,7 +194,7 @@ export default function CapitalStructure() {
             <h3 className="text-4xl font-bold leading-tight mb-8">Capital Efficiency</h3>
             <div className="space-y-6">
               <p className="text-lg text-white/70 leading-normal">
-                $150M warehouse supports $1.2B bond origination capacity through sequential deployment (12 tranches, each requiring $100M in Bitcoin inventory).
+                $150M warehouse supports $1.2B bond origination capacity through sequential deployment (12 tranches, each requiring $100M warehouse capital for Bitcoin acquisition).
               </p>
               
               <div className="p-6 rounded-lg border border-[#F7931A] bg-[#F7931A]/5 mb-6">
@@ -215,11 +211,7 @@ export default function CapitalStructure() {
               </div>
               
               <p className="text-lg text-white/70 leading-normal">
-                Each tranche requires $100M warehouse capital to purchase Bitcoin inventory ($100M in Bitcoin backs $100M in financed amounts at 1.92x multiplier = $192M total payment obligations). During 60-90 day pre-bond loan seasoning: borrowers pay 15% effective APR. Post-bond sale: $90M returns to warehouse, $10M equity stays locked in SPV, $2M issuance fee paid to BTC Now GP. Capital recycles for sequential origination of next tranche.
-              </p>
-              
-              <p className="text-lg text-white/70 leading-normal">
-                Post-bond: warehouse receives monthly excess spread. Funds new loan originations. Capital recycles without external fundraising.
+                Each tranche requires $100M warehouse capital to acquire Bitcoin for installment plans ($100M in Bitcoin backs $100M in financed amounts at 1.92x multiplier = $192M total payment obligations). During 60-90 day pre-bond loan seasoning: borrowers pay 15% effective APR. Post-bond sale: $90M returns to warehouse, $10M equity stays locked in SPV, $2M issuance fee paid to BTC Now GP. Capital recycles for sequential origination of next tranche.
               </p>
               
               <div className="p-6 rounded-lg border border-white/10">
@@ -265,19 +257,8 @@ export default function CapitalStructure() {
               </div>
               
               <p className="text-lg text-white/70 leading-normal">
-                $150M warehouse supports 12 outstanding tranches over time through sequential origination and capital recycling. Each tranche locks $10M equity in SPV (12 tranches = $120M total locked). Bond sale proceeds ($90M per tranche) return to warehouse and fund the next tranche immediately, along with seasoning payments, origination fees, and equity distributions from prior tranches. Originate back-to-back every 60-90 days.
+                $150M warehouse supports 12 outstanding tranches over time. Each tranche locks $10M equity in SPV (12 tranches = $120M total locked), with originations cycling every 60-90 days.
               </p>
-              
-              <div className="p-6 rounded-lg border border-white/10 mt-6">
-                <h4 className="text-xl font-semibold mb-4">How $100M gets replenished for next origination:</h4>
-                <ul className="space-y-2">
-                  <li className="text-white/70">• $90M bond sale proceeds returned (net $88M after $2M fee to GP)</li>
-                  <li className="text-white/70">• + $2-3M seasoning payments collected during 60-90 day pre-bond period</li>
-                  <li className="text-white/70">• + $1M new origination fee from next tranche</li>
-                  <li className="text-white/70">• + Ongoing equity distributions from prior tranches</li>
-                  <li className="text-[#F7931A] font-semibold mt-2">= $100M+ available for next origination cycle</li>
-                </ul>
-              </div>
               
               <p className="text-lg text-white/70 leading-normal mt-6">
                 The platform becomes profitable at $100M in originations. Banks need $500M-$1B to justify their overhead, giving us a structural cost advantage at smaller scale.
@@ -403,7 +384,7 @@ export default function CapitalStructure() {
               </p>
               
               <p className="text-2xl font-bold text-[#F7931A] leading-snug">
-                This is why $150M warehouse supports $1.2B originations (12 tranches). Capital recycles rather than depletes.
+                Result: $150M warehouse supports $1.2B origination capacity. Capital recycles rather than depletes.
               </p>
             </div>
             
@@ -443,7 +424,7 @@ export default function CapitalStructure() {
               No committed warehouse capital yet. Active negotiations with private lenders, Bitcoin whales, family offices.
             </p>
             <p className="text-lg text-white/70 leading-normal">
-              $7M equity raise funds beta launch, demand validation, proof of concept for warehouse negotiations.
+              $7M equity raise funds launch, demand validation, proof of concept for warehouse negotiations.
             </p>
           </div>
         </div>
