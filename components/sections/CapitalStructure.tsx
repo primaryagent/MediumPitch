@@ -193,6 +193,102 @@ export default function CapitalStructure() {
             </p>
           </div>
           
+          {/* Capital Efficiency */}
+          <div>
+            <h3 className="text-4xl font-bold leading-tight mb-8">Capital Efficiency</h3>
+            <div className="space-y-6">
+              <p className="text-lg text-white/70 leading-normal">
+                $150M warehouse supports $1.2B bond origination capacity through sequential deployment (12 tranches, each requiring $100M in Bitcoin inventory).
+              </p>
+              
+              <div className="p-6 rounded-lg border border-[#F7931A] bg-[#F7931A]/5 mb-6">
+                <h4 className="text-xl font-semibold mb-4">Key Structural Advantage:</h4>
+                <p className="text-lg text-white/70 leading-normal mb-4">
+                  Traditional lenders liquidate repossessed collateral at loss and redeploy fresh capital for new loans. Each default permanently consumes warehouse capacity.
+                </p>
+                <p className="text-lg text-white/70 leading-normal mb-4">
+                  We retain Bitcoin, reissue it to new borrowers, and generate fresh revenue without deploying new capital. As long as demand exists for Bitcoin installment plans, recovered Bitcoin never needs to be sold. The warehouse maintains a rolling cost basis across all Bitcoin holdings, similar to dollar-cost averaging.
+                </p>
+                <p className="text-lg text-[#F7931A] font-semibold">
+                  Result: Self-healing warehouse. Defaults regenerate performing assets instead of depleting capital.
+                </p>
+              </div>
+              
+              <p className="text-lg text-white/70 leading-normal">
+                Each tranche requires $100M warehouse capital to purchase Bitcoin inventory ($100M in Bitcoin backs $100M in financed amounts at 1.92x multiplier = $192M total payment obligations). During 60-90 day pre-bond loan seasoning: borrowers pay 15% effective APR. Post-bond sale: $90M returns to warehouse, $10M equity stays locked in SPV, $2M issuance fee paid to BTC Now GP. Capital recycles for sequential origination of next tranche.
+              </p>
+              
+              <p className="text-lg text-white/70 leading-normal">
+                Post-bond: warehouse receives monthly excess spread. Funds new loan originations. Capital recycles without external fundraising.
+              </p>
+              
+              <div className="p-6 rounded-lg border border-white/10">
+                <h4 className="text-2xl font-semibold leading-snug mb-6">Cash flow cycle:</h4>
+                <ol className="space-y-3">
+                  <li className="text-lg text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] font-semibold min-w-[2rem]">1.</span>
+                    <span>Originate $100M loans with warehouse capital</span>
+                  </li>
+                  <li className="text-lg text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] font-semibold min-w-[2rem]">2.</span>
+                    <span>Collect payments during seasoning (60-90 days)</span>
+                  </li>
+                  <li className="text-lg text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] font-semibold min-w-[2rem]">3.</span>
+                    <span>Package loans into $100M bond structure</span>
+                  </li>
+                  <li className="text-lg text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] font-semibold min-w-[2rem]">4.</span>
+                    <span>Sell $90M bonds to institutions ($70M AAA + $20M BBB), retain $10M equity tranche</span>
+                  </li>
+                  <li className="text-lg text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] font-semibold min-w-[2rem]">5.</span>
+                    <span>Receive $90M cash proceeds from bond sale</span>
+                  </li>
+                  <li className="text-lg text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] font-semibold min-w-[2rem]">6.</span>
+                    <span>Warehouse capital refreshed: $90M returned from bond sale (net $88M after $2M issuance fee paid to GP), $10M equity locked in SPV</span>
+                  </li>
+                  <li className="text-lg text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] font-semibold min-w-[2rem]">7.</span>
+                    <span>Originate next $100M loan batch immediately</span>
+                  </li>
+                  <li className="text-lg text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] font-semibold min-w-[2rem]">8.</span>
+                    <span>Receive monthly excess spread from issued bonds</span>
+                  </li>
+                  <li className="text-lg text-white/70 flex items-start gap-3">
+                    <span className="text-[#F7931A] font-semibold min-w-[2rem]">9.</span>
+                    <span>Repeat cycle</span>
+                  </li>
+                </ol>
+              </div>
+              
+              <p className="text-lg text-white/70 leading-normal">
+                $150M warehouse supports 12 outstanding tranches over time through sequential origination and capital recycling. Each tranche locks $10M equity in SPV (12 tranches = $120M total locked). Bond sale proceeds ($90M per tranche) return to warehouse and fund the next tranche immediately, along with seasoning payments, origination fees, and equity distributions from prior tranches. Originate back-to-back every 60-90 days.
+              </p>
+              
+              <div className="p-6 rounded-lg border border-white/10 mt-6">
+                <h4 className="text-xl font-semibold mb-4">How $100M gets replenished for next origination:</h4>
+                <ul className="space-y-2">
+                  <li className="text-white/70">• $90M bond sale proceeds returned (net $88M after $2M fee to GP)</li>
+                  <li className="text-white/70">• + $2-3M seasoning payments collected during 60-90 day pre-bond period</li>
+                  <li className="text-white/70">• + $1M new origination fee from next tranche</li>
+                  <li className="text-white/70">• + Ongoing equity distributions from prior tranches</li>
+                  <li className="text-[#F7931A] font-semibold mt-2">= $100M+ available for next origination cycle</li>
+                </ul>
+              </div>
+              
+              <p className="text-lg text-white/70 leading-normal mt-6">
+                The platform becomes profitable at $100M in originations. Banks need $500M-$1B to justify their overhead, giving us a structural cost advantage at smaller scale.
+              </p>
+              
+              <p className="text-lg text-white/70 leading-normal">
+                <strong className="text-white">Scalability:</strong> GP/LP warehouse structure enables rapid capital raises when demand scales. First LP model replicates for subsequent warehouse expansion.
+              </p>
+            </div>
+          </div>
+          
           {/* Bitcoin Recovery & Reissuance */}
           <div>
             <h3 className="text-4xl font-bold leading-tight mb-8">Bitcoin Recovery & Reissuance</h3>

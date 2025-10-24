@@ -8,10 +8,22 @@ export default function WhatThisAchieves() {
         </h2>
 
         <div className="space-y-12">
-          {/* Overview */}
-          <div>
+          {/* Platform Status */}
+          <div id="platform-status">
+            <h3 className="text-3xl font-bold leading-tight mb-8 flex items-center gap-3">
+              <span className="text-white/40">→</span>
+              Platform Status
+            </h3>
             <p className="text-xl text-white/80 leading-relaxed mb-4">The platform is operational with 5-minute KYC/credit approvals, 4-week custody integration timeline, and Stripe payment rails. Legal structure confirmed by Stinson.</p>
-            <p className="text-xl text-white/80 leading-relaxed mb-8">Built entirely with founder capital, with $1.5M additional commitment in reserve.</p>
+            <p className="text-xl text-white/80 leading-relaxed">Built entirely with founder capital, with $1.5M additional commitment in reserve.</p>
+          </div>
+          
+          {/* What $7M Achieves */}
+          <div id="what-7m-achieves">
+            <h3 className="text-3xl font-bold leading-tight mb-8 flex items-center gap-3">
+              <span className="text-white/40">→</span>
+              What $7M Achieves
+            </h3>
             
             <p className="text-2xl font-bold text-[#F7931A] leading-snug mb-8">This $7M accelerates market capture:</p>
             
@@ -31,21 +43,24 @@ export default function WhatThisAchieves() {
             </ol>
 
             <p className="text-lg text-white/70 leading-normal mb-4">
-              <strong className="text-white">Timeline:</strong> Custody complete November 2025. GP/LP structure December 2025. Warehouse roadshow begins Q1 2026. April 27, 2026 launch. $150M warehouse closed Q2 2026. First securitization Q3 2026.
-            </p>
-
-            <p className="text-lg text-white/70 leading-normal mb-4">
               <strong className="text-white">Current stage:</strong> Platform operational. Launching with or without VC. Raising to launch big.
             </p>
 
             <p className="text-lg text-white/70 leading-normal">
-              $7M raise at $40M post-money reflects pre-revenue risk. Conference proof-of-concept changes valuation overnight.
+              $7M raise at $40M post-money reflects pre-revenue risk. Conference MVP launch changes valuation overnight.
             </p>
           </div>
 
-          {/* Execution Milestones */}
-          <div>
-            <h3 className="text-4xl font-bold leading-tight mb-8">Execution Milestones</h3>
+          {/* Launch Milestones */}
+          <div id="launch-milestones">
+            <h3 className="text-3xl font-bold leading-tight mb-8 flex items-center gap-3">
+              <span className="text-white/40">→</span>
+              Launch Milestones
+            </h3>
+            
+            <p className="text-lg text-white/70 leading-normal mb-8">
+              <strong className="text-white">Timeline:</strong> Custody complete November 2025. GP/LP structure December 2025. Warehouse roadshow begins Q1 2026. April 27, 2026 launch. $150M warehouse closed Q2 2026. First securitization Q3 2026.
+            </p>
 
             {/* Legal Structure */}
             <div className="mb-8">
@@ -135,9 +150,12 @@ export default function WhatThisAchieves() {
             </div>
           </div>
 
-          {/* Regulatory */}
-          <div>
-            <h3 className="text-4xl font-bold leading-tight mb-8">Regulatory</h3>
+          {/* Regulatory Strategy */}
+          <div id="regulatory-strategy">
+            <h3 className="text-3xl font-bold leading-tight mb-8 flex items-center gap-3">
+              <span className="text-white/40">→</span>
+              Regulatory Strategy
+            </h3>
             <p className="text-lg text-white/70 leading-normal mb-4">
               <strong className="text-white">Legal counsel: Stinson engaged with structure confirmed.</strong>
             </p>
@@ -179,9 +197,12 @@ export default function WhatThisAchieves() {
             </p>
           </div>
 
-          {/* Execution */}
-          <div>
-            <h3 className="text-4xl font-bold leading-tight mb-8">Execution</h3>
+          {/* Execution Timeline */}
+          <div id="execution-timeline">
+            <h3 className="text-3xl font-bold leading-tight mb-8 flex items-center gap-3">
+              <span className="text-white/40">→</span>
+              Execution Timeline
+            </h3>
 
             <div className="p-6 rounded-lg border border-[#F7931A] bg-[#F7931A]/5 mb-8">
               <p className="text-2xl font-bold text-[#F7931A] leading-snug mb-6">Platform status: Operational</p>
@@ -285,8 +306,11 @@ export default function WhatThisAchieves() {
           </div>
 
           {/* Why We're Raising */}
-          <div>
-            <h3 className="text-4xl font-bold leading-tight mb-8">Why We're Raising</h3>
+          <div id="why-raising">
+            <h3 className="text-3xl font-bold leading-tight mb-8 flex items-center gap-3">
+              <span className="text-white/40">→</span>
+              Why We're Raising
+            </h3>
             
             <p className="text-xl text-white/80 leading-relaxed mb-4">The platform is built, legal is confirmed, and we have $1.5M in founder capital reserved.</p>
             <p className="text-2xl font-bold text-[#F7931A] leading-snug mb-8">We launch in April 2026 with or without VC funding.</p>

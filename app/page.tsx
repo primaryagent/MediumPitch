@@ -5,16 +5,15 @@ import MobileMenu from '@/components/MobileMenu';
 import Hero from '@/components/sections/Hero';
 import WhatWeDo from '@/components/sections/WhatWeDo';
 import Market from '@/components/sections/Market';
-import Moat from '@/components/sections/Moat';
-import GoToMarket from '@/components/sections/GoToMarket';
-import GrowthModel from '@/components/sections/GrowthModel';
 import HowItWorks from '@/components/sections/HowItWorks';
 import RevenueModel from '@/components/sections/RevenueModel';
-import Team from '@/components/sections/Team';
 import CapitalStructure from '@/components/sections/CapitalStructure';
+import Moat from '@/components/sections/Moat';
+import Team from '@/components/sections/Team';
+import GoToMarket from '@/components/sections/GoToMarket';
+import GrowthModel from '@/components/sections/GrowthModel';
 import WhatThisAchieves from '@/components/sections/WhatThisAchieves';
 import Ask from '@/components/sections/Ask';
-import FinancialProjections from '@/components/sections/FinancialProjections';
 
 export default function Home() {
   return (
@@ -48,16 +47,15 @@ export default function Home() {
         <Hero />
         <WhatWeDo />
         <Market />
-        <Moat />
-        <GoToMarket />
-        <GrowthModel />
         <HowItWorks />
         <RevenueModel />
-        <Team />
         <CapitalStructure />
+        <Moat />
+        <Team />
+        <GoToMarket />
+        <GrowthModel />
         <WhatThisAchieves />
         <Ask />
-        <FinancialProjections />
       </main>
     </>
   );

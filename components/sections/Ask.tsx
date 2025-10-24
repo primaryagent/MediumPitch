@@ -253,6 +253,19 @@ export default function Ask() {
               </p>
             </div>
           </div>
+          
+          {/* Final Closing */}
+          <div className="mt-16 p-8 rounded-lg border-2 border-[#F7931A] bg-[#F7931A]/10 text-center">
+            <p className="text-3xl font-bold text-white mb-6">
+              We launch April 27, 2026.
+            </p>
+            <p className="text-2xl text-white/90 mb-6">
+              With or without venture capital.
+            </p>
+            <p className="text-xl text-white/80 leading-relaxed">
+              The question is: do you want seed-stage pricing at $40M post, or Series A pricing after we prove demand?
+            </p>
+          </div>
         </div>
       </div>
     </section>

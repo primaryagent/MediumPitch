@@ -9,7 +9,7 @@ export default function Market() {
         
         <div className="space-y-12">
           <p className="text-xl text-white/80 leading-relaxed">
-            $2.2T Bitcoin market cap. $0 institutional credit access without liquidation risk.
+            $2.2T Bitcoin market cap. $0 institutional credit access without liquidation risk. Potential credit market: $440-550B (20-25% of market cap, matching traditional asset leverage ratios).
           </p>
           
           <div>
@@ -39,7 +39,7 @@ export default function Market() {
               </li>
               <li className="text-lg text-white/70 flex items-start gap-3">
                 <span className="text-[#F7931A] mt-1">•</span>
-                <span>36-45M crypto holders have FICO ≥ 670</span>
+                <span>36-45M crypto holders estimated to have FICO ≥ 670 (based on U.S. credit score distribution applied to crypto holder demographics)</span>
               </li>
               <li className="text-lg text-white/70 flex items-start gap-3">
                 <span className="text-[#F7931A] mt-1">•</span>

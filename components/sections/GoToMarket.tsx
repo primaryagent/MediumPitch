@@ -18,7 +18,7 @@ export default function GoToMarket() {
               Live origination event with real loans funded Day 1. Main stage announcement with Bloomberg, Fox, and CNBC coverage confirmed. Creates institutional FOMO and warehouse LP closing leverage.
             </p>
             <p className="text-lg text-white/70 leading-normal">
-              Not a demo. Not a beta. Real customers receive Bitcoin same-day with 10-year installment terms.
+              Not a demo. Live launch. Real customers receive Bitcoin same-day with 10-year installment terms.
             </p>
           </div>
 

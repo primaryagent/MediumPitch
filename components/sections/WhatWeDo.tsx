@@ -9,7 +9,7 @@ export default function WhatWeDo() {
         
         <div className="space-y-8">
           <p className="text-xl text-white/80 leading-relaxed">
-            We offer Bitcoin installment plans with installment purchase pricing equivalent to 15% effective APR over 10-year terms and zero margin call risk. Borrowers own their Bitcoin from day one, held in institutional custody (Coinbase/Anchorage) with transfer restrictions until final payment. Monthly payments remain fixed regardless of Bitcoin's price. Our lender-of-record partnership provides the account management infrastructure that makes installment payments seamless - each Bitcoin installment gets its own account, enabling smooth loan transfers to bond SPVs while consumers continue paying the same account number.
+            We offer Bitcoin installment plans with installment purchase pricing equivalent to 15% effective APR over 10-year terms and zero margin call risk. Borrowers own their Bitcoin from day one, held in institutional custody (Coinbase/Anchorage) with transfer restrictions until final payment. Monthly payments remain fixed regardless of Bitcoin's price. Each Bitcoin installment plan receives dedicated account management infrastructure for seamless payments. Consumers maintain the same account number even as loans transfer to bond SPVs, ensuring uninterrupted payment processing.
           </p>
           
           <p className="text-xl text-white/80 leading-relaxed">
@@ -27,7 +27,7 @@ export default function WhatWeDo() {
             </div>
             <div className="p-6 rounded-lg border border-white/10">
               <p className="text-sm text-white/50 mb-2">Launch</p>
-              <p className="text-2xl font-bold">Q1 2026 beta</p>
+              <p className="text-2xl font-bold">April 27, 2026 launch</p>
             </div>
             <div className="p-6 rounded-lg border border-white/10">
               <p className="text-sm text-white/50 mb-2">Raising</p>

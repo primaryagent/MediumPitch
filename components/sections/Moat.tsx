@@ -86,11 +86,11 @@ export default function Moat() {
                 </p>
                 
                 <p className="text-lg text-white/70 leading-normal mb-4">
-                  <strong className="text-white">Layer 1:</strong> Keep all payments collected before default. No clawback. Defaulter paid $58K? We keep $58K.
+                  <strong className="text-white">Layer 1:</strong> Keep all payments collected before default. No clawback. If a borrower defaults after paying $58K, we keep $58K.
                 </p>
                 
                 <p className="text-lg text-white/70 leading-normal mb-4">
-                  <strong className="text-white">Layer 2:</strong> Bitcoin recovered at market value. Cars depreciate 20-40%. Bitcoin: market rate on recovery date.
+                  <strong className="text-white">Layer 2:</strong> Bitcoin maintains deep market liquidity at recovery. Cars depreciate 20-40% between purchase and repossession. Bitcoin can be liquidated at market rate on recovery date through deep, 24/7 liquidity, regardless of price volatility.
                 </p>
                 
                 <p className="text-lg text-white/70 leading-normal mb-6">
@@ -106,7 +106,7 @@ export default function Moat() {
                 </p>
                 
                 <p className="text-lg text-white/70 leading-normal mb-4">
-                  Competitors cannot replicate without:
+                  Competitors need all of:
                 </p>
                 <ul className="space-y-3">
                   <li className="text-lg text-white/70 flex items-start gap-3">
@@ -131,7 +131,7 @@ export default function Moat() {
               <div>
                 <h4 className="text-2xl font-semibold leading-snug mb-4">Capital efficiency at scale:</h4>
                 <p className="text-lg text-white/70 leading-normal mb-6">
-                  Profitable at $100M originations. Banks need $500M-$1B to justify overhead (15-20% ROE hurdles).
+                  The platform becomes profitable at $100M in originations. Banks need $500M-$1B to justify their overhead (15-20% ROE hurdles), giving us a structural cost advantage at smaller scale.
                 </p>
                 <p className="text-lg text-white/70 leading-normal">
                   Goldman Sachs rationally chooses to buy our bonds at 8% rather than build origination infrastructure for sub-$200M volumes. If we succeed, acquisition becomes the rational outcome.

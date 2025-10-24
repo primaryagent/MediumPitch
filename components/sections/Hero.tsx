@@ -11,7 +11,7 @@ export default function Hero() {
         </h2>
         <p className="text-xl md:text-2xl leading-relaxed max-w-3xl">
           <span className="text-[#F7931A] font-bold">Bitcoin installment plans with zero liquidation risk.</span>{' '}
-          Platform operational. Custody complete November 2025. Live launch April 27, 2026. First securitized Bitcoin installment credit product - paying institutional investors fixed interest while giving consumers leverage without margin calls. 10-year terms at 15% effective APR. No forced liquidations, ever.
+          Platform operational. Custody complete November 2025. Live launch April 27, 2026. First securitized Bitcoin installment credit product paying institutional investors fixed interest while giving consumers leverage without margin calls. 10-year terms at 15% effective APR. No forced liquidations, ever.
         </p>
       </div>
     </section>

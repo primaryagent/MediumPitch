@@ -173,6 +173,68 @@ export default function RevenueModel() {
               </div>
             </div>
           </div>
+          
+          {/* Stress Testing */}
+          <div>
+            <h3 className="text-4xl font-bold leading-tight mb-8">Stress Testing</h3>
+            <div className="space-y-6">
+              <p className="text-lg text-white/70 leading-normal">
+                Survives 90% Bitcoin crash + 70% lifetime defaults.
+              </p>
+
+              <p className="text-lg text-white/70 leading-normal">
+                10M Monte Carlo simulations across 432 scenarios.
+              </p>
+
+              <div className="p-6 rounded-lg border border-white/10 mb-6">
+                <h4 className="text-2xl font-semibold leading-snug mb-6">Bond structure resilience:</h4>
+                <p className="text-lg text-white/70 leading-normal mb-4">
+                  Bitcoin recovery advantage: Unlike traditional ABS where repossessed collateral depreciates 20-40%, Bitcoin can always be recovered at market value and reissued. This self-healing mechanism makes the structure dramatically more resilient than traditional consumer lending.
+                </p>
+                <p className="text-lg text-white/70 leading-normal">
+                  AAA tranche remains fully protected through 70% lifetime defaults, even with a 90% Bitcoin price crash factored in. This protection level is possible because we can recover and reissue defaulted Bitcoin at market value, generating fresh revenue without new capital.
+                </p>
+              </div>
+
+              <p className="text-lg text-white/70 leading-normal mb-6">
+                Business survives extreme stress scenarios with AAA protection intact.
+              </p>
+              
+              <p className="text-lg text-white/70 leading-normal mb-6">
+                Conservative design for new asset class with no historical performance data.
+              </p>
+              
+              <p className="text-lg text-white/70 leading-normal mb-6">
+                <strong className="text-white">Full stress test models available to investors:</strong> Monte Carlo simulations, jump diffusion models, custom scenario testing. Investors can run sensitivity analyses on default rates, Bitcoin volatility, and prepayment assumptions.
+              </p>
+              
+              <p className="text-lg text-white/70 leading-normal">
+                Self-sustaining after first tranche sale. Origination fees + servicing fees cover operating expenses. Each subsequent tranche adds to cumulative revenue without increasing fixed costs.
+              </p>
+            </div>
+          </div>
+          
+          {/* Long-Term Economics */}
+          <div>
+            <h3 className="text-4xl font-bold leading-tight mb-8">Long-Term Economics</h3>
+            <div className="space-y-6">
+              <p className="text-lg text-white/70 leading-normal">
+                Year 5+: Origination + servicing on 30+ cumulative tranches + equity spread capture from seasoned bonds.
+              </p>
+              
+              <p className="text-lg text-white/70 leading-normal">
+                Year 10+: Origination + servicing on 60+ cumulative tranches + full spread potential from mature portfolio.
+              </p>
+              
+              <p className="text-lg text-white/70 leading-normal">
+                Equity tranche returns: Bonds issued in Year 1 return equity distributions for 10 years. By Year 5, warehouse receives equity distributions from 20+ bonds simultaneously.
+              </p>
+              
+              <p className="text-lg text-white/70 leading-normal">
+                Self-healing warehouse: Keep payments collected before default + recover Bitcoin at market value + reissue without fresh capital. Generates incremental origination fees and reduces effective LGD vs. traditional consumer lending (25-40% from non-depreciating collateral alone, 50-70% including all three protection layers). Reduces dependency on fresh LP capital for growth.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

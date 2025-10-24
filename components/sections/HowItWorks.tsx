@@ -46,16 +46,16 @@ export default function HowItWorks() {
                 </p>
                 
               <p className="text-lg text-white/70 leading-normal">
-                <strong className="text-white">Liquidation Options (Borrower-Initiated Only):</strong> Through the app, you can request partial or full liquidation at any time. This option is typically exercised when Bitcoin appreciates significantly and you want to capture gains - any excess Bitcoin after settling your balance is returned to you. Example: You buy $100K Bitcoin via installment plan. Bitcoin appreciates to $300K. You request liquidation: Bitcoin sold at $300K, your remaining obligation paid off (say $150K remaining), you receive $150K profit. In downturn scenarios, your payment obligations continue regardless of Bitcoin's price (no forced liquidations by lenders), but voluntary liquidation becomes less attractive. Warehouse and bond investors can NEVER force liquidation - it's your Bitcoin, you control the timing. No USD refunds; pay through completion for full Bitcoin transfer rights.
+                <strong className="text-white">Voluntary Sale Options (Borrower-Initiated Only):</strong> Through the app, you can request to sell your Bitcoin partially or in full at any time. This option is typically exercised when Bitcoin appreciates significantly and you want to capture gains. Any excess proceeds after settling your remaining balance are returned to you. Example: You buy $100K Bitcoin via installment plan. Bitcoin appreciates to $300K. You request sale: Bitcoin sold at $300K, your remaining obligation paid off (say $150K remaining), you receive $150K profit. In downturn scenarios, your payment obligations continue regardless of Bitcoin's price (no forced sales by lenders), but voluntary sale becomes less attractive. Warehouse and bond investors can NEVER force sale. It's your Bitcoin. You control the timing. No USD refunds; complete all payments for full Bitcoin transfer rights.
               </p>
                 
                 <p className="text-lg text-[#F7931A] leading-normal font-semibold">
-                  Key differentiator: Unlike margin loans that force liquidation, only YOU can trigger liquidation. Zero forced liquidation risk.
+                  Key differentiator: Unlike margin loans that force sales during crashes, only you decide when to sell. No forced sales by lenders, ever.
                 </p>
               </div>
               
               <p className="text-lg text-white/70 leading-normal">
-                Bitcoin collateral represents 52% of total payment obligation: $100,000 Bitcoin backs $192,000 total obligation (1.92x payment-to-collateral ratio). This structure provides loss protection through three layers: (1) retained payments before default, (2) Bitcoin recovery at market value, (3) reissuance economics that generate fresh revenue without new capital. Unlike traditional lending where unsecured portions represent total loss, Bitcoin's non-depreciating nature and reissuance capability provide genuine loss protection.
+                Bitcoin collateral represents 52% of total payment obligation: $100,000 Bitcoin backs $192,000 total obligation (1.92x payment-to-collateral ratio). This structure provides loss protection through three layers: (1) retained payments before default, (2) Bitcoin recovery at market value, (3) reissuance economics that generate fresh revenue without new capital. Unlike traditional lending where unsecured portions represent total loss, Bitcoin maintains deep market liquidity (enabling instant liquidation at current market rates rather than depreciated asset values) and reissuance capability, providing genuine loss protection even through price volatility.
               </p>
             </div>
           </div>
@@ -89,9 +89,28 @@ export default function HowItWorks() {
                 </li>
               </ul>
               
-              <p className="text-lg text-white/70 leading-normal">
-                Weighted average coupon: 7.44% ($70M at 7% + $20M at 9% over $90M bonds). Annual spread: 7.56% calculated on $100M financed amount (borrowers pay installment pricing equivalent to 15% effective APR on $100M = $15M annually, bonds pay 7.44% weighted coupon = $6.7M annually, warehouse captures $15M - $6.7M - $0.75M servicing = $7.56M spread).
-              </p>
+              <div className="p-6 rounded-lg border border-white/10 mb-6">
+                <p className="text-lg font-semibold mb-4">Bond Economics:</p>
+                
+                <p className="text-lg text-white/70 leading-normal mb-4">
+                  <strong className="text-white">Weighted average coupon: 7.44%</strong>
+                </p>
+                <ul className="space-y-2 mb-4 ml-4">
+                  <li className="text-white/70">• $70M AAA bonds at 7% = $4.9M annual interest</li>
+                  <li className="text-white/70">• $20M BBB bonds at 9% = $1.8M annual interest</li>
+                  <li className="text-white/70">• Total: $6.7M on $90M bonds</li>
+                </ul>
+                
+                <p className="text-lg text-white/70 leading-normal mb-4">
+                  <strong className="text-white">Annual spread: 7.56% ($7.56M per tranche)</strong>
+                </p>
+                <ul className="space-y-2 ml-4">
+                  <li className="text-white/70">• Borrower payments: $15M (15% effective APR on $100M financed)</li>
+                  <li className="text-white/70">• Bond interest: $6.7M (7.44% weighted average)</li>
+                  <li className="text-white/70">• Servicing costs: $0.75M (0.75% of loans)</li>
+                  <li className="text-[#F7931A] font-semibold">• Warehouse spread: $7.56M annually</li>
+                </ul>
+              </div>
               
               <p className="text-lg text-white/70 leading-normal">
                 Capital requirement: $100M warehouse capital to originate each tranche (to purchase Bitcoin inventory: 1,000 BTC at $100K spot = $100M, which backs $192M in installment obligations at 1.92x). Post-bond sale: $90M returns to warehouse, $10M equity tranche remains locked in SPV, $2M issuance fee paid to BTC Now GP (revenue, not locked capital). Reserve pool builds from payment waterfall, not upfront capital.
@@ -125,120 +144,6 @@ export default function HowItWorks() {
             </div>
           </div>
           
-          {/* Capital Efficiency */}
-          <div id="capital-efficiency" className="scroll-mt-24">
-            <h3 className="text-3xl font-bold leading-tight mb-8 flex items-center gap-3">
-              <span className="text-white/40">→</span>
-              Capital Efficiency
-            </h3>
-            <div className="space-y-6">
-              <p className="text-lg text-white/70 leading-normal">
-                $150M warehouse → $1.2B bond origination capacity (12 tranches, each requiring $100M in Bitcoin inventory).
-              </p>
-              
-              <p className="text-lg text-white/70 leading-normal">
-                Each tranche requires $100M warehouse capital to purchase Bitcoin inventory ($100M in Bitcoin backs $100M in financed amounts at 1.92x multiplier = $192M total payment obligations). During 60-90 day pre-bond loan seasoning: borrowers pay 15% effective APR. Post-bond sale: $90M returns to warehouse, $10M equity stays locked in SPV, $2M issuance fee paid to BTC Now GP. Capital recycles for sequential origination of next tranche.
-              </p>
-              
-              <p className="text-lg text-white/70 leading-normal">
-                Post-bond: warehouse receives monthly excess spread. Funds new loan originations. Capital recycles without external fundraising.
-              </p>
-              
-              <div className="p-6 rounded-lg border border-white/10">
-                <h4 className="text-2xl font-semibold leading-snug mb-6">Cash flow cycle:</h4>
-                <ol className="space-y-3">
-                  <li className="text-lg text-white/70 flex items-start gap-3">
-                    <span className="text-[#F7931A] font-semibold min-w-[2rem]">1.</span>
-                    <span>Originate $100M loans with warehouse capital</span>
-                  </li>
-                  <li className="text-lg text-white/70 flex items-start gap-3">
-                    <span className="text-[#F7931A] font-semibold min-w-[2rem]">2.</span>
-                    <span>Collect payments during seasoning (60-90 days)</span>
-                  </li>
-                  <li className="text-lg text-white/70 flex items-start gap-3">
-                    <span className="text-[#F7931A] font-semibold min-w-[2rem]">3.</span>
-                    <span>Package loans into $100M bond structure</span>
-                  </li>
-                  <li className="text-lg text-white/70 flex items-start gap-3">
-                    <span className="text-[#F7931A] font-semibold min-w-[2rem]">4.</span>
-                    <span>Sell $90M bonds to institutions ($70M AAA + $20M BBB), retain $10M equity tranche</span>
-                  </li>
-                  <li className="text-lg text-white/70 flex items-start gap-3">
-                    <span className="text-[#F7931A] font-semibold min-w-[2rem]">5.</span>
-                    <span>Receive $90M cash proceeds from bond sale</span>
-                  </li>
-                  <li className="text-lg text-white/70 flex items-start gap-3">
-                    <span className="text-[#F7931A] font-semibold min-w-[2rem]">6.</span>
-                    <span>Warehouse capital refreshed: $90M returned from bond sale (net $88M after $2M issuance fee paid to GP), $10M equity locked in SPV</span>
-                  </li>
-                  <li className="text-lg text-white/70 flex items-start gap-3">
-                    <span className="text-[#F7931A] font-semibold min-w-[2rem]">7.</span>
-                    <span>Originate next $100M loan batch immediately</span>
-                  </li>
-                  <li className="text-lg text-white/70 flex items-start gap-3">
-                    <span className="text-[#F7931A] font-semibold min-w-[2rem]">8.</span>
-                    <span>Receive monthly excess spread from issued bonds</span>
-                  </li>
-                  <li className="text-lg text-white/70 flex items-start gap-3">
-                    <span className="text-[#F7931A] font-semibold min-w-[2rem]">9.</span>
-                    <span>Repeat cycle</span>
-                  </li>
-                </ol>
-              </div>
-              
-              <p className="text-lg text-white/70 leading-normal">
-                $150M warehouse supports 12 outstanding tranches over time through sequential origination and capital recycling. Each tranche locks $10M equity in SPV (12 tranches = $120M total locked). Bond sale proceeds ($90M per tranche) return to warehouse and fund the next tranche immediately, along with seasoning payments, origination fees, and equity distributions from prior tranches. Originate back-to-back every 60-90 days.
-              </p>
-              
-              <div className="p-6 rounded-lg border border-white/10 mt-6">
-                <h4 className="text-xl font-semibold mb-4">How $100M gets replenished for next origination:</h4>
-                <ul className="space-y-2">
-                  <li className="text-white/70">• $90M bond sale proceeds returned (net $88M after $2M fee to GP)</li>
-                  <li className="text-white/70">• + $2-3M seasoning payments collected during 60-90 day pre-bond period</li>
-                  <li className="text-white/70">• + $1M new origination fee from next tranche</li>
-                  <li className="text-white/70">• + Ongoing equity distributions from prior tranches</li>
-                  <li className="text-[#F7931A] font-semibold mt-2">= $100M+ available for next origination cycle</li>
-                </ul>
-              </div>
-              
-              <p className="text-lg text-white/70 leading-normal mt-6">
-                Profitable at $100M originations. Banks need $500M-$1B to justify overhead.
-              </p>
-              
-              <p className="text-lg text-white/70 leading-normal">
-                <strong className="text-white">Scalability:</strong> GP/LP warehouse structure enables rapid capital raises when demand scales. First LP model replicates for subsequent warehouse expansion.
-              </p>
-              
-              <p className="text-lg text-white/70 leading-normal mb-6">
-                <strong className="text-white">Self-healing mechanism:</strong> Three-layer capital advantage.
-              </p>
-              
-              <p className="text-lg text-white/70 leading-normal mb-4">
-                <strong className="text-white">Layer 1 - Retained Payments:</strong> Keep all payments collected before default. No clawback. Defaulter paid $58K over 3 years? We keep $58K.
-              </p>
-              
-              <p className="text-lg text-white/70 leading-normal mb-4">
-                <strong className="text-white">Layer 2 - Non-Depreciating Collateral:</strong> Bitcoin recovered at market value. Cars depreciate 20-40%. Bitcoin: market rate on recovery date.
-              </p>
-              
-              <p className="text-lg text-white/70 leading-normal mb-6">
-                <strong className="text-white">Layer 3 - Reissuance Without Capital:</strong> Recovered Bitcoin reissued to new borrowers. Generate fresh origination fees (1% of face value). Create new 10-year payment streams. Zero fresh capital deployed.
-              </p>
-              
-              <p className="text-lg text-white/70 leading-normal">
-                Reduces effective LGD vs. traditional consumer lending: 25-40% reduction from non-depreciating collateral alone, 50-70% when including all three layers (retained payments + collateral recovery at market value + reissuance economics). This multi-layer protection changes the math entirely compared to traditional lending.
-              </p>
-              
-              <p className="text-lg text-white/70 leading-normal">
-                Enables sustainable loan swap performance guarantee: Non-performing loans swapped out of bonds during 12-24 month seasoning period → if default, Bitcoin recovered → reissued as new performing loans → available for future bond collateral. Traditional lenders deplete capital with each swap. We recycle swapped defaults back into performing assets.
-              </p>
-              
-              <p className="text-lg text-white/70 leading-normal">
-                Traditional lenders liquidate repossessed collateral at loss, redeploy fresh capital. We retain Bitcoin, reissue it.
-              </p>
-            </div>
-          </div>
-
           {/* Unit Economics & Default Assumptions */}
           <div id="unit-economics">
             <h3 className="text-4xl font-bold leading-tight mb-8">Unit Economics & Default Assumptions</h3>
