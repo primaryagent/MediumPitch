@@ -198,7 +198,7 @@ export default function ExecutiveSummary() {
               <div>
                 <p className="font-semibold text-white mb-2">Platform operational:</p>
                 <ul className="space-y-2 ml-6">
-                  <li className="flex gap-3"><span className="text-[#F7931A]">•</span><span>5-minute KYC/credit approvals</span></li>
+                  <li className="flex gap-3"><span className="text-[#F7931A]">•</span><span>5-minute KYC/credit decisioning: Plaid integration (identity verification, credit underwriting, bank account verification)</span></li>
                   <li className="flex gap-3"><span className="text-[#F7931A]">•</span><span>Stripe payment rails (ACH, card, crypto)</span></li>
                   <li className="flex gap-3"><span className="text-[#F7931A]">•</span><span>Custody: Fireblocks Trust, 4 bps annual fee (vs 20-25 bps standard), complete Dec 2025</span></li>
                   <li className="flex gap-3"><span className="text-[#F7931A]">•</span><span>Legal structure: Confirmed by Stinson (commodity installment plan)</span></li>
@@ -206,7 +206,7 @@ export default function ExecutiveSummary() {
               </div>
 
               <p>
-                <strong className="text-white">Built entirely with founder capital:</strong> $1.5M deployed, $1.5M additional reserved.
+                Built by team that structured $400B+ in these exact products at JP Morgan, Peloton Partners, and Klarna. Rapid deployment reflects decades of domain expertise leveraging best-in-class vendor infrastructure (Plaid, Stripe, Fireblocks). Zero outside capital raised to date. Founders maintaining $1.5M personal liquidity for bridge operations if needed.
               </p>
 
               <div className="p-6 rounded-lg border border-[#F7931A] bg-[#F7931A]/5">
@@ -342,4 +342,5 @@ export default function ExecutiveSummary() {
     </section>
   );
 }
+
 

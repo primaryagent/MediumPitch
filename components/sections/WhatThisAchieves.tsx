@@ -14,8 +14,8 @@ export default function WhatThisAchieves() {
               <span className="text-white/40">→</span>
               Platform Status
             </h3>
-            <p className="text-xl text-white/80 leading-relaxed mb-4">The platform is operational with 5-minute KYC/credit approvals, custody integration done end of November, and Stripe payment rails. Legal structure confirmed by Stinson.</p>
-            <p className="text-xl text-white/80 leading-relaxed">Built entirely with founder capital, with $1.5M additional founder commitment in reserve.</p>
+            <p className="text-xl text-white/80 leading-relaxed mb-4">The platform is operational with 5-minute KYC and credit decisioning (Plaid: identity verification, credit underwriting, bank account verification), Stripe payment rails (ACH, card, crypto), and Fireblocks custody integration (4 bps, complete December 2025). Legal structure confirmed by Stinson (commodity installment plan).</p>
+            <p className="text-xl text-white/80 leading-relaxed">Built by team that structured $400B+ in these exact products at JP Morgan, Peloton Partners, and Klarna. Rapid assembly leveraging best-in-class vendor infrastructure (Plaid, Stripe, Fireblocks). Zero outside capital raised to date. Founders maintaining $1.5M personal liquidity for bridge operations if needed.</p>
           </div>
           
           {/* Launch Milestones */}

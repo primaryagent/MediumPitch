@@ -96,12 +96,12 @@ Competitors need all pieces simultaneously: non-depreciating collateral (Bitcoin
 ## Traction & Status
 
 **Platform operational:**
-- 5-minute KYC/credit approvals
+- 5-minute KYC/credit decisioning: Plaid integration (identity verification, credit underwriting, bank account verification)
 - Stripe payment rails (ACH, card, crypto)
 - Custody integration: Fireblocks Trust, 4 bps annual fee (vs 20-25 bps institutional standard), complete December 2025
 - Legal structure: Confirmed by Stinson (commodity installment plan avoids 50-state consumer lending licenses)
 
-**Built entirely with founder capital:** $1.5M deployed (no outside capital yet), $1.5M additional founder commitment in reserve.
+Built by team that structured $400B+ in these exact products at JP Morgan, Peloton Partners, and Klarna. Rapid deployment reflects decades of domain expertise leveraging best-in-class vendor infrastructure (Plaid, Stripe, Fireblocks). Zero outside capital raised to date. Founders maintaining $1.5M personal liquidity for bridge operations if needed.
 
 **Launch:** April 27, 2026 (Bitcoin Conference, Las Vegas). 50,000+ attendees, concentrated audience of high-intent Bitcoin buyers. Main stage announcement with Bloomberg, Fox, CNBC coverage confirmed. Live origination Day 1—real loans funded, real Bitcoin delivered. Not a demo.
 
