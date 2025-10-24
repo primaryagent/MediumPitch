@@ -3,7 +3,7 @@
 import { useState } from 'react';
 
 const sections = [
-  { id: 'hero', label: 'Hero', number: '01' },
+  { id: 'executive-summary', label: 'Executive Summary', number: '01' },
   { id: 'what-we-do', label: 'What We Do', number: '02' },
   { id: 'market', label: 'The Market', number: '03' },
   {

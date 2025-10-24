@@ -2,7 +2,7 @@
 
 import Sidebar from '@/components/Sidebar';
 import MobileMenu from '@/components/MobileMenu';
-import Hero from '@/components/sections/Hero';
+import ExecutiveSummary from '@/components/sections/ExecutiveSummary';
 import WhatWeDo from '@/components/sections/WhatWeDo';
 import Market from '@/components/sections/Market';
 import HowItWorks from '@/components/sections/HowItWorks';
@@ -44,7 +44,7 @@ export default function Home() {
       </button>
       
       <main className="lg:ml-[280px] pt-16 lg:pt-0">
-        <Hero />
+        <ExecutiveSummary />
         <WhatWeDo />
         <Market />
         <HowItWorks />

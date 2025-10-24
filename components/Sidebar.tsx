@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 
 const sections = [
-  { id: 'hero', label: 'Hero', number: '01' },
+  { id: 'executive-summary', label: 'Executive Summary', number: '01' },
   { id: 'what-we-do', label: 'What We Do', number: '02' },
   { id: 'market', label: 'The Market', number: '03' },
   {
@@ -27,7 +27,7 @@ const sections = [
 ];
 
 export default function Sidebar() {
-  const [activeSection, setActiveSection] = useState('hero');
+  const [activeSection, setActiveSection] = useState('executive-summary');
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
