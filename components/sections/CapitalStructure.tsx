@@ -2,7 +2,7 @@ export default function CapitalStructure() {
   return (
     <section id="capital" className="py-24 border-b border-white/5">
       <div className="max-w-4xl mx-auto px-6 lg:px-8">
-        <div className="text-sm font-mono text-[#F7931A] mb-6">06</div>
+        <div className="text-sm font-mono text-[#F7931A] mb-6">05</div>
         <h2 className="text-4xl md:text-5xl font-bold leading-tight tracking-tight mb-16">
           Capital Structure
         </h2>
@@ -335,14 +335,14 @@ export default function CapitalStructure() {
             </p>
             
             <div className="mb-12">
-              <h4 className="text-3xl font-bold leading-tight mb-8">Why 70% Stress Test Survives</h4>
+              <h4 className="text-3xl font-bold leading-tight mb-8">Why Initial Stress Testing Indicates Survival</h4>
               
               <p className="text-lg text-white/70 leading-normal mb-6">
                 Traditional ABS: 70% defaults = catastrophic loss.
               </p>
               
               <p className="text-lg text-white/70 leading-normal mb-6">
-                BTC Now: 70% nominal defaults ≠ 70% economic loss.
+                BTC Now: Initial modeling shows 70% nominal defaults ≠ 70% economic loss.
               </p>
               
               <div className="p-6 rounded-lg border border-white/10 mb-6">

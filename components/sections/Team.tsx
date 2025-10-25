@@ -2,7 +2,7 @@ export default function Team() {
   return (
     <section id="team" className="py-24 border-b border-white/5">
       <div className="max-w-4xl mx-auto px-6 lg:px-8">
-        <div className="text-sm font-mono text-[#F7931A] mb-6">08</div>
+        <div className="text-sm font-mono text-[#F7931A] mb-6">07</div>
         <h2 className="text-4xl md:text-5xl font-bold leading-tight tracking-tight mb-16">
           Team
         </h2>

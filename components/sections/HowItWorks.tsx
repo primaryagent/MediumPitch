@@ -2,7 +2,7 @@ export default function HowItWorks() {
   return (
     <section id="how-it-works" className="py-24 border-b border-white/5">
       <div className="max-w-4xl mx-auto px-6 lg:px-8">
-        <div className="text-sm font-mono text-[#F7931A] mb-6">04</div>
+        <div className="text-sm font-mono text-[#F7931A] mb-6">03</div>
         <h2 className="text-4xl md:text-5xl font-bold leading-tight tracking-tight mb-16">
           How It Works
         </h2>
@@ -117,7 +117,7 @@ export default function HowItWorks() {
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
-                AAA protected by 40% subordination. Survives 70% lifetime defaults with AAA fully protected - because Bitcoin can always be recovered at market value (unlike depreciating auto/home collateral in traditional lending).
+                AAA protected by 40% subordination. Initial stress testing indicates AAA protection through 70% lifetime defaults - Bitcoin can be recovered at market value (unlike depreciating auto/home collateral in traditional lending).
               </p>
               
               <p className="text-lg text-white/70 leading-normal">
@@ -159,11 +159,11 @@ export default function HowItWorks() {
 
               <div className="p-6 rounded-lg border border-white/10">
                 <p className="text-lg text-white mb-4">
-                  <strong className="text-[#F7931A]">Stress test:</strong> Structure survives 70% lifetime defaults with AAA tranche fully protected.
+                  <strong className="text-[#F7931A]">Stress test:</strong> Initial modeling indicates structure survival through 70% lifetime defaults with AAA tranche fully protected.
                 </p>
                 
                 <p className="text-lg text-white/70 leading-normal mb-4">
-                  <strong className="text-white">Conservative design:</strong> New asset class with no historical performance data. Base case assumes 8-15% defaults (industry-standard for FICO 670+ unsecured credit). Stress testing at 70% ensures bond structure protects AAA investors even in catastrophic scenarios.
+                  <strong className="text-white">Conservative design:</strong> New asset class with no historical performance data. Base case assumes 8-15% defaults (industry-standard for FICO 670+ unsecured credit). Initial stress testing at 70% ensures bond structure protects AAA investors even in catastrophic scenarios.
                 </p>
                 
                 <p className="text-lg text-white/70 leading-normal">

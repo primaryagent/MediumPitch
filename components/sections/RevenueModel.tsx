@@ -2,7 +2,7 @@ export default function RevenueModel() {
   return (
     <section id="revenue" className="py-24 border-b border-white/5">
       <div className="max-w-4xl mx-auto px-6 lg:px-8">
-        <div className="text-sm font-mono text-[#F7931A] mb-6">05</div>
+        <div className="text-sm font-mono text-[#F7931A] mb-6">04</div>
         <h2 className="text-4xl md:text-5xl font-bold leading-tight tracking-tight mb-16">
           Revenue Model
         </h2>
@@ -179,11 +179,7 @@ export default function RevenueModel() {
             <h3 className="text-4xl font-bold leading-tight mb-8">Stress Testing</h3>
             <div className="space-y-6">
               <p className="text-lg text-white/70 leading-normal">
-                Survives 90% Bitcoin crash + 70% lifetime defaults.
-              </p>
-
-              <p className="text-lg text-white/70 leading-normal">
-                10M Monte Carlo simulations across 432 scenarios.
+                Initial modeling indicates structure survival: 70% lifetime defaults + 90% Bitcoin crash.
               </p>
 
               <div className="p-6 rounded-lg border border-white/10 mb-6">
@@ -192,7 +188,7 @@ export default function RevenueModel() {
                   Bitcoin recovery advantage: Unlike traditional ABS where repossessed collateral depreciates 20-40%, Bitcoin can always be recovered at market value and reissued. This self-healing mechanism makes the structure dramatically more resilient than traditional consumer lending.
                 </p>
                 <p className="text-lg text-white/70 leading-normal">
-                  AAA tranche remains fully protected through 70% lifetime defaults, even with a 90% Bitcoin price crash factored in. This protection level is possible because we can recover and reissue defaulted Bitcoin at market value, generating fresh revenue without new capital.
+                  Initial stress testing indicates AAA tranche protection through 70% lifetime defaults, even with a 90% Bitcoin price crash. This protection level is possible because we can recover and reissue defaulted Bitcoin at market value, generating fresh revenue without new capital.
                 </p>
               </div>
 
@@ -205,7 +201,7 @@ export default function RevenueModel() {
               </p>
               
               <p className="text-lg text-white/70 leading-normal mb-6">
-                <strong className="text-white">Full stress test models available to investors:</strong> Monte Carlo simulations, jump diffusion models, custom scenario testing. Investors can run sensitivity analyses on default rates, Bitcoin volatility, and prepayment assumptions.
+                <strong className="text-white">Risk models available to investors:</strong> Preliminary stress testing, scenario analyses covering default rates, Bitcoin volatility, and prepayment assumptions. Available for review during due diligence.
               </p>
               
               <p className="text-lg text-white/70 leading-normal">

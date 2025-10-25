@@ -9,7 +9,7 @@
 | Metric | Value |
 |--------|-------|
 | **Status** | Pre-revenue, platform operational |
-| **Raising** | $7M at $40M post-money (17.5% dilution) |
+| **Raising** | $7M at $40M post-money (17.5%) |
 | **Market Size (TAM)** | $440-550B potential Bitcoin credit market |
 | **Addressable Market** | $72-90B (5% penetration, 36-45M FICO 670+ crypto owners) |
 | **Launch Date** | April 27, 2026 (Bitcoin Conference) |
@@ -54,7 +54,7 @@ Built by team that structured $400B+ at JP Morgan, Peloton Partners, Klarna. Zer
 
 ## The Ask
 
-**Raising:** $7M at $40M post (17.5% dilution)
+**Raising:** $7M at $40M post (17.5%)
 
 **Use of Funds:**
 - $1M: Bitcoin Conference launch (main stage, live origination)
@@ -79,12 +79,12 @@ Marc Dumpff (CEO): Sovereign debt, regulated funds (FMA/CIMA/ECB). Evan Kalimtzi
 
 ## Risk Mitigation
 
-Structure stress tested to 70% lifetime defaults + 90% Bitcoin crash. 10M Monte Carlo simulations across 432 scenarios. Full models available for investor due diligence.
+Initial modeling indicates structure survival even under extreme scenarios: 70% lifetime defaults + 90% Bitcoin crash. Quantitative risk models available for investor review during diligence.
 
 ---
 
-**[View Detailed Pitch Deck →](/pitch)**
+**[View Deep Dive →](/pitch)**
 
 *Questions or want to schedule a call? Reach out:*  
-📧 marc@btcnow.com · 💬 [WhatsApp](https://wa.me/1XXXXXXXXXX) · 🔗 [LinkedIn](https://linkedin.com/in/marcdumpff)
+📧 marc@btcnow.com · 💬 [WhatsApp](https://wa.me/17752911510)
 

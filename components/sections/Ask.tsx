@@ -2,7 +2,7 @@ export default function Ask() {
   return (
     <section id="ask" className="py-24 border-b border-white/5">
       <div className="max-w-4xl mx-auto px-6 lg:px-8">
-        <div className="text-sm font-mono text-[#F7931A] mb-6">11</div>
+        <div className="text-sm font-mono text-[#F7931A] mb-6">10</div>
         <h2 className="text-4xl md:text-5xl font-bold leading-tight tracking-tight mb-16">
           The Ask
         </h2>
@@ -10,7 +10,7 @@ export default function Ask() {
         <div className="space-y-12">
           <div className="text-center">
             <p className="text-2xl font-semibold text-[#F7931A] leading-snug mb-4">
-              $7M equity raise at $40M post-money. 17.5% dilution. Preferred equity.
+              $7M equity raise at $40M post-money. 17.5%. Preferred equity.
             </p>
             <p className="text-lg text-white/70 leading-normal">
               <strong className="text-white">Note to seed investors:</strong> First warehouse LP will receive 20% equity in BTC Now GP as part of warehouse facility terms. This dilution is acceptable as warehouse facility is prerequisite for operations.

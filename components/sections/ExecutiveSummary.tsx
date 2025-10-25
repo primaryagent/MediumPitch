@@ -4,8 +4,6 @@ export default function ExecutiveSummary() {
   return (
     <section id="executive-summary" className="min-h-screen flex items-center justify-center border-b border-white/5 py-24">
       <div className="max-w-4xl mx-auto px-6 lg:px-8">
-        <div className="text-sm font-mono text-[#F7931A] mb-6">01</div>
-        
         {/* Header */}
         <div className="mb-16">
           <h1 className="text-5xl md:text-7xl font-bold mb-8 leading-tight tracking-tight">
@@ -30,7 +28,7 @@ export default function ExecutiveSummary() {
               </div>
               <div className="p-4 rounded-lg border border-white/10">
                 <p className="text-sm text-white/50 mb-1">Raising</p>
-                <p className="text-xl font-bold">$7M at $40M post (17.5% dilution)</p>
+                <p className="text-xl font-bold">$7M at $40M post (17.5%)</p>
               </div>
               <div className="p-4 rounded-lg border border-[#F7931A] bg-[#F7931A]/5">
                 <p className="text-sm text-white/50 mb-1">Market Size (TAM)</p>
@@ -107,7 +105,7 @@ export default function ExecutiveSummary() {
           <div>
             <h3 className="text-3xl font-bold leading-tight mb-6">The Ask</h3>
             <div className="space-y-4 text-lg text-white/70 leading-normal">
-              <p><strong className="text-white">Raising:</strong> $7M at $40M post (17.5% dilution)</p>
+              <p><strong className="text-white">Raising:</strong> $7M at $40M post (17.5%)</p>
               
               <div>
                 <p className="font-semibold text-white mb-2">Use of Funds:</p>
@@ -141,7 +139,7 @@ export default function ExecutiveSummary() {
             <h3 className="text-3xl font-bold leading-tight mb-6">Risk Mitigation</h3>
             <div className="space-y-4 text-lg text-white/70 leading-normal">
               <p>
-                Structure stress tested to 70% lifetime defaults + 90% Bitcoin crash. 10M Monte Carlo simulations across 432 scenarios. Full models available for investor due diligence.
+                Initial modeling indicates structure survival even under extreme scenarios: 70% lifetime defaults + 90% Bitcoin crash. Quantitative risk models available for investor review during diligence.
               </p>
             </div>
           </div>
@@ -159,7 +157,7 @@ export default function ExecutiveSummary() {
               href="/pitch"
               className="inline-block px-12 py-6 bg-[#F7931A] hover:bg-[#e68915] text-white text-xl font-bold rounded-lg shadow-xl transition-all duration-300 hover:scale-105 hover:shadow-2xl"
             >
-              View Detailed Pitch Deck →
+              View Deep Dive →
             </Link>
             <p className="text-sm text-white/40 mt-6">Complete breakdown: Market • Business Model • Capital Structure • Team • Go-to-Market • Financial Projections</p>
             
@@ -170,12 +168,8 @@ export default function ExecutiveSummary() {
                   📧 marc@btcnow.com
                 </a>
                 <span className="text-white/30">·</span>
-                <a href="https://wa.me/1XXXXXXXXXX" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-[#F7931A] transition-colors">
+                <a href="https://wa.me/17752911510" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-[#F7931A] transition-colors">
                   💬 WhatsApp
-                </a>
-                <span className="text-white/30">·</span>
-                <a href="https://linkedin.com/in/marcdumpff" target="_blank" rel="noopener noreferrer" className="text-white/70 hover:text-[#F7931A] transition-colors">
-                  🔗 LinkedIn
                 </a>
               </div>
             </div>

@@ -85,7 +85,13 @@ export default function Sidebar() {
         {/* Logo/Title */}
         <div className="mb-12">
           <h1 className="text-xl font-bold mb-1">BTC NOW</h1>
-          <p className="text-sm text-white/50">Business Summary</p>
+          <p className="text-sm text-white/50 mb-3">Deep Dive</p>
+          <a 
+            href="/"
+            className="text-xs text-[#F7931A] hover:text-[#e68915] transition-colors flex items-center gap-1"
+          >
+            ← Back to Executive Summary
+          </a>
         </div>
         
         {/* Navigation */}
