@@ -3,31 +3,30 @@
 import { useEffect, useState } from 'react';
 
 const sections = [
-  { id: 'executive-summary', label: 'Executive Summary', number: '01' },
-  { id: 'what-we-do', label: 'What We Do', number: '02' },
-  { id: 'market', label: 'The Market', number: '03' },
+  { id: 'what-we-do', label: 'What We Do', number: '01' },
+  { id: 'market', label: 'The Market', number: '02' },
   {
     id: 'how-it-works',
     label: 'How It Works',
-    number: '04',
+    number: '03',
     subsections: [
       { id: 'for-borrowers', label: 'For Borrowers' },
       { id: 'for-investors', label: 'For Investors' },
       { id: 'unit-economics', label: 'Unit Economics' }
     ]
   },
-  { id: 'revenue', label: 'Revenue Model', number: '05' },
-  { id: 'capital', label: 'Capital Structure', number: '06' },
-  { id: 'moat', label: 'The Moat', number: '07' },
-  { id: 'team', label: 'Team', number: '08' },
-  { id: 'go-to-market', label: 'Go-to-Market Strategy', number: '09' },
-  { id: 'growth-model', label: 'Growth Model & Referral Economics', number: '10' },
-  { id: 'ask', label: 'The Ask', number: '11' },
-  { id: 'what-this-achieves', label: 'What This $7M Achieves', number: '12' },
+  { id: 'revenue', label: 'Revenue Model', number: '04' },
+  { id: 'capital', label: 'Capital Structure', number: '05' },
+  { id: 'moat', label: 'The Moat', number: '06' },
+  { id: 'team', label: 'Team', number: '07' },
+  { id: 'go-to-market', label: 'Go-to-Market Strategy', number: '08' },
+  { id: 'growth-model', label: 'Growth Model & Referral Economics', number: '09' },
+  { id: 'ask', label: 'The Ask', number: '10' },
+  { id: 'what-this-achieves', label: 'What This $7M Achieves', number: '11' },
 ];
 
 export default function Sidebar() {
-  const [activeSection, setActiveSection] = useState('executive-summary');
+  const [activeSection, setActiveSection] = useState('what-we-do');
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
